@@ -10,9 +10,11 @@ export default function XPBar() {
   useEffect(() => {
     setProgress(getProgress());
 
-    const handleStorage = () => setProgress(getProgress());
-    window.addEventListener('storage', handleStorage);
-    return () => window.removeEventListener('storage', handleStorage);
+    function onStorage() {
+      setProgress(getProgress());
+    }
+    window.addEventListener('storage', onStorage);
+    return () => window.removeEventListener('storage', onStorage);
   }, []);
 
   if (!progress) return null;
@@ -25,20 +27,20 @@ export default function XPBar() {
       <div className="flex h-6 w-6 items-center justify-center rounded-md bg-accent-indigo text-[10px] font-bold text-white">
         {level}
       </div>
-      <div className="hidden w-20 sm:block">
-        <div className="h-1.5 rounded-full bg-void-lighter">
+      <div className="flex w-20 flex-col gap-0.5">
+        <div className="h-1.5 w-full overflow-hidden rounded-full bg-void-lighter">
           <div
             className="h-full rounded-full bg-accent-indigo transition-all duration-500"
             style={{ width: `${pct}%` }}
           />
         </div>
-        <p className="mt-0.5 text-[9px] tabular-nums text-text-muted">
+        <span className="text-[9px] tabular-nums text-text-muted">
           {current}/{needed} XP
-        </p>
+        </span>
       </div>
       {progress.streak > 0 && (
-        <span className="text-[11px] tabular-nums text-text-secondary">
-          🔥{progress.streak}
+        <span className="flex items-center gap-0.5 text-[11px] font-medium text-accent-amber">
+          🔥 {progress.streak}
         </span>
       )}
     </div>

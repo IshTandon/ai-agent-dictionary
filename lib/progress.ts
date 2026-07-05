@@ -40,29 +40,19 @@ export function saveProgress(p: UserProgress): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
 }
 
-export function updateStreak(): void {
-  const p = getProgress();
+export function updateStreak(p: UserProgress): void {
   const today = todayISO();
-
-  if (p.last_visit === today) {
-    return;
-  }
+  if (p.last_visit === today) return;
 
   if (p.last_visit) {
-    const lastDate = new Date(p.last_visit);
     const yesterday = new Date();
     yesterday.setDate(yesterday.getDate() - 1);
-    if (lastDate.toISOString().slice(0, 10) === yesterday.toISOString().slice(0, 10)) {
-      p.streak += 1;
-    } else {
-      p.streak = 1;
-    }
+    const yesterdayISO = yesterday.toISOString().slice(0, 10);
+    p.streak = p.last_visit === yesterdayISO ? p.streak + 1 : 1;
   } else {
     p.streak = 1;
   }
-
   p.last_visit = today;
-  saveProgress(p);
 }
 
 export function trackTermView(slug: string): number {
@@ -75,7 +65,7 @@ export function trackTermView(slug: string): number {
     gained = 5;
   }
 
-  updateStreak();
+  updateStreak(p);
   saveProgress(p);
   return gained;
 }
@@ -90,6 +80,7 @@ export function trackQuizAttempt(slug: string, correct: boolean): number {
   };
   p.xp += gained;
 
+  updateStreak(p);
   saveProgress(p);
   return gained;
 }

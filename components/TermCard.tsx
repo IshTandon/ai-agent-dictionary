@@ -10,6 +10,7 @@ import RelatedTerms from './RelatedTerms';
 
 interface TermCardProps {
   term: Term;
+  slug?: string;
 }
 
 function getSymbol(name: string): string {
@@ -24,7 +25,7 @@ function getAtomicIndex(term: Term): number {
   return idx + 1;
 }
 
-export default function TermCard({ term }: TermCardProps) {
+export default function TermCard({ term, slug }: TermCardProps) {
   const catColor = CATEGORY_COLORS[term.category as Category];
   const symbol = getSymbol(term.term);
   const atomicIndex = getAtomicIndex(term);
@@ -108,6 +109,7 @@ export default function TermCard({ term }: TermCardProps) {
                 options={term.quiz_question.options}
                 answer={term.quiz_question.answer}
                 explanation={term.quiz_question.explanation}
+                slug={slug ?? term.slug}
               />
             </section>
           )}

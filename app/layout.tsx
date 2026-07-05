@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 import { getAllTerms } from '@/lib/terms';
 import SearchBar from '@/components/SearchBar';
+import XPBar from '@/components/XPBar';
 import './globals.css';
 
 const inter = Inter({
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 agent<span className="text-text-muted">dict</span>
               </span>
             </Link>
+            <XPBar />
             <div className="hidden sm:block">
               <SearchBar terms={allTerms} variant="nav" />
             </div>
