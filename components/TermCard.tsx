@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import { Term, isTier1, isTier2, Category } from '@/lib/types';
 import { CATEGORY_SLUGS, CATEGORY_COLORS } from '@/lib/categories';
+import { getTermsByCategory } from '@/lib/terms';
 
 import TierBadge from './TierBadge';
 import QuizBlock from './QuizBlock';
@@ -11,53 +12,64 @@ interface TermCardProps {
   term: Term;
 }
 
-function getTermSymbol(name: string): string {
-  const words = name.split(/[\s\-()]/);
-  if (words.length >= 2) {
-    return (words[0][0] + words[1][0]).toUpperCase();
-  }
-  return name.slice(0, 3).toUpperCase();
+function getSymbol(name: string): string {
+  const cleaned = name.replace(/[^a-zA-Z]/g, '');
+  return cleaned.slice(0, 3).toUpperCase();
+}
+
+function getAtomicIndex(term: Term): number {
+  const siblings = getTermsByCategory(term.category)
+    .sort((a, b) => a.term.localeCompare(b.term));
+  const idx = siblings.findIndex(t => t.slug === term.slug);
+  return idx + 1;
 }
 
 export default function TermCard({ term }: TermCardProps) {
   const catColor = CATEGORY_COLORS[term.category as Category];
-  const symbol = getTermSymbol(term.term);
+  const symbol = getSymbol(term.term);
+  const atomicIndex = getAtomicIndex(term);
 
   return (
     <article className="mx-auto max-w-2xl px-6 py-12 sm:py-16">
       {/* Main glass card */}
       <div className="glass-panel-elevated noise relative overflow-hidden rounded-2xl p-8 sm:p-10">
-        {/* Large monospace symbol — top left */}
-        <div
-          className="absolute -left-2 -top-4 font-[family-name:var(--font-display)] text-[120px] font-bold leading-none select-none"
-          style={{ color: `${catColor}08` }}
-        >
-          {symbol}
-        </div>
-
         <div className="relative">
-          {/* Header */}
-          <header className="mb-8">
-            <div className="mb-4 flex items-center gap-3">
-              <Link
-                href={`/categories/${CATEGORY_SLUGS[term.category as Category]}`}
-                className="cat-badge inline-flex items-center gap-1.5 rounded-md px-2.5 py-1 text-xs font-semibold transition-colors"
-                style={{
-                  backgroundColor: `${catColor}15`,
-                  color: catColor,
-                }}
-              >
-                <span
-                  className="h-1.5 w-1.5 rounded-full"
-                  style={{ backgroundColor: catColor }}
-                />
-                {term.category}
-              </Link>
-              <TierBadge tier={term.tier} />
+          {/* Identity plate */}
+          <header className="mb-10">
+            <div
+              className="mb-8 rounded-xl border p-6"
+              style={{
+                borderColor: `${catColor}25`,
+                background: `linear-gradient(135deg, ${catColor}08 0%, transparent 60%)`,
+              }}
+            >
+              <div className="flex items-start justify-between">
+                <div>
+                  <span
+                    className="font-[family-name:var(--font-display)] text-xs font-medium tabular-nums"
+                    style={{ color: `${catColor}90` }}
+                  >
+                    {String(atomicIndex).padStart(2, '0')}
+                  </span>
+                  <div
+                    className="mt-2 font-[family-name:var(--font-display)] text-5xl font-bold leading-none tracking-tighter sm:text-6xl"
+                    style={{ color: catColor }}
+                  >
+                    {symbol}
+                  </div>
+                  <p className="mt-3 text-sm font-medium text-text-primary">
+                    {term.term}
+                  </p>
+                  <Link
+                    href={`/categories/${CATEGORY_SLUGS[term.category as Category]}`}
+                    className="mt-1 inline-block text-xs text-text-muted transition-colors hover:text-text-secondary"
+                  >
+                    {term.category}
+                  </Link>
+                </div>
+                <TierBadge tier={term.tier} />
+              </div>
             </div>
-            <h1 className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-text-primary sm:text-3xl">
-              {term.term}
-            </h1>
           </header>
 
           {/* Definition */}
@@ -104,7 +116,6 @@ export default function TermCard({ term }: TermCardProps) {
           {isTier1(term) && (
             <section className="mb-8 rounded-xl border border-border bg-surface/50 p-5">
               <div className="mb-3 flex items-center gap-2">
-                <span className="text-text-muted">&#x1F3E2;</span>
                 <span className="font-[family-name:var(--font-display)] text-[11px] font-semibold uppercase tracking-wider text-text-muted">
                   Real-world deployment
                 </span>
