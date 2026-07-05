@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   const category = getCategoryFromSlug(slug);
   if (!category) return {};
   return {
-    title: `${category} | AI Agent Dictionary`,
+    title: `${category} | Agent Atlas`,
     description: CATEGORY_DESCRIPTIONS[category],
   };
 }

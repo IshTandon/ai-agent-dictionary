@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: TermPageProps): Promise<Metad
   const term = getTermBySlug(slug);
   if (!term) return {};
   return {
-    title: `${term.term} | AI Agent Dictionary`,
+    title: `${term.term} | Agent Atlas`,
     description: term.definition_plain.slice(0, 160),
   };
 }

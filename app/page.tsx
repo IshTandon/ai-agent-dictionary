@@ -86,8 +86,8 @@ export default function HomePage() {
               100 terms &middot; Plain English &middot; Quiz-powered
             </div>
             <h1 className="font-[family-name:var(--font-display)] text-4xl font-bold tracking-tight text-text-primary sm:text-5xl lg:text-6xl">
-              The AI Agent{' '}
-              <span className="text-accent-indigo">Dictionary</span>
+              Agent{' '}
+              <span className="text-accent-indigo">Atlas</span>
             </h1>
             <p className="mt-5 max-w-lg text-base leading-relaxed text-text-secondary">
               The term you just heard in a meeting, explained so you can use it in the next one.

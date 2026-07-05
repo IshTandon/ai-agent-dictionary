@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'About | AI Agent Dictionary',
-  description: 'About the AI Agent Dictionary project — sources, attribution, and how to contribute.',
+  title: 'About | Agent Atlas',
+  description: 'About the Agent Atlas project — sources, attribution, and how to contribute.',
 };
 
 export default function AboutPage() {
@@ -86,7 +86,7 @@ export default function AboutPage() {
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Back to dictionary
+            Back to atlas
           </Link>
         </div>
       </div>

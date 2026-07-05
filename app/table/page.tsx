@@ -7,7 +7,7 @@ import { Category } from '@/lib/types';
 import PeriodicCell from '@/components/PeriodicCell';
 
 export const metadata: Metadata = {
-  title: 'Periodic Table of AI Agents | AI Agent Dictionary',
+  title: 'Periodic Table of AI Agents | Agent Atlas',
   description: 'All 100 AI agent terms visualized as a periodic table, grouped by category.',
 };
 
