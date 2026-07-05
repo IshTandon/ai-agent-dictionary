@@ -1,0 +1,10 @@
+{
+  "term": "LangGraph",
+  "slug": "langgraph",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "LangGraph is a framework for building stateful, multi-agent applications as graphs, where nodes are agents or tools and edges define the flow of control and data.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

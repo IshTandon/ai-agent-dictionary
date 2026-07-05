@@ -1,0 +1,10 @@
+{
+  "term": "Computer Use",
+  "slug": "computer-use",
+  "category": "Tools",
+  "tier": 3,
+  "definition_plain": "Computer use gives an AI agent the ability to operate a desktop environment — moving the mouse, clicking buttons, typing text, and reading screen contents like a human user.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

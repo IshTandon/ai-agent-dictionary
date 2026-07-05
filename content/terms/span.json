@@ -1,0 +1,10 @@
+{
+  "term": "Span",
+  "slug": "span",
+  "category": "Observability",
+  "tier": 3,
+  "definition_plain": "A span is a single unit of work within a trace — one tool call, one model invocation, or one processing step — with timing, inputs, outputs, and metadata attached.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

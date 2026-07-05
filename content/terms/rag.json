@@ -1,0 +1,30 @@
+{
+  "term": "RAG (Retrieval-Augmented Generation)",
+  "slug": "rag",
+  "category": "Retrieval",
+  "tier": 1,
+  "definition_plain": "RAG is a pattern where you fetch relevant documents from a knowledge base and inject them into the model's prompt before it generates an answer. Instead of relying solely on what the model memorized during training, you give it fresh, specific context to work from. It's like giving a student their notes before an open-book exam rather than testing their memory of last semester's lectures.",
+  "related_terms": ["embedding", "vector-store", "chunking", "reranker", "hybrid-search"],
+  "source_url": "https://arxiv.org/abs/2005.11401",
+  "source_label": "Lewis et al., 2020 — Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "scenario": {
+    "meeting_line": "Our support bot is hallucinating policy details — can we set up RAG against our internal docs?",
+    "smart_followup": "What's our chunking strategy? If the chunks are too big, retrieval gets noisy; too small and we lose context."
+  },
+  "quiz_question": {
+    "question": "Your company chatbot keeps giving outdated pricing info that was correct when the model was trained. A colleague suggests 'we should RAG it.' What are they proposing?",
+    "options": [
+      "A) Retrain the model on newer data",
+      "B) Retrieve current pricing docs and include them in each prompt",
+      "C) Add a rule to refuse pricing questions",
+      "D) Fine-tune the model on pricing FAQs"
+    ],
+    "answer": "B",
+    "explanation": "RAG retrieves relevant documents at query time and provides them as context — no retraining needed."
+  },
+  "company_example": {
+    "text": "Perplexity AI built its entire product around RAG — every answer retrieves and cites live web sources, letting a relatively small model provide accurate, up-to-date responses that compete with much larger models operating from stale training data.",
+    "citation_label": "Perplexity AI",
+    "citation_url": "https://perplexity.ai"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "term": "ReAct",
+  "slug": "react",
+  "category": "Foundation",
+  "tier": 2,
+  "definition_plain": "ReAct (Reasoning + Acting) is an agent framework where the model alternates between thinking about what to do (reasoning) and actually doing it (acting via tool calls). Each step produces a thought ('I need to find the user's order'), an action ('search_orders(user_id=123)'), and an observation (the tool's result). This interleaving means the model can adapt its plan based on real-world feedback rather than committing to a full plan upfront.",
+  "related_terms": ["agentic-loop", "chain-of-thought", "tool-use", "plan-and-execute"],
+  "source_url": "https://arxiv.org/abs/2210.03629",
+  "source_label": "Yao et al., 2022 — ReAct: Synergizing Reasoning and Acting",
+  "scenario": {
+    "meeting_line": "Our agent follows the ReAct pattern — thought, action, observation — so we can see exactly why it chose each tool call.",
+    "smart_followup": "Are we logging the thought traces? They're gold for debugging when the agent makes a wrong tool choice."
+  },
+  "quiz_question": {
+    "question": "An agent produces: 'Thought: The user wants flight prices. I should search flights. Action: search_flights(NYC, LAX, Dec 1). Observation: 3 results found.' Then generates a new thought based on the results. What framework is this?",
+    "options": [
+      "A) Chain-of-thought prompting",
+      "B) RAG pipeline",
+      "C) ReAct — interleaving reasoning and action",
+      "D) Constitutional AI"
+    ],
+    "answer": "C",
+    "explanation": "The explicit Thought → Action → Observation cycle is the signature pattern of the ReAct framework."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "term": "Memory Retrieval",
+  "slug": "memory-retrieval",
+  "category": "Memory",
+  "tier": 3,
+  "definition_plain": "Memory retrieval is the process of finding and surfacing relevant stored memories at the right time, typically using embedding similarity, recency scoring, or importance weighting.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

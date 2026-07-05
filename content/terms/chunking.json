@@ -1,0 +1,25 @@
+{
+  "term": "Chunking",
+  "slug": "chunking",
+  "category": "Retrieval",
+  "tier": 2,
+  "definition_plain": "Chunking is the process of splitting large documents into smaller pieces before embedding them for retrieval. The chunk size matters enormously — too large and irrelevant content dilutes the signal; too small and you lose the context needed to understand the passage. Good chunking strategies respect document structure (split at paragraphs or sections, not mid-sentence) and overlap slightly so no information falls between the cracks.",
+  "related_terms": ["embedding", "rag", "vector-store", "context-compression", "reranker"],
+  "source_url": "https://www.pinecone.io/learn/chunking-strategies/",
+  "source_label": "Pinecone — Chunking Strategies",
+  "scenario": {
+    "meeting_line": "Our RAG accuracy dropped after we uploaded the new 300-page manual — I think our chunking is too aggressive and splitting mid-paragraph.",
+    "smart_followup": "Are we using overlapping chunks? Without overlap, if a key fact spans two chunks, neither chunk alone has the full context for retrieval."
+  },
+  "quiz_question": {
+    "question": "A RAG system retrieves chunks from a legal contract but the answers are often incomplete because relevant clauses are split between two chunks. What's the most likely fix?",
+    "options": [
+      "A) Use a larger language model",
+      "B) Add overlap between chunks so boundary content appears in both",
+      "C) Increase the embedding dimension",
+      "D) Switch to keyword search"
+    ],
+    "answer": "B",
+    "explanation": "Overlapping chunks ensure information at boundaries isn't lost, improving retrieval completeness for content that spans chunk borders."
+  }
+}

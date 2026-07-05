@@ -1,0 +1,30 @@
+{
+  "term": "MCP (Model Context Protocol)",
+  "slug": "mcp",
+  "category": "Protocols",
+  "tier": 1,
+  "definition_plain": "MCP is an open protocol that standardizes how AI applications connect to external data sources and tools. Instead of every AI app building custom integrations for every service, MCP provides a universal plug-and-socket system — any MCP-compatible AI can talk to any MCP server. It's the USB-C of AI integrations: one connector instead of a drawer full of proprietary cables.",
+  "related_terms": ["mcp-server", "mcp-client", "tool-use", "a2a-protocol", "json-rpc"],
+  "source_url": "https://modelcontextprotocol.io",
+  "source_label": "Model Context Protocol — Official Specification",
+  "scenario": {
+    "meeting_line": "Instead of building a custom Slack integration, let's just expose an MCP server — then any AI client can connect to it.",
+    "smart_followup": "Are we using stdio transport for local tools or streamable HTTP for the hosted ones? That affects our deployment model."
+  },
+  "quiz_question": {
+    "question": "Your team builds a code review tool that 5 different AI assistants need to access. Instead of writing 5 custom integrations, you implement one MCP server. What problem does this solve?",
+    "options": [
+      "A) It makes the model faster at generating code",
+      "B) It provides a standard interface so any MCP-compatible AI can connect",
+      "C) It encrypts all communication between AI models",
+      "D) It reduces the model's token usage"
+    ],
+    "answer": "B",
+    "explanation": "MCP standardizes the connection protocol, so one server implementation works with any compatible client."
+  },
+  "company_example": {
+    "text": "Anthropic open-sourced MCP in late 2024, and within months it was adopted by Cursor, Zed, Sourcegraph, and dozens of other AI tools. A single MCP server for GitHub, for example, lets any MCP-compatible IDE agent create PRs, review code, and manage issues without app-specific plugins.",
+    "citation_label": "Anthropic — Introducing MCP",
+    "citation_url": "https://www.anthropic.com/news/model-context-protocol"
+  }
+}

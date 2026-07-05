@@ -1,0 +1,10 @@
+{
+  "term": "Streamable HTTP Transport",
+  "slug": "streamable-http-transport",
+  "category": "Protocols",
+  "tier": 3,
+  "definition_plain": "Streamable HTTP transport carries MCP messages over HTTP with streaming support, enabling remote MCP servers to be hosted as web services accessible from anywhere.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

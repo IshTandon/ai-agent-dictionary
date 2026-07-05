@@ -1,0 +1,10 @@
+{
+  "term": "Tool Definition",
+  "slug": "tool-definition",
+  "category": "Tools",
+  "tier": 3,
+  "definition_plain": "A tool definition describes a single capability available to an AI model — its name, purpose, input parameters, and output format — so the model knows when and how to use it.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

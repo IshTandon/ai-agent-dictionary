@@ -1,0 +1,10 @@
+{
+  "term": "MCP Prompt",
+  "slug": "mcp-prompt",
+  "category": "Protocols",
+  "tier": 3,
+  "definition_plain": "An MCP prompt is a reusable prompt template exposed by an MCP server — a pre-built instruction set that clients can discover and use to invoke common workflows.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

@@ -1,0 +1,10 @@
+{
+  "term": "PII Redaction",
+  "slug": "pii-redaction",
+  "category": "Security",
+  "tier": 3,
+  "definition_plain": "PII redaction automatically detects and removes personally identifiable information (names, emails, SSNs, phone numbers) from model inputs or outputs to protect user privacy.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

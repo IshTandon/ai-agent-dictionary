@@ -1,0 +1,10 @@
+{
+  "term": "Indirect Prompt Injection",
+  "slug": "indirect-prompt-injection",
+  "category": "Security",
+  "tier": 3,
+  "definition_plain": "Indirect prompt injection hides malicious instructions in content the AI will process (emails, web pages, documents) rather than in the user's direct input — making it harder to detect and block.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

@@ -1,0 +1,30 @@
+{
+  "term": "Embedding",
+  "slug": "embedding",
+  "category": "Retrieval",
+  "tier": 1,
+  "definition_plain": "An embedding is a list of numbers (a vector) that represents the meaning of a piece of text in a way computers can calculate with. Similar concepts end up close together in this number space, so you can find relevant documents by measuring which embeddings are nearest to your query's embedding. It's like a GPS coordinate for meaning — two texts about the same topic will have nearby coordinates even if they use completely different words.",
+  "related_terms": ["vector-store", "dense-retrieval", "rag", "chunking", "semantic-memory"],
+  "source_url": "https://platform.openai.com/docs/guides/embeddings",
+  "source_label": "OpenAI — Embeddings Guide",
+  "scenario": {
+    "meeting_line": "We need to embed all our support articles so the agent can do semantic search instead of keyword matching.",
+    "smart_followup": "Which embedding model are we using? The choice affects dimension count, cost, and whether we can do multilingual search."
+  },
+  "quiz_question": {
+    "question": "A search system finds that the embedding for 'canine veterinary care' is very close to the embedding for 'dog health services' but far from 'hot dog restaurant.' Why?",
+    "options": [
+      "A) The system is using keyword matching",
+      "B) Embeddings capture semantic meaning, placing conceptually similar texts near each other",
+      "C) The embedding model was fine-tuned on veterinary data",
+      "D) The system excluded food-related content"
+    ],
+    "answer": "B",
+    "explanation": "Embeddings map text to meaning-space where semantic similarity translates to vector proximity, regardless of shared keywords."
+  },
+  "company_example": {
+    "text": "Spotify uses embeddings to represent both songs and user listening patterns in the same vector space, enabling their recommendation engine to find songs that are semantically similar to a user's taste even when they share no obvious genre tags or artist connections.",
+    "citation_label": "Spotify Engineering — Embeddings",
+    "citation_url": "https://engineering.atspotify.com/2023/10/introducing-natural-language-search-for-podcast-episodes/"
+  }
+}

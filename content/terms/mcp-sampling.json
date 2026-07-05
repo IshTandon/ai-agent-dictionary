@@ -1,0 +1,10 @@
+{
+  "term": "MCP Sampling",
+  "slug": "mcp-sampling",
+  "category": "Protocols",
+  "tier": 3,
+  "definition_plain": "MCP sampling allows an MCP server to request the client's language model to generate text — enabling servers to use AI capabilities without having their own model access.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

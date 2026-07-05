@@ -1,0 +1,10 @@
+{
+  "term": "Tool Result",
+  "slug": "tool-result",
+  "category": "Tools",
+  "tier": 3,
+  "definition_plain": "A tool result is the output returned after a tool executes — typically JSON data that gets fed back to the model so it can incorporate the information into its next response.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

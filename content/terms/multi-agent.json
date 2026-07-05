@@ -1,0 +1,25 @@
+{
+  "term": "Multi-Agent",
+  "slug": "multi-agent",
+  "category": "Orchestration",
+  "tier": 2,
+  "definition_plain": "A multi-agent system uses two or more AI agents that collaborate, delegate, or debate to accomplish tasks that would be too complex or too broad for a single agent. Each agent can have specialized roles (researcher, coder, reviewer), different tool access, or distinct personalities. It's like a team where the project manager breaks work into pieces and assigns them to specialists rather than one generalist doing everything.",
+  "related_terms": ["agent", "supervisor-pattern", "swarm-pattern", "hierarchical-agents", "handoff"],
+  "source_url": "https://arxiv.org/abs/2308.08155",
+  "source_label": "Park et al., 2023 — Generative Agents: Interactive Simulacra",
+  "scenario": {
+    "meeting_line": "For the code review pipeline, I'm thinking multi-agent — one agent writes the code, another reviews it, and a third runs security checks.",
+    "smart_followup": "How do we handle disagreements between agents? Does the reviewer have veto power or do we need a supervisor to arbitrate?"
+  },
+  "quiz_question": {
+    "question": "A system has Agent A (researcher) gather information, Agent B (writer) draft a report, and Agent C (editor) refine it. They pass work sequentially and each has different tools. What architecture is this?",
+    "options": [
+      "A) A single agent with multiple tools",
+      "B) A multi-agent pipeline with specialized roles",
+      "C) A RAG system with multiple retrievers",
+      "D) A fine-tuned model with multiple personalities"
+    ],
+    "answer": "B",
+    "explanation": "Multiple agents with distinct roles and tool access collaborating on a task is the defining pattern of a multi-agent system."
+  }
+}

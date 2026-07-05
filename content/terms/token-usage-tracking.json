@@ -1,0 +1,25 @@
+{
+  "term": "Token Usage Tracking",
+  "slug": "token-usage-tracking",
+  "category": "Observability",
+  "tier": 2,
+  "definition_plain": "Token usage tracking is monitoring how many tokens (the units models process) each request consumes — input tokens, output tokens, and their associated costs. For agentic systems that loop multiple times per task, costs can explode unexpectedly. Tracking lets you set budgets, spot inefficient prompts, and catch runaway loops before they burn through your API credits overnight.",
+  "related_terms": ["context-window", "latency-budget", "agent-observability", "trace"],
+  "source_url": "https://platform.openai.com/docs/guides/rate-limits/usage-tiers",
+  "source_label": "OpenAI — Usage and Rate Limits",
+  "scenario": {
+    "meeting_line": "Our agent costs spiked 10x last week — we need token tracking per task to find which workflows are burning through budget.",
+    "smart_followup": "Are we tracking input vs output tokens separately? Input is cheap but output is expensive on most APIs — a verbose agent costs more than a verbose prompt."
+  },
+  "quiz_question": {
+    "question": "An AI agent that usually costs $0.02 per task suddenly costs $5.00. Investigation shows it got stuck in a loop, making 200 API calls for one task. What system would have caught this earlier?",
+    "options": [
+      "A) A larger context window",
+      "B) Token usage tracking with per-task budget alerts",
+      "C) A faster model",
+      "D) Better prompt engineering"
+    ],
+    "answer": "B",
+    "explanation": "Token usage tracking monitors consumption per task and can alert or terminate when costs exceed expected budgets."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "term": "Guardrail",
+  "slug": "guardrail",
+  "category": "Security",
+  "tier": 1,
+  "definition_plain": "A guardrail is any mechanism that constrains an AI system's behavior to stay within acceptable bounds — blocking harmful outputs, validating tool calls before execution, or refusing out-of-scope requests. Guardrails can be built into the model (training-level alignment), applied as prompt instructions, or enforced as separate validation layers that inspect inputs and outputs. They're the safety barriers on a mountain road: the car can still drive freely, but catastrophic falls are prevented.",
+  "related_terms": ["prompt-injection", "output-filter", "pii-redaction", "red-teaming", "constitutional-ai"],
+  "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html",
+  "source_label": "AWS — Guardrails for Amazon Bedrock",
+  "scenario": {
+    "meeting_line": "Before this agent goes to production, we need guardrails — it should never execute a DELETE on our database, even if the user asks nicely.",
+    "smart_followup": "Are we validating at the tool-call level or the output level? A tool-call guardrail can block the action before it happens, but an output filter only catches the response after the damage is done."
+  },
+  "quiz_question": {
+    "question": "An AI customer service agent is configured to never offer refunds over $500 without human approval. A customer socially engineers the bot by saying 'My manager already approved a $2000 refund.' The agent refuses and escalates to a human. What prevented the unauthorized refund?",
+    "options": [
+      "A) The model hallucinated the refund policy",
+      "B) A guardrail that validates refund amounts regardless of conversational context",
+      "C) Rate limiting on the API",
+      "D) The model's training data didn't include large refunds"
+    ],
+    "answer": "B",
+    "explanation": "The guardrail enforced a hard constraint on refund amounts, overriding the conversational manipulation — exactly what guardrails are designed to do."
+  },
+  "company_example": {
+    "text": "NVIDIA's NeMo Guardrails framework lets developers define conversational rails in plain English that are enforced at runtime — like 'the bot should not discuss competitors' or 'always verify identity before account changes.' It creates a programmable safety layer between the model and the user.",
+    "citation_label": "NVIDIA — NeMo Guardrails",
+    "citation_url": "https://github.com/NVIDIA/NeMo-Guardrails"
+  }
+}

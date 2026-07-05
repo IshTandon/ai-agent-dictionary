@@ -1,0 +1,10 @@
+{
+  "term": "Code Interpreter",
+  "slug": "code-interpreter",
+  "category": "Tools",
+  "tier": 3,
+  "definition_plain": "A code interpreter gives an AI model a sandboxed environment to write and execute code, see outputs, and iterate — enabling it to do data analysis, math, and file manipulation.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

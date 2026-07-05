@@ -1,0 +1,10 @@
+{
+  "term": "Evaluation Set",
+  "slug": "evaluation-set",
+  "category": "Evaluation",
+  "tier": 3,
+  "definition_plain": "An evaluation set is a curated collection of test inputs with expected outputs used to measure how well an AI system performs — the 'exam' you grade your model against.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

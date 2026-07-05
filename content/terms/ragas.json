@@ -1,0 +1,10 @@
+{
+  "term": "RAGAS",
+  "slug": "ragas",
+  "category": "Evaluation",
+  "tier": 3,
+  "definition_plain": "RAGAS (Retrieval Augmented Generation Assessment) is a framework for evaluating RAG pipelines, scoring faithfulness, answer relevancy, context precision, and context recall.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

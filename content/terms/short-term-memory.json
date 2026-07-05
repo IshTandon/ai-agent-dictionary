@@ -1,0 +1,25 @@
+{
+  "term": "Short-Term Memory",
+  "slug": "short-term-memory",
+  "category": "Memory",
+  "tier": 2,
+  "definition_plain": "Short-term memory in AI agents is the conversation history and scratchpad maintained within a single session — everything in the current context window. It lets the agent refer back to what was said earlier in the conversation but disappears when the session ends. Most chatbot interactions rely entirely on short-term memory, which is why they 'forget' everything between sessions.",
+  "related_terms": ["context-window", "long-term-memory", "working-memory", "conversation-buffer"],
+  "source_url": "https://langchain-ai.github.io/langgraph/concepts/memory/",
+  "source_label": "LangGraph — Memory Concepts",
+  "scenario": {
+    "meeting_line": "The agent lost track of what the user said at the top of the chat — our short-term memory is full because we're stuffing too much retrieval context in.",
+    "smart_followup": "Can we summarize older turns instead of dropping them? That preserves key decisions without consuming full token budget."
+  },
+  "quiz_question": {
+    "question": "A user has a 30-message conversation with an AI. At message 28, the AI contradicts something it agreed to at message 3. Restarting the chat, the AI has no memory of any of this. What type of memory is involved?",
+    "options": [
+      "A) Long-term memory — it persisted but was corrupted",
+      "B) Short-term memory — limited to the session and degrading as the context fills",
+      "C) Episodic memory — the model is replaying past events",
+      "D) Semantic memory — the model's factual knowledge changed"
+    ],
+    "answer": "B",
+    "explanation": "Short-term memory lives only in the current session's context window, degrades as conversation grows, and vanishes when the session ends."
+  }
+}

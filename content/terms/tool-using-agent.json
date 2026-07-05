@@ -1,0 +1,10 @@
+{
+  "term": "Tool-Using Agent",
+  "slug": "tool-using-agent",
+  "category": "Foundation",
+  "tier": 3,
+  "definition_plain": "A tool-using agent is an AI system specifically designed around the capability to invoke external functions and APIs to accomplish tasks, rather than relying solely on text generation.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

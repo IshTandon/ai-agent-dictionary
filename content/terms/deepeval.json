@@ -1,0 +1,10 @@
+{
+  "term": "DeepEval",
+  "slug": "deepeval",
+  "category": "Evaluation",
+  "tier": 3,
+  "definition_plain": "DeepEval is an open-source evaluation framework for LLM applications that provides metrics like hallucination detection, relevancy scoring, and bias measurement.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

@@ -1,0 +1,10 @@
+{
+  "term": "HyDE",
+  "slug": "hyde",
+  "category": "Retrieval",
+  "tier": 3,
+  "definition_plain": "HyDE (Hypothetical Document Embeddings) generates a hypothetical answer to a query, embeds that answer, and uses it for retrieval — often finding better documents than embedding the raw query.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

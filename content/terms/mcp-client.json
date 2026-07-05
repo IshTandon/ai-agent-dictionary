@@ -1,0 +1,25 @@
+{
+  "term": "MCP Client",
+  "slug": "mcp-client",
+  "category": "Protocols",
+  "tier": 2,
+  "definition_plain": "An MCP client is the AI application side of the Model Context Protocol — the software that connects to MCP servers and makes their tools available to the language model. IDEs like Cursor, AI assistants, and automation platforms act as MCP clients, discovering what tools a server offers and letting the model call them. One client can connect to many servers simultaneously, giving the AI access to diverse capabilities through a single protocol.",
+  "related_terms": ["mcp", "mcp-server", "tool-use", "capability-negotiation"],
+  "source_url": "https://modelcontextprotocol.io/docs/concepts/clients",
+  "source_label": "MCP — Client Concepts",
+  "scenario": {
+    "meeting_line": "Cursor already acts as an MCP client — we just need to point it at our server and the agent gets access to our internal tools automatically.",
+    "smart_followup": "Does our client support capability negotiation? If the server adds new tools, the client should discover them without a restart."
+  },
+  "quiz_question": {
+    "question": "An IDE connects to three MCP servers (GitHub, Jira, Slack) and presents their combined tools to the AI model. The model can create PRs, update tickets, and send messages. What role does the IDE play?",
+    "options": [
+      "A) MCP server — it's serving tools to the model",
+      "B) MCP client — it connects to servers and surfaces their tools to the model",
+      "C) MCP router — it's a load balancer",
+      "D) MCP proxy — it's translating protocols"
+    ],
+    "answer": "B",
+    "explanation": "The MCP client connects to multiple servers, discovers their capabilities, and makes them available to the AI model."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "term": "Swarm Pattern",
+  "slug": "swarm-pattern",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "The swarm pattern deploys many peer agents that collaborate without a central coordinator, each making local decisions that emerge into coherent global behavior.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

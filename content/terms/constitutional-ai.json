@@ -1,0 +1,10 @@
+{
+  "term": "Constitutional AI",
+  "slug": "constitutional-ai",
+  "category": "Foundation",
+  "tier": 3,
+  "definition_plain": "Constitutional AI is a training technique where the model is given a set of principles (a 'constitution') and learns to self-correct its outputs to align with those principles without human feedback on every example.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

@@ -1,0 +1,10 @@
+{
+  "term": "Pairwise Comparison",
+  "slug": "pairwise-comparison",
+  "category": "Evaluation",
+  "tier": 3,
+  "definition_plain": "Pairwise comparison evaluates two model outputs side by side (often by a human or LLM judge) and asks 'which is better?' — simpler and more reliable than absolute scoring.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

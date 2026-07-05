@@ -1,0 +1,10 @@
+{
+  "term": "Session Replay",
+  "slug": "session-replay",
+  "category": "Observability",
+  "tier": 3,
+  "definition_plain": "Session replay reconstructs an agent's entire interaction visually, letting developers step through the conversation, see each decision point, and understand the user experience.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

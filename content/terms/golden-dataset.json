@@ -1,0 +1,10 @@
+{
+  "term": "Golden Dataset",
+  "slug": "golden-dataset",
+  "category": "Evaluation",
+  "tier": 3,
+  "definition_plain": "A golden dataset is a high-quality, human-verified evaluation set considered the ground truth — the authoritative benchmark against which all model improvements are measured.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

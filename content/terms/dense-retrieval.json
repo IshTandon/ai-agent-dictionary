@@ -1,0 +1,10 @@
+{
+  "term": "Dense Retrieval",
+  "slug": "dense-retrieval",
+  "category": "Retrieval",
+  "tier": 3,
+  "definition_plain": "Dense retrieval finds documents using embedding similarity (vector search), as opposed to sparse/keyword methods. It captures semantic meaning but can miss exact term matches.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

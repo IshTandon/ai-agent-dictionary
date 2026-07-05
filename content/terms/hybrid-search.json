@@ -1,0 +1,25 @@
+{
+  "term": "Hybrid Search",
+  "slug": "hybrid-search",
+  "category": "Retrieval",
+  "tier": 2,
+  "definition_plain": "Hybrid search combines semantic search (embeddings/vectors) with keyword search (BM25/lexical matching) to get the best of both worlds. Semantic search understands meaning but can miss exact terms; keyword search catches precise matches but misses synonyms. Combining them means you find documents whether the user uses the exact terminology or describes the concept in their own words.",
+  "related_terms": ["vector-store", "dense-retrieval", "lexical-search", "reranker", "rag"],
+  "source_url": "https://weaviate.io/blog/hybrid-search-explained",
+  "source_label": "Weaviate — Hybrid Search Explained",
+  "scenario": {
+    "meeting_line": "Pure vector search misses when users search by exact product SKU — we need hybrid search to catch both semantic queries and exact matches.",
+    "smart_followup": "What's our weighting between semantic and keyword? For technical documentation, I'd lean heavier on keyword since users often search exact error messages."
+  },
+  "quiz_question": {
+    "question": "A user searches 'ERR_CONNECTION_REFUSED fix' in a support system. Semantic search finds general networking articles. Keyword search finds the exact error code doc. The system combines both result sets. What approach is this?",
+    "options": [
+      "A) Pure semantic search",
+      "B) Hybrid search — combining keyword and semantic retrieval",
+      "C) Query rewriting",
+      "D) Knowledge graph traversal"
+    ],
+    "answer": "B",
+    "explanation": "Hybrid search merges keyword (lexical) and semantic (vector) results, catching both exact matches and conceptually related content."
+  }
+}

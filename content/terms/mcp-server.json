@@ -1,0 +1,25 @@
+{
+  "term": "MCP Server",
+  "slug": "mcp-server",
+  "category": "Protocols",
+  "tier": 2,
+  "definition_plain": "An MCP server is a lightweight program that exposes tools, resources, or prompts to AI applications through the Model Context Protocol. It acts as a bridge between an AI agent and some external system — a database, API, file system, or service. Any developer can write an MCP server to make their system AI-accessible, and any MCP-compatible client can immediately use it without custom integration work.",
+  "related_terms": ["mcp", "mcp-client", "tool-use", "json-rpc", "stdio-transport"],
+  "source_url": "https://modelcontextprotocol.io/docs/concepts/servers",
+  "source_label": "MCP — Server Concepts",
+  "scenario": {
+    "meeting_line": "We wrote an MCP server for our inventory system — now any AI client in the company can check stock levels without a custom plugin.",
+    "smart_followup": "What transport are we using? stdio for local tools is simpler, but streamable HTTP lets remote clients connect too."
+  },
+  "quiz_question": {
+    "question": "A developer writes a small program that accepts JSON-RPC requests and returns data from a PostgreSQL database. It follows the MCP spec so any compatible AI client can query it. What did they build?",
+    "options": [
+      "A) A REST API",
+      "B) An MCP server — exposing database access through the standard protocol",
+      "C) A database driver",
+      "D) A vector store"
+    ],
+    "answer": "B",
+    "explanation": "An MCP server exposes capabilities through the MCP protocol, allowing any compatible AI client to use them without custom integration."
+  }
+}

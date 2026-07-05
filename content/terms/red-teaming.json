@@ -1,0 +1,25 @@
+{
+  "term": "Red Teaming",
+  "slug": "red-teaming",
+  "category": "Security",
+  "tier": 2,
+  "definition_plain": "Red teaming is the practice of deliberately trying to make an AI system fail — finding jailbreaks, prompt injections, biases, and harmful outputs before real users do. A red team acts as adversarial testers, probing the system with creative attacks to identify vulnerabilities. In AI, this has expanded to include automated red teaming where one model systematically attacks another to find weaknesses at scale.",
+  "related_terms": ["jailbreak", "prompt-injection", "guardrail", "evaluation-set"],
+  "source_url": "https://arxiv.org/abs/2202.03286",
+  "source_label": "Perez et al., 2022 — Red Teaming Language Models",
+  "scenario": {
+    "meeting_line": "Before launch, we need a week of red teaming — I want the security team to try every attack vector they can think of against the agent.",
+    "smart_followup": "Are we also doing automated red teaming? Human red teamers are creative but slow; an LLM generating attack prompts can cover thousands of variations overnight."
+  },
+  "quiz_question": {
+    "question": "Before deploying a customer-facing AI, a company hires a team to spend two weeks trying to make it produce harmful, biased, or incorrect outputs using adversarial prompts. What is this process called?",
+    "options": [
+      "A) Fine-tuning",
+      "B) Red teaming — adversarial testing to find failures before users do",
+      "C) A/B testing",
+      "D) Prompt engineering"
+    ],
+    "answer": "B",
+    "explanation": "Red teaming is deliberate adversarial testing to surface vulnerabilities, biases, and failure modes before deployment."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "term": "Handoff",
+  "slug": "handoff",
+  "category": "Protocols",
+  "tier": 3,
+  "definition_plain": "A handoff is when one agent transfers control of a conversation or task to another agent (or a human), passing along context so the recipient can continue seamlessly.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

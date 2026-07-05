@@ -1,0 +1,10 @@
+{
+  "term": "Pipeline",
+  "slug": "pipeline",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "A pipeline chains agents or processing steps in sequence, where each step's output becomes the next step's input — simple, predictable, but inflexible compared to graph-based orchestration.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

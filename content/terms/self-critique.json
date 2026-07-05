@@ -1,0 +1,10 @@
+{
+  "term": "Self-Critique",
+  "slug": "self-critique",
+  "category": "Foundation",
+  "tier": 3,
+  "definition_plain": "Self-critique is a pattern where a model evaluates its own response against criteria (accuracy, completeness, tone) and revises it — essentially becoming its own first reviewer.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

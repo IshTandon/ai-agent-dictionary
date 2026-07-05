@@ -1,0 +1,30 @@
+{
+  "term": "Hallucination",
+  "slug": "hallucination",
+  "category": "Foundation",
+  "tier": 1,
+  "definition_plain": "A hallucination is when an AI model generates information that sounds confident and plausible but is factually wrong or entirely made up. It happens because language models are trained to predict likely-sounding text, not to verify truth — so they'll confidently cite nonexistent papers, invent API methods, or fabricate statistics. It's like an overconfident colleague who'd rather make something up than say 'I don't know.'",
+  "related_terms": ["grounding", "rag", "guardrail", "faithfulness"],
+  "source_url": "https://arxiv.org/abs/2311.05232",
+  "source_label": "Huang et al., 2023 — A Survey on Hallucination in LLMs",
+  "scenario": {
+    "meeting_line": "The model cited three case studies in its report — I checked and two of them don't exist. Classic hallucination.",
+    "smart_followup": "Are we doing citation verification as a post-generation step, or grounding against a source-of-truth database?"
+  },
+  "quiz_question": {
+    "question": "Your AI legal assistant drafts a brief citing 'Smith v. Johnson (2019, 7th Circuit).' Your paralegal finds no such case exists. The AI had access to no case database. What happened?",
+    "options": [
+      "A) The model retrieved an outdated case",
+      "B) The model hallucinated a plausible-sounding citation",
+      "C) The case was redacted from public records",
+      "D) The model was jailbroken"
+    ],
+    "answer": "B",
+    "explanation": "Without access to a case database, the model generated a plausible but fictitious citation — the hallmark of hallucination."
+  },
+  "company_example": {
+    "text": "In 2023, a New York lawyer used ChatGPT to draft a court filing that cited six nonexistent cases. The judge sanctioned the attorney, making it one of the first high-profile legal consequences of AI hallucination and prompting many law firms to mandate human verification of all AI-generated citations.",
+    "citation_label": "Mata v. Avianca, Inc. (S.D.N.Y. 2023)",
+    "citation_url": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/"
+  }
+}

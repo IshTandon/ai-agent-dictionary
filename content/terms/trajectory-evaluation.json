@@ -1,0 +1,10 @@
+{
+  "term": "Trajectory Evaluation",
+  "slug": "trajectory-evaluation",
+  "category": "Evaluation",
+  "tier": 3,
+  "definition_plain": "Trajectory evaluation judges an agent's entire sequence of actions (not just the final output) — assessing whether it took efficient, logical steps or wasted time on dead ends.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

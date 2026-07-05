@@ -1,0 +1,25 @@
+{
+  "term": "Autonomous Agent",
+  "slug": "autonomous-agent",
+  "category": "Foundation",
+  "tier": 2,
+  "definition_plain": "An autonomous agent operates with minimal or no human oversight — it receives a high-level goal, decomposes it into subtasks, executes them, and handles errors independently. Unlike assisted agents that ask for confirmation at each step, autonomous agents are trusted to complete entire workflows end-to-end. The tradeoff: more capability and speed, but higher risk if guardrails aren't solid.",
+  "related_terms": ["agent", "agentic-loop", "guardrail", "sandbox", "multi-agent"],
+  "source_url": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+  "source_label": "Lilian Weng — LLM Powered Autonomous Agents",
+  "scenario": {
+    "meeting_line": "We're testing a fully autonomous agent for overnight data pipeline monitoring — it can detect issues, attempt fixes, and only page a human if it fails three times.",
+    "smart_followup": "What's the blast radius if it makes a bad fix autonomously? Are we sandboxing its write access to only non-production tables?"
+  },
+  "quiz_question": {
+    "question": "Agent A asks a human for approval before every database write. Agent B receives 'fix all data quality issues in the pipeline' and handles everything overnight, only alerting humans on repeated failures. Which is the autonomous agent?",
+    "options": [
+      "A) Agent A — it's autonomous because it initiates actions",
+      "B) Agent B — it operates end-to-end without human approval at each step",
+      "C) Both are autonomous",
+      "D) Neither is autonomous"
+    ],
+    "answer": "B",
+    "explanation": "Autonomous agents complete workflows end-to-end without per-step human approval — Agent B embodies this by handling the full pipeline independently."
+  }
+}

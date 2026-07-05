@@ -1,0 +1,10 @@
+{
+  "term": "Tree of Thoughts",
+  "slug": "tree-of-thoughts",
+  "category": "Foundation",
+  "tier": 3,
+  "definition_plain": "Tree of Thoughts extends chain-of-thought by exploring multiple reasoning paths simultaneously, branching at each decision point and evaluating which path leads to the best solution.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

@@ -1,0 +1,10 @@
+{
+  "term": "MCP Resource",
+  "slug": "mcp-resource",
+  "category": "Protocols",
+  "tier": 3,
+  "definition_plain": "An MCP resource is read-only data exposed by an MCP server (files, database records, API responses) that AI clients can fetch for context without executing a tool.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

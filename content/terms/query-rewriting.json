@@ -1,0 +1,10 @@
+{
+  "term": "Query Rewriting",
+  "slug": "query-rewriting",
+  "category": "Retrieval",
+  "tier": 3,
+  "definition_plain": "Query rewriting transforms a user's raw question into a better search query — expanding acronyms, adding context, or decomposing complex questions into sub-queries for retrieval.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

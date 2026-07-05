@@ -1,0 +1,10 @@
+{
+  "term": "Amazon Bedrock AgentCore",
+  "slug": "amazon-bedrock-agentcore",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "Amazon Bedrock AgentCore is AWS's managed infrastructure for deploying AI agents at scale, providing runtime environments, identity management, and memory services.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

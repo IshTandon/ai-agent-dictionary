@@ -1,0 +1,10 @@
+{
+  "term": "Trace",
+  "slug": "trace",
+  "category": "Observability",
+  "tier": 3,
+  "definition_plain": "A trace is the complete record of an agent's execution — every decision, tool call, model invocation, and result — providing a full timeline for debugging and analysis.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

@@ -1,0 +1,10 @@
+{
+  "term": "CrewAI",
+  "slug": "crewai",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "CrewAI is a framework for orchestrating multiple AI agents with defined roles, goals, and tools, collaborating on complex tasks like a team of specialists.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

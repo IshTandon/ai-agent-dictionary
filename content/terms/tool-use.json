@@ -1,0 +1,30 @@
+{
+  "term": "Tool Use (Function Calling)",
+  "slug": "tool-use",
+  "category": "Tools",
+  "tier": 1,
+  "definition_plain": "Tool use is when a language model outputs a structured request to call an external function — like searching the web, running code, or querying a database — instead of just generating text. The model doesn't execute the tool itself; it produces a JSON object saying 'call this function with these arguments,' the system executes it, and feeds the result back. It's how AI models escape the text-only world and interact with real systems.",
+  "related_terms": ["agent", "tool-definition", "tool-schema", "mcp", "parallel-tool-calls"],
+  "source_url": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use",
+  "source_label": "Anthropic — Tool Use Documentation",
+  "scenario": {
+    "meeting_line": "The model can't check inventory in real time — we need to give it tool use so it can hit our stock API.",
+    "smart_followup": "Are we letting the model choose tools freely, or constraining which tools are available per conversation? Over-broad tool access is a security surface."
+  },
+  "quiz_question": {
+    "question": "A user asks an AI assistant 'What's the weather in Tokyo?' The assistant generates: {\"tool\": \"get_weather\", \"args\": {\"city\": \"Tokyo\"}}. The system calls the API, gets 22°C, and feeds it back. The assistant then responds: 'It's 22°C in Tokyo.' What capability enabled this?",
+    "options": [
+      "A) The model memorized Tokyo's weather during training",
+      "B) Tool use — the model generated a structured function call and received live results",
+      "C) RAG from a weather database",
+      "D) Fine-tuning on weather data"
+    ],
+    "answer": "B",
+    "explanation": "The model produced a structured tool call, the system executed it, and the result was fed back — the tool use pattern."
+  },
+  "company_example": {
+    "text": "OpenAI's function calling, launched in mid-2023, enabled thousands of developers to connect ChatGPT and GPT-4 to external APIs. It transformed language models from text generators into orchestrators that could book flights, execute trades, and control smart home devices through structured tool invocations.",
+    "citation_label": "OpenAI — Function Calling",
+    "citation_url": "https://platform.openai.com/docs/guides/function-calling"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "term": "Tool Schema",
+  "slug": "tool-schema",
+  "category": "Tools",
+  "tier": 3,
+  "definition_plain": "A tool schema is the structured specification (usually JSON Schema) that defines the exact parameters a tool accepts, their types, and which are required versus optional.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

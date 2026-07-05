@@ -1,0 +1,10 @@
+{
+  "term": "Tool Choice",
+  "slug": "tool-choice",
+  "category": "Tools",
+  "tier": 3,
+  "definition_plain": "Tool choice controls whether and how a model selects tools — options typically include 'auto' (model decides), 'required' (must use a tool), or a specific tool name (forced selection).",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

@@ -1,0 +1,10 @@
+{
+  "term": "Tool Error",
+  "slug": "tool-error",
+  "category": "Tools",
+  "tier": 3,
+  "definition_plain": "A tool error is returned when a tool call fails — a structured error message that helps the model understand what went wrong and decide whether to retry, try a different tool, or ask the user.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

@@ -1,0 +1,10 @@
+{
+  "term": "Supervisor Pattern",
+  "slug": "supervisor-pattern",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "The supervisor pattern uses one 'boss' agent that routes tasks to specialized worker agents, collects their results, and synthesizes a final output.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

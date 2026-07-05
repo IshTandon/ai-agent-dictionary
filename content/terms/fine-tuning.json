@@ -1,0 +1,25 @@
+{
+  "term": "Fine-Tuning",
+  "slug": "fine-tuning",
+  "category": "Foundation",
+  "tier": 2,
+  "definition_plain": "Fine-tuning is additional training of a pre-trained model on your specific data to specialize its behavior — teaching it your company's tone, domain vocabulary, or task format. Unlike prompting (which guides behavior at runtime), fine-tuning bakes knowledge into the model's weights permanently. It's like hiring a generalist and putting them through your company's two-week onboarding instead of just giving them a brief on each task.",
+  "related_terms": ["embedding", "rag", "constitutional-ai", "hallucination"],
+  "source_url": "https://platform.openai.com/docs/guides/fine-tuning",
+  "source_label": "OpenAI — Fine-Tuning Guide",
+  "scenario": {
+    "meeting_line": "Prompting isn't cutting it for our medical notes format — we should fine-tune on 10K examples of correctly structured clinical summaries.",
+    "smart_followup": "Have we tried few-shot prompting first? Fine-tuning is expensive and locks us to one model version — worth confirming prompting can't get us 80% there."
+  },
+  "quiz_question": {
+    "question": "A company wants their AI to always respond in a specific JSON schema that prompting struggles to enforce consistently. They train the base model on 5,000 examples of correct outputs. What did they do?",
+    "options": [
+      "A) Retrieval-Augmented Generation",
+      "B) Fine-tuning the model on structured output examples",
+      "C) Prompt injection",
+      "D) Adding a guardrail"
+    ],
+    "answer": "B",
+    "explanation": "Training a pre-trained model on domain-specific examples to specialize its behavior is fine-tuning."
+  }
+}

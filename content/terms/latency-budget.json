@@ -1,0 +1,25 @@
+{
+  "term": "Latency Budget",
+  "slug": "latency-budget",
+  "category": "Observability",
+  "tier": 2,
+  "definition_plain": "A latency budget is the maximum time you allocate for an AI system to respond — and how you distribute that time across retrieval, model inference, tool calls, and post-processing. In agentic systems with multiple steps, each component eats into the budget. If your target is 3 seconds end-to-end and retrieval takes 1.5 seconds, you only have 1.5 seconds left for everything else. It forces engineering tradeoffs between quality and speed.",
+  "related_terms": ["token-usage-tracking", "agent-observability", "reranker", "rag"],
+  "source_url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+  "source_label": "Anthropic — Reducing Latency",
+  "scenario": {
+    "meeting_line": "Users are bouncing because the agent takes 8 seconds to respond. We need a 3-second latency budget — where's the time going?",
+    "smart_followup": "Can we parallelize the retrieval and tool calls? If they're independent, running them concurrently could halve our total latency."
+  },
+  "quiz_question": {
+    "question": "An AI product team sets a 2-second response target. Retrieval takes 800ms, model inference takes 1500ms, and reranking takes 300ms. Total: 2600ms. What concept helps them decide what to optimize or cut?",
+    "options": [
+      "A) Token usage tracking",
+      "B) A latency budget — allocating time across components to hit a response target",
+      "C) Context window management",
+      "D) Prompt caching"
+    ],
+    "answer": "B",
+    "explanation": "A latency budget distributes available response time across system components, forcing tradeoffs when the total exceeds the target."
+  }
+}

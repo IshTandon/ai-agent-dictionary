@@ -1,0 +1,10 @@
+{
+  "term": "Knowledge Graph",
+  "slug": "knowledge-graph",
+  "category": "Retrieval",
+  "tier": 3,
+  "definition_plain": "A knowledge graph stores information as entities and their relationships (nodes and edges), enabling structured reasoning about how concepts connect — complementing vector-based retrieval.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

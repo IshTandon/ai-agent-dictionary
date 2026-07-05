@@ -1,0 +1,10 @@
+{
+  "term": "Mastra",
+  "slug": "mastra",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "Mastra is a TypeScript-first agent framework focused on building production agents with built-in tool management, workflow orchestration, and observability.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

@@ -1,0 +1,10 @@
+{
+  "term": "stdio Transport",
+  "slug": "stdio-transport",
+  "category": "Protocols",
+  "tier": 3,
+  "definition_plain": "stdio transport runs MCP communication over standard input/output streams, ideal for local tools and CLI-based servers that run as child processes.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

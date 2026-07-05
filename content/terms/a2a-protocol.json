@@ -1,0 +1,10 @@
+{
+  "term": "A2A Protocol",
+  "slug": "a2a-protocol",
+  "category": "Protocols",
+  "tier": 3,
+  "definition_plain": "The Agent-to-Agent (A2A) protocol is Google's open standard for AI agents to communicate, discover capabilities, and delegate tasks to each other across different platforms.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

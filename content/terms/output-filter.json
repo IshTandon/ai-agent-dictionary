@@ -1,0 +1,10 @@
+{
+  "term": "Output Filter",
+  "slug": "output-filter",
+  "category": "Security",
+  "tier": 3,
+  "definition_plain": "An output filter is a post-generation safety layer that scans the model's response for harmful, toxic, or policy-violating content and blocks or modifies it before it reaches the user.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

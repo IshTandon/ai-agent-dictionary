@@ -1,0 +1,25 @@
+{
+  "term": "LLM-as-a-Judge",
+  "slug": "llm-as-a-judge",
+  "category": "Evaluation",
+  "tier": 2,
+  "definition_plain": "LLM-as-a-Judge uses one language model to evaluate the outputs of another — scoring quality, correctness, helpfulness, or safety without needing human annotators for every evaluation. It scales evaluation dramatically (you can assess thousands of outputs in minutes) but inherits the judge model's biases. It's like having a senior colleague review a junior's work: faster than getting customer feedback, but filtered through one person's perspective.",
+  "related_terms": ["evaluation-set", "pairwise-comparison", "golden-dataset", "ragas"],
+  "source_url": "https://arxiv.org/abs/2306.05685",
+  "source_label": "Zheng et al., 2023 — Judging LLM-as-a-Judge",
+  "scenario": {
+    "meeting_line": "We can't have humans review 10,000 outputs per release — let's use LLM-as-a-judge to score them and only human-review the ones below threshold.",
+    "smart_followup": "Have we measured agreement between the judge model and our human evaluators? If correlation is low, we're just automating noise."
+  },
+  "quiz_question": {
+    "question": "A team uses GPT-4 to score the helpfulness of their chatbot's responses on a 1-5 scale, replacing the need for 50 human reviewers per release cycle. What technique are they using?",
+    "options": [
+      "A) Fine-tuning on evaluation data",
+      "B) LLM-as-a-Judge — using one model to evaluate another's outputs",
+      "C) Reinforcement learning from human feedback",
+      "D) Automated unit testing"
+    ],
+    "answer": "B",
+    "explanation": "Using a language model to score or evaluate another model's outputs is the LLM-as-a-Judge pattern."
+  }
+}

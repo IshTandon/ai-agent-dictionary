@@ -1,0 +1,10 @@
+{
+  "term": "Lexical Search",
+  "slug": "lexical-search",
+  "category": "Retrieval",
+  "tier": 3,
+  "definition_plain": "Lexical search (sparse retrieval) matches documents using exact word overlap, typically via algorithms like BM25. Fast and precise for exact terms, but misses synonyms and paraphrases.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

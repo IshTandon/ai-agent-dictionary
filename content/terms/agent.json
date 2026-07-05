@@ -1,0 +1,30 @@
+{
+  "term": "Agent",
+  "slug": "agent",
+  "category": "Foundation",
+  "tier": 1,
+  "definition_plain": "An AI agent is a system that uses a language model to decide what actions to take, executes those actions through tools, observes the results, and loops until the task is done. Unlike a chatbot that just answers questions, an agent can browse the web, write code, query databases, and chain those capabilities together autonomously. Think of it as the difference between asking someone for directions versus hiring a driver who figures out the route and gets you there.",
+  "related_terms": ["agentic-loop", "tool-use", "autonomous-agent", "multi-agent"],
+  "source_url": "https://www.anthropic.com/engineering/building-effective-agents",
+  "source_label": "Anthropic — Building Effective Agents",
+  "scenario": {
+    "meeting_line": "We're moving from a simple chatbot to a full agent architecture — it needs to handle multi-step research tasks end to end.",
+    "smart_followup": "What's the failure mode when the agent gets stuck in a loop? Do we have a circuit breaker or max-iteration cap?"
+  },
+  "quiz_question": {
+    "question": "A customer support system reads a ticket, looks up the customer's order history in a database, checks shipping status via an API, drafts a response, and sends it — all without human intervention. What best describes this system?",
+    "options": [
+      "A) A retrieval-augmented chatbot",
+      "B) An AI agent",
+      "C) A fine-tuned language model",
+      "D) A rule-based automation"
+    ],
+    "answer": "B",
+    "explanation": "The system decides actions, uses tools, and loops through steps autonomously — the defining pattern of an agent."
+  },
+  "company_example": {
+    "text": "Cursor's IDE agent can read your codebase, plan multi-file changes, run terminal commands, and iterate on errors — completing complex engineering tasks that would take a junior developer hours. It demonstrates how agents combine planning, tool use, and self-correction in production.",
+    "citation_label": "Cursor — AI Code Editor",
+    "citation_url": "https://cursor.com"
+  }
+}

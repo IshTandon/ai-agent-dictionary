@@ -1,0 +1,25 @@
+{
+  "term": "Grounding",
+  "slug": "grounding",
+  "category": "Retrieval",
+  "tier": 2,
+  "definition_plain": "Grounding is the practice of connecting a model's responses to verifiable source material — making the AI cite its sources and base claims on retrieved evidence rather than its own training data. A grounded system can point to the exact document, passage, or data point behind every statement it makes. It's the antidote to hallucination: if the model can't ground a claim in source material, it shouldn't make the claim.",
+  "related_terms": ["rag", "hallucination", "faithfulness", "guardrail"],
+  "source_url": "https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/overview",
+  "source_label": "Google Cloud — Grounding Overview",
+  "scenario": {
+    "meeting_line": "We need grounding for the investor-facing bot — every number it quotes needs to trace back to our filed reports.",
+    "smart_followup": "Are we doing post-hoc citation verification or inline grounding? Post-hoc checks after generation; inline constrains the model to only use retrieved content during generation."
+  },
+  "quiz_question": {
+    "question": "A financial AI assistant provides a revenue figure and links to the exact line in the quarterly report where that number appears. If the number doesn't exist in any source, the assistant says 'I don't have that data.' What capability does this demonstrate?",
+    "options": [
+      "A) Fine-tuning on financial data",
+      "B) Grounding — tying every claim to verifiable source material",
+      "C) Prompt engineering",
+      "D) Output filtering"
+    ],
+    "answer": "B",
+    "explanation": "Grounding ensures responses are anchored to specific, verifiable sources — refusing to answer when evidence isn't available."
+  }
+}

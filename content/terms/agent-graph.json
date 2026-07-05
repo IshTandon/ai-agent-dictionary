@@ -1,0 +1,10 @@
+{
+  "term": "Agent Graph",
+  "slug": "agent-graph",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "An agent graph defines the workflow topology of a multi-agent system — which agents exist, how they connect, what triggers transitions between them, and where decisions branch.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

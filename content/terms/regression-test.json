@@ -1,0 +1,10 @@
+{
+  "term": "Regression Test",
+  "slug": "regression-test",
+  "category": "Evaluation",
+  "tier": 3,
+  "definition_plain": "A regression test checks that new model changes haven't made previously-correct outputs worse — catching quality degradations before they reach users.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

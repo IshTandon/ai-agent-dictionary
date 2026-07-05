@@ -1,0 +1,10 @@
+{
+  "term": "Strands Agents",
+  "slug": "strands-agents",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "Strands Agents is AWS's open-source SDK for building AI agents with a model-driven loop, providing a simple interface for tool use, memory, and multi-agent orchestration.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

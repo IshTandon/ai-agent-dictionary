@@ -1,0 +1,10 @@
+{
+  "term": "Working Memory",
+  "slug": "working-memory",
+  "category": "Memory",
+  "tier": 3,
+  "definition_plain": "Working memory is the agent's active scratchpad during task execution — variables, intermediate results, and current goals that are needed right now but not permanently stored.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

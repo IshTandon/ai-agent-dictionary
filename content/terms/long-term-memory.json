@@ -1,0 +1,25 @@
+{
+  "term": "Long-Term Memory",
+  "slug": "long-term-memory",
+  "category": "Memory",
+  "tier": 2,
+  "definition_plain": "Long-term memory in AI agents refers to information that persists across sessions and conversations — user preferences, past decisions, learned facts — stored externally (in a database, vector store, or file) and retrieved when relevant. Without it, every conversation starts from scratch. It's what lets an agent say 'Last week you mentioned preferring Python over TypeScript' instead of asking you the same question every time.",
+  "related_terms": ["short-term-memory", "episodic-memory", "semantic-memory", "vector-memory", "memory-retrieval"],
+  "source_url": "https://langchain-ai.github.io/langgraph/concepts/memory/",
+  "source_label": "LangGraph — Memory Concepts",
+  "scenario": {
+    "meeting_line": "The agent keeps asking users for their timezone every session — we need long-term memory so it remembers preferences.",
+    "smart_followup": "What's our memory retrieval strategy? Storing everything is easy; the hard part is surfacing the right memories at the right time without blowing up context."
+  },
+  "quiz_question": {
+    "question": "A user tells an AI assistant they're allergic to shellfish. Three weeks later, in a new conversation, the assistant suggests a shrimp recipe. What capability is the system missing?",
+    "options": [
+      "A) A larger context window",
+      "B) Long-term memory — persisting user information across sessions",
+      "C) Better fine-tuning on dietary data",
+      "D) A food-safety guardrail"
+    ],
+    "answer": "B",
+    "explanation": "Long-term memory would have stored the allergy preference across sessions, allowing retrieval in future conversations."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "term": "Parallel Tool Calls",
+  "slug": "parallel-tool-calls",
+  "category": "Tools",
+  "tier": 3,
+  "definition_plain": "Parallel tool calls allow an agent to invoke multiple tools simultaneously rather than sequentially, dramatically reducing latency when the calls are independent of each other.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

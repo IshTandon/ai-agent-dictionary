@@ -1,0 +1,10 @@
+{
+  "term": "WebSocket Transport",
+  "slug": "websocket-transport",
+  "category": "Protocols",
+  "tier": 3,
+  "definition_plain": "WebSocket transport enables persistent bidirectional MCP communication, useful when both client and server need to send messages at any time without polling.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

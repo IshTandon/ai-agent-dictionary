@@ -1,0 +1,10 @@
+{
+  "term": "JSON-RPC",
+  "slug": "json-rpc",
+  "category": "Protocols",
+  "tier": 3,
+  "definition_plain": "JSON-RPC is the message format underlying MCP communication — a lightweight protocol for making remote procedure calls using JSON objects over any transport.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

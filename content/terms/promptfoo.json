@@ -1,0 +1,10 @@
+{
+  "term": "Promptfoo",
+  "slug": "promptfoo",
+  "category": "Evaluation",
+  "tier": 3,
+  "definition_plain": "Promptfoo is a testing and evaluation tool for LLM prompts, letting you run prompts against multiple models, score outputs, and catch regressions across prompt versions.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

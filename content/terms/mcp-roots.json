@@ -1,0 +1,10 @@
+{
+  "term": "MCP Roots",
+  "slug": "mcp-roots",
+  "category": "Protocols",
+  "tier": 3,
+  "definition_plain": "MCP roots define the file system boundaries an MCP server is allowed to access, establishing a security perimeter for file-based operations.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

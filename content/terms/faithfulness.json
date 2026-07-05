@@ -1,0 +1,10 @@
+{
+  "term": "Faithfulness",
+  "slug": "faithfulness",
+  "category": "Retrieval",
+  "tier": 3,
+  "definition_plain": "Faithfulness measures whether a model's generated response is supported by the retrieved context — whether it sticks to the source material versus adding information from its training data.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

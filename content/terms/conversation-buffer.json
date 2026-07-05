@@ -1,0 +1,10 @@
+{
+  "term": "Conversation Buffer",
+  "slug": "conversation-buffer",
+  "category": "Memory",
+  "tier": 3,
+  "definition_plain": "A conversation buffer stores the full raw history of a conversation, keeping every message available for reference until the context window fills up.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

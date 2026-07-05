@@ -1,0 +1,10 @@
+{
+  "term": "Memory Hierarchy",
+  "slug": "memory-hierarchy",
+  "category": "Memory",
+  "tier": 3,
+  "definition_plain": "A memory hierarchy organizes agent memory into layers (working, short-term, long-term) with different persistence durations and retrieval strategies, similar to CPU cache levels.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

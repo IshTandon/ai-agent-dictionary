@@ -1,0 +1,10 @@
+{
+  "term": "Single Agent",
+  "slug": "single-agent",
+  "category": "Foundation",
+  "tier": 3,
+  "definition_plain": "A single-agent system uses one AI model instance to handle an entire task, as opposed to multi-agent architectures where multiple specialized agents collaborate.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

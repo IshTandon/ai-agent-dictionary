@@ -1,0 +1,25 @@
+{
+  "term": "Chain-of-Thought",
+  "slug": "chain-of-thought",
+  "category": "Foundation",
+  "tier": 2,
+  "definition_plain": "Chain-of-thought is a prompting technique where you ask the model to show its reasoning step by step before giving a final answer. By 'thinking out loud,' the model makes fewer logical errors on complex problems — math, multi-step reasoning, code debugging. It works because intermediate steps keep the model on track, like showing your work on an exam rather than guessing the final answer.",
+  "related_terms": ["react", "tree-of-thoughts", "reflection", "self-critique"],
+  "source_url": "https://arxiv.org/abs/2201.11903",
+  "source_label": "Wei et al., 2022 — Chain-of-Thought Prompting",
+  "scenario": {
+    "meeting_line": "The model keeps getting our pricing calculations wrong — let's try chain-of-thought and have it show its math step by step.",
+    "smart_followup": "Should we also ask for a final confidence score? That way we can route low-confidence answers to a human."
+  },
+  "quiz_question": {
+    "question": "A model asked 'If a train travels 60mph for 2.5 hours, how far does it go?' gives the wrong answer when asked directly but the right answer when prompted with 'Let's think step by step.' Why does the second approach work?",
+    "options": [
+      "A) The model accessed a calculator tool",
+      "B) Step-by-step reasoning forces the model to compute intermediate values before the final answer",
+      "C) The prompt activated a different, smarter model",
+      "D) Chain-of-thought retrieves training examples"
+    ],
+    "answer": "B",
+    "explanation": "Chain-of-thought prompting makes the model produce intermediate reasoning steps, reducing errors on multi-step calculations."
+  }
+}

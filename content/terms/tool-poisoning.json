@@ -1,0 +1,10 @@
+{
+  "term": "Tool Poisoning",
+  "slug": "tool-poisoning",
+  "category": "Security",
+  "tier": 3,
+  "definition_plain": "Tool poisoning plants malicious instructions in tool descriptions or outputs so that when an agent reads them, it's tricked into taking unintended or harmful actions.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

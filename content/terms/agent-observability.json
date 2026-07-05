@@ -1,0 +1,10 @@
+{
+  "term": "Agent Observability",
+  "slug": "agent-observability",
+  "category": "Observability",
+  "tier": 3,
+  "definition_plain": "Agent observability is the ability to inspect, understand, and debug an AI agent's behavior in production — seeing what it decided, why, what tools it called, and where it went wrong.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

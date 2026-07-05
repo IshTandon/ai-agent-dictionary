@@ -1,0 +1,10 @@
+{
+  "term": "Hierarchical Agents",
+  "slug": "hierarchical-agents",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "Hierarchical agents organize multiple agents in a tree structure where manager agents delegate to worker agents, who may delegate further — mirroring organizational management layers.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

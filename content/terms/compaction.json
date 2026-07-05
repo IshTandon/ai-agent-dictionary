@@ -1,0 +1,10 @@
+{
+  "term": "Compaction",
+  "slug": "compaction",
+  "category": "Memory",
+  "tier": 3,
+  "definition_plain": "Compaction merges or summarizes accumulated memory entries to reduce storage and retrieval noise, keeping only the most salient information as memory grows.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

@@ -1,0 +1,25 @@
+{
+  "term": "Sandbox",
+  "slug": "sandbox",
+  "category": "Security",
+  "tier": 2,
+  "definition_plain": "A sandbox is an isolated execution environment where an AI agent can run code or use tools without affecting production systems. If the agent makes a mistake — deleting files, running an infinite loop, calling a dangerous API — the damage stays contained within the sandbox. It's like giving a new employee a test account instead of production credentials: they can experiment freely without risk.",
+  "related_terms": ["guardrail", "autonomous-agent", "code-interpreter", "tool-use"],
+  "source_url": "https://docs.e2b.dev/",
+  "source_label": "E2B — AI Code Execution Sandbox",
+  "scenario": {
+    "meeting_line": "The agent needs to run user-submitted code — we're sandboxing it in E2B so a rogue script can't access our infra.",
+    "smart_followup": "What's the sandbox timeout? If we don't cap execution time, someone could mine crypto in our sandbox instances."
+  },
+  "quiz_question": {
+    "question": "An AI coding agent needs to execute arbitrary Python scripts submitted by users. To prevent a malicious script from accessing the company's database or file system, the team runs all code in an isolated container with no network access. What is this container called?",
+    "options": [
+      "A) A vector store",
+      "B) A sandbox — isolated execution environment preventing damage to production",
+      "C) A guardrail",
+      "D) A fine-tuned environment"
+    ],
+    "answer": "B",
+    "explanation": "Sandboxes isolate code execution so that mistakes or malicious actions can't affect production systems or data."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "term": "Semantic Memory",
+  "slug": "semantic-memory",
+  "category": "Memory",
+  "tier": 3,
+  "definition_plain": "Semantic memory stores general facts and knowledge (like 'Python is a programming language') as opposed to specific events, providing background knowledge the agent can draw on.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

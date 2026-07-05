@@ -1,0 +1,30 @@
+{
+  "term": "Context Window",
+  "slug": "context-window",
+  "category": "Foundation",
+  "tier": 1,
+  "definition_plain": "The context window is the maximum amount of text a language model can 'see' at once — including your prompt, any retrieved documents, conversation history, and the response it's generating. Once you exceed it, older content gets dropped or the request fails. Think of it as the model's working memory: a bigger window means it can juggle more information simultaneously, but it's never infinite.",
+  "related_terms": ["context-compression", "long-term-memory", "chunking", "token-usage-tracking"],
+  "source_url": "https://platform.openai.com/docs/concepts#context-window",
+  "source_label": "OpenAI — Context Window Documentation",
+  "scenario": {
+    "meeting_line": "We're stuffing 80 pages of legal docs into context — we're hitting the window limit and the model starts ignoring stuff at the beginning.",
+    "smart_followup": "Are we measuring 'lost in the middle' effects? Models tend to under-attend to information in the center of long contexts."
+  },
+  "quiz_question": {
+    "question": "An agent processing a 200-page contract starts giving answers that contradict page 3 but align with page 195. The model hasn't been retrained. What's the most likely cause?",
+    "options": [
+      "A) The model is hallucinating",
+      "B) The early pages fell outside the context window or suffer from attention degradation",
+      "C) The contract has contradictions",
+      "D) The model was fine-tuned on legal data"
+    ],
+    "answer": "B",
+    "explanation": "When content exceeds or fills the context window, models often lose track of information in earlier or middle portions."
+  },
+  "company_example": {
+    "text": "Google's Gemini 1.5 Pro launched with a 1-million-token context window, enabling it to process entire codebases or hour-long videos in a single pass. This pushed competitors to expand their context limits, fundamentally changing what's possible without RAG.",
+    "citation_label": "Google — Gemini 1.5 Technical Report",
+    "citation_url": "https://arxiv.org/abs/2403.05530"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "term": "Capability Negotiation",
+  "slug": "capability-negotiation",
+  "category": "Protocols",
+  "tier": 3,
+  "definition_plain": "Capability negotiation is the handshake process where MCP client and server exchange supported features at connection time, establishing what tools, resources, and protocols are available.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}

@@ -1,0 +1,30 @@
+{
+  "term": "Agentic Loop",
+  "slug": "agentic-loop",
+  "category": "Foundation",
+  "tier": 1,
+  "definition_plain": "An agentic loop is the core cycle an AI agent repeats: observe the current state, think about what to do next, take an action (call a tool, write code, send a message), then observe the result and repeat. The loop continues until the task is complete or a termination condition is hit. It's what makes an agent an agent rather than a one-shot prompt — the model gets to see the consequences of its actions and course-correct.",
+  "related_terms": ["agent", "react", "tool-use", "reflection", "plan-and-execute"],
+  "source_url": "https://www.anthropic.com/engineering/building-effective-agents",
+  "source_label": "Anthropic — Building Effective Agents",
+  "scenario": {
+    "meeting_line": "The agent is stuck in its loop — it keeps calling the same API and getting errors. We need to add a retry limit.",
+    "smart_followup": "Do we have observability on the loop? I want to see the decision trace — what it considered at each step and why it chose that action."
+  },
+  "quiz_question": {
+    "question": "An AI coding assistant writes a function, runs the tests, sees 2 failures, edits the function, reruns tests, sees 1 failure, edits again, and tests pass. What pattern is this?",
+    "options": [
+      "A) Chain-of-thought prompting",
+      "B) An agentic loop — observe, act, observe results, repeat",
+      "C) Retrieval-augmented generation",
+      "D) Fine-tuning on test data"
+    ],
+    "answer": "B",
+    "explanation": "The agent observes results, decides on corrective actions, and iterates until success — the defining observe-act-observe cycle of an agentic loop."
+  },
+  "company_example": {
+    "text": "Devin, the AI software engineer by Cognition Labs, demonstrates agentic loops at their most autonomous — it plans implementation, writes code, runs tests, debugs failures, and iterates through dozens of loop iterations to complete complex engineering tasks without human intervention.",
+    "citation_label": "Cognition Labs — Devin",
+    "citation_url": "https://www.cognition.ai/blog/introducing-devin"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "term": "Reranker",
+  "slug": "reranker",
+  "category": "Retrieval",
+  "tier": 2,
+  "definition_plain": "A reranker is a second-pass model that takes the initial retrieval results and rescores them for relevance to the actual query. First-pass retrieval (embedding search) is fast but approximate; a reranker is slower but more accurate because it considers the full query-document pair together rather than comparing pre-computed vectors. It's like a hiring process: the resume screen (retrieval) gets you candidates fast, then the interview (reranking) picks the best ones.",
+  "related_terms": ["rag", "vector-store", "hybrid-search", "dense-retrieval"],
+  "source_url": "https://www.pinecone.io/learn/series/rag/rerankers/",
+  "source_label": "Pinecone — Rerankers in RAG",
+  "scenario": {
+    "meeting_line": "Our retrieval returns 20 chunks but only 3 are actually relevant — adding a reranker should push the good ones to the top before they hit the context window.",
+    "smart_followup": "What's the latency budget? Cross-encoder rerankers are accurate but add 200-500ms per query. Can we afford that in our UX?"
+  },
+  "quiz_question": {
+    "question": "A RAG pipeline retrieves 50 document chunks via embedding search. A second model then scores each chunk paired with the original query and reorders them by relevance. Only the top 5 go to the language model. What is the second model?",
+    "options": [
+      "A) A fine-tuned generator",
+      "B) A reranker — rescoring retrieval results for better precision",
+      "C) An embedding model",
+      "D) A classification model"
+    ],
+    "answer": "B",
+    "explanation": "Rerankers perform a second-pass scoring of retrieval results, considering the full query-document pair to improve relevance ranking."
+  }
+}

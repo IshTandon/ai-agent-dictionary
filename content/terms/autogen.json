@@ -1,0 +1,10 @@
+{
+  "term": "AutoGen",
+  "slug": "autogen",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "AutoGen is Microsoft's framework for building multi-agent conversational systems where agents can chat with each other, use tools, and involve humans in the loop.",
+  "related_terms": [],
+  "source_url": "",
+  "source_label": ""
+}
