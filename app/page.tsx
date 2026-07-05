@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
 import { getAllTerms } from '@/lib/terms';
 import { CATEGORIES, CATEGORY_SLUGS, CATEGORY_DESCRIPTIONS, CATEGORY_COLORS } from '@/lib/categories';
@@ -6,6 +8,43 @@ import { Category } from '@/lib/types';
 import SearchBar from '@/components/SearchBar';
 import TierBadge from '@/components/TierBadge';
 import ViewToggle from '@/components/ViewToggle';
+import DailyTerm from '@/components/DailyTerm';
+
+interface NewsItem {
+  title: string;
+  url: string;
+  source: 'Hacker News' | 'The Decoder';
+  published_at: string;
+}
+
+function getRelativeTime(dateStr: string): string {
+  const now = Date.now();
+  const then = new Date(dateStr).getTime();
+  const diff = now - then;
+
+  const minutes = Math.floor(diff / 60000);
+  if (minutes < 1) return 'just now';
+  if (minutes < 60) return `${minutes}m ago`;
+
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `${hours}h ago`;
+
+  const days = Math.floor(hours / 24);
+  if (days < 30) return `${days}d ago`;
+
+  const months = Math.floor(days / 30);
+  return `${months}mo ago`;
+}
+
+function getNewsItems(): NewsItem[] {
+  try {
+    const filePath = join(process.cwd(), 'content', 'news', 'latest.json');
+    const raw = readFileSync(filePath, 'utf-8');
+    return JSON.parse(raw);
+  } catch {
+    return [];
+  }
+}
 
 const CATEGORY_ICONS: Record<string, string> = {
   Foundation: '\u2B22',
@@ -21,6 +60,7 @@ const CATEGORY_ICONS: Record<string, string> = {
 
 export default function HomePage() {
   const allTerms = getAllTerms();
+  const newsItems = getNewsItems();
 
   const categoryCounts = CATEGORIES.reduce(
     (acc, cat) => {
@@ -60,7 +100,61 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Today in AI */}
+      {newsItems.length > 0 && (
+        <section className="border-b border-border py-12">
+          <div className="mx-auto max-w-6xl px-6">
+            <h2 className="mb-1 font-[family-name:var(--font-display)] text-lg font-semibold text-text-primary">
+              Today in AI
+            </h2>
+            <p className="mb-6 text-sm text-text-muted">
+              Latest from Hacker News &amp; The Decoder
+            </p>
+            <div className="flex gap-3 overflow-x-auto pb-4 sm:grid sm:grid-cols-2 sm:overflow-visible sm:pb-0">
+              {newsItems.map((item, i) => (
+                <a
+                  key={i}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="card-lift flex min-w-[260px] flex-col justify-between rounded-xl border border-border bg-surface p-4 sm:min-w-0"
+                >
+                  <div>
+                    <span
+                      className={`mb-2 inline-block rounded-full px-2 py-0.5 text-[10px] font-semibold ${
+                        item.source === 'Hacker News'
+                          ? 'bg-orange-500/15 text-orange-400'
+                          : 'bg-blue-500/15 text-blue-400'
+                      }`}
+                    >
+                      {item.source}
+                    </span>
+                    <p className="text-sm font-medium leading-snug text-text-primary line-clamp-2">
+                      {item.title}
+                    </p>
+                  </div>
+                  <div className="mt-3 flex items-center justify-between">
+                    <span className="text-[11px] text-text-muted">
+                      {getRelativeTime(item.published_at)}
+                    </span>
+                    <span className="text-xs text-text-secondary">&rarr;</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       <div className="mx-auto max-w-6xl px-6 py-14">
+        <DailyTerm
+          terms={allTerms.map(t => ({
+            slug: t.slug,
+            term: t.term,
+            definition_plain: t.definition_plain,
+          }))}
+        />
+
         <div className="mb-10 flex items-center justify-between">
           <div />
           <ViewToggle />
