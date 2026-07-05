@@ -1,20 +1,21 @@
 import Link from 'next/link';
 
 import { getAllTerms } from '@/lib/terms';
-import { CATEGORIES, CATEGORY_SLUGS, CATEGORY_DESCRIPTIONS } from '@/lib/categories';
+import { CATEGORIES, CATEGORY_SLUGS, CATEGORY_DESCRIPTIONS, CATEGORY_COLORS } from '@/lib/categories';
+import { Category } from '@/lib/types';
 import SearchBar from '@/components/SearchBar';
 import TierBadge from '@/components/TierBadge';
 
 const CATEGORY_ICONS: Record<string, string> = {
-  Foundation: '&#x2B22;',
-  Memory: '&#x29C9;',
-  Tools: '&#x2692;',
-  Protocols: '&#x21C4;',
-  Retrieval: '&#x2315;',
-  Orchestration: '&#x2725;',
-  Evaluation: '&#x2714;',
-  Security: '&#x26E8;',
-  Observability: '&#x25CE;',
+  Foundation: '\u2B22',
+  Memory: '\u29C9',
+  Tools: '\u2692',
+  Protocols: '\u21C4',
+  Retrieval: '\u2315',
+  Orchestration: '\u2725',
+  Evaluation: '\u2714',
+  Security: '\u26E8',
+  Observability: '\u25CE',
 };
 
 export default function HomePage() {
@@ -30,130 +31,160 @@ export default function HomePage() {
 
   const featuredTerms = allTerms
     .filter(t => t.tier === 1)
-    .slice(0, 4);
+    .slice(0, 6);
 
   return (
     <>
-      <section className="hero-gradient relative overflow-hidden">
-        <div className="hero-glow absolute inset-0" />
-        <div className="relative mx-auto max-w-5xl px-6 py-24 sm:py-32">
-          <div className="text-center">
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-indigo-400/20 bg-indigo-500/10 px-4 py-1.5 text-xs font-medium text-indigo-300">
-              <span className="h-1.5 w-1.5 rounded-full bg-indigo-400 animate-pulse" />
+      {/* Hero */}
+      <section className="relative overflow-hidden border-b border-border">
+        <div className="absolute inset-0 bg-gradient-to-b from-accent-indigo/5 via-transparent to-transparent" />
+        <div className="relative mx-auto max-w-6xl px-6 py-20 sm:py-28">
+          <div className="max-w-2xl">
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-accent-indigo/20 bg-accent-indigo-dim px-3 py-1 text-[11px] font-medium text-accent-indigo-light">
+              <span className="h-1.5 w-1.5 rounded-full bg-accent-indigo animate-pulse" />
               100 terms &middot; Plain English &middot; Quiz-powered
             </div>
-            <h1 className="mx-auto max-w-3xl text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Master the language of{' '}
-              <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                AI Agents
-              </span>
+            <h1 className="font-[family-name:var(--font-display)] text-4xl font-bold tracking-tight text-text-primary sm:text-5xl lg:text-6xl">
+              The AI Agent{' '}
+              <span className="text-accent-indigo">Dictionary</span>
             </h1>
-            <p className="mx-auto mt-6 max-w-xl text-[15px] leading-relaxed text-gray-400">
+            <p className="mt-5 max-w-lg text-base leading-relaxed text-text-secondary">
               The term you just heard in a meeting, explained so you can use it in the next one.
-              Definitions, scenarios, and quizzes for every concept.
+              Definitions, scenarios, and quizzes — 100 concepts from foundation to frontier.
             </p>
-            <div className="mt-10 flex justify-center">
+            <div className="mt-8 sm:hidden">
               <SearchBar terms={allTerms} variant="hero" />
             </div>
           </div>
         </div>
-        <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-indigo-500/20 to-transparent" />
       </section>
 
-      <div className="mx-auto max-w-5xl px-6 py-16">
-        <section className="mb-20">
-          <div className="mb-8 flex items-end justify-between">
-            <div>
-              <h2 className="text-2xl font-bold tracking-tight text-gray-900">Featured terms</h2>
-              <p className="mt-1 text-sm text-gray-500">Deep-dive cards with scenarios, quizzes &amp; real-world examples</p>
-            </div>
-            <Link href="/categories/foundation" className="text-sm font-medium text-indigo-600 hover:text-indigo-700">
-              View all &rarr;
-            </Link>
-          </div>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {featuredTerms.map((term, i) => (
-              <Link
-                key={term.slug}
-                href={`/terms/${term.slug}`}
-                className="card-hover group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-6"
-                style={{ animationDelay: `${i * 80}ms` }}
-              >
-                <div className="mb-4 flex items-center justify-between">
-                  <span className="text-xs font-medium uppercase tracking-wider text-gray-400">
-                    {term.category}
-                  </span>
-                  <TierBadge tier={term.tier} />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-indigo-700 transition-colors">
-                  {term.term}
-                </h3>
-                <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-gray-500">
-                  {term.definition_plain}
-                </p>
-                <div className="mt-4 flex items-center text-xs font-medium text-indigo-600 opacity-0 transition-opacity group-hover:opacity-100">
-                  Read full card &rarr;
-                </div>
-                <div className="absolute -right-8 -top-8 h-24 w-24 rounded-full bg-indigo-50 opacity-0 transition-opacity group-hover:opacity-100" />
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        <section className="mb-20">
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Browse by category</h2>
-            <p className="mt-1 text-sm text-gray-500">9 domains covering the full AI agent stack</p>
-          </div>
+      <div className="mx-auto max-w-6xl px-6 py-14">
+        {/* Category grid — colored cards */}
+        <section className="mb-16">
+          <h2 className="mb-2 font-[family-name:var(--font-display)] text-lg font-semibold text-text-primary">
+            Browse by category
+          </h2>
+          <p className="mb-8 text-sm text-text-muted">9 domains covering the full AI agent stack</p>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {CATEGORIES.map(cat => (
-              <Link
-                key={cat}
-                href={`/categories/${CATEGORY_SLUGS[cat]}`}
-                className="card-hover group relative rounded-2xl border border-gray-200 bg-white p-5"
-              >
-                <div className="mb-3 flex items-center gap-3">
+            {CATEGORIES.map(cat => {
+              const color = CATEGORY_COLORS[cat];
+              return (
+                <Link
+                  key={cat}
+                  href={`/categories/${CATEGORY_SLUGS[cat]}`}
+                  className="card-lift group relative overflow-hidden rounded-xl border border-border bg-surface p-5"
+                >
+                  {/* Colored top edge */}
                   <div
-                    className="flex h-9 w-9 items-center justify-center rounded-xl bg-gray-100 text-lg text-gray-600 group-hover:bg-indigo-50 group-hover:text-indigo-600 transition-colors"
-                    dangerouslySetInnerHTML={{ __html: CATEGORY_ICONS[cat] || '&#x2022;' }}
+                    className="absolute inset-x-0 top-0 h-[2px]"
+                    style={{ backgroundColor: color }}
                   />
-                  <h3 className="font-semibold text-gray-900 group-hover:text-indigo-700 transition-colors">
-                    {cat}
-                  </h3>
-                </div>
-                <p className="text-[13px] leading-relaxed text-gray-500">
-                  {CATEGORY_DESCRIPTIONS[cat]}
-                </p>
-                <div className="mt-4 flex items-center justify-between">
-                  <span className="text-xs font-medium text-gray-400">
-                    {categoryCounts[cat]} terms
-                  </span>
-                  <span className="text-xs font-medium text-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity">
-                    Explore &rarr;
-                  </span>
-                </div>
-              </Link>
-            ))}
+                  {/* Background glow */}
+                  <div
+                    className="absolute -right-8 -top-8 h-24 w-24 rounded-full opacity-[0.07] blur-2xl transition-opacity group-hover:opacity-[0.15]"
+                    style={{ backgroundColor: color }}
+                  />
+                  <div className="relative">
+                    <div className="mb-3 flex items-center gap-3">
+                      <div
+                        className="flex h-9 w-9 items-center justify-center rounded-lg text-lg"
+                        style={{
+                          backgroundColor: `${color}15`,
+                          color: color,
+                        }}
+                      >
+                        {CATEGORY_ICONS[cat]}
+                      </div>
+                      <h3
+                        className="font-[family-name:var(--font-display)] text-sm font-semibold"
+                        style={{ color }}
+                      >
+                        {cat}
+                      </h3>
+                    </div>
+                    <p className="text-[13px] leading-relaxed text-text-muted">
+                      {CATEGORY_DESCRIPTIONS[cat]}
+                    </p>
+                    <div className="mt-4 flex items-center justify-between">
+                      <span className="text-xs text-text-muted">
+                        {categoryCounts[cat]} terms
+                      </span>
+                      <span
+                        className="text-xs font-medium opacity-0 transition-opacity group-hover:opacity-100"
+                        style={{ color }}
+                      >
+                        Explore &rarr;
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </section>
 
-        <section>
-          <div className="mb-6">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900">All 100 terms</h2>
-            <p className="mt-1 text-sm text-gray-500">Click any term to learn it</p>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {allTerms
-              .sort((a, b) => a.term.localeCompare(b.term))
-              .map(term => (
+        {/* Featured / Tier 1 terms */}
+        <section className="mb-16">
+          <h2 className="mb-2 font-[family-name:var(--font-display)] text-lg font-semibold text-text-primary">
+            Featured deep dives
+          </h2>
+          <p className="mb-8 text-sm text-text-muted">Full cards with scenarios, quizzes &amp; real-world examples</p>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {featuredTerms.map(term => {
+              const catColor = CATEGORY_COLORS[term.category as Category];
+              return (
                 <Link
                   key={term.slug}
                   href={`/terms/${term.slug}`}
-                  className="rounded-full border border-gray-200 bg-white px-3.5 py-1.5 text-[13px] font-medium text-gray-600 shadow-sm transition-all hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700 hover:shadow"
+                  className="card-lift group rounded-xl border border-border bg-surface p-5"
                 >
-                  {term.term}
+                  <div className="mb-3 flex items-center justify-between">
+                    <span
+                      className="rounded px-1.5 py-0.5 text-[10px] font-semibold"
+                      style={{
+                        backgroundColor: `${catColor}15`,
+                        color: catColor,
+                      }}
+                    >
+                      {term.category}
+                    </span>
+                    <TierBadge tier={term.tier} />
+                  </div>
+                  <h3 className="mb-2 font-[family-name:var(--font-display)] text-sm font-semibold text-text-primary group-hover:text-accent-indigo-light transition-colors">
+                    {term.term}
+                  </h3>
+                  <p className="line-clamp-2 text-xs leading-relaxed text-text-muted">
+                    {term.definition_plain}
+                  </p>
                 </Link>
-              ))}
+              );
+            })}
+          </div>
+        </section>
+
+        {/* All terms cloud */}
+        <section>
+          <h2 className="mb-2 font-[family-name:var(--font-display)] text-lg font-semibold text-text-primary">
+            All 100 terms
+          </h2>
+          <p className="mb-6 text-sm text-text-muted">Click any term to learn it</p>
+          <div className="flex flex-wrap gap-2">
+            {allTerms
+              .sort((a, b) => a.term.localeCompare(b.term))
+              .map(term => {
+                const catColor = CATEGORY_COLORS[term.category as Category];
+                return (
+                  <Link
+                    key={term.slug}
+                    href={`/terms/${term.slug}`}
+                    className="rounded-md border border-border bg-surface px-3 py-1.5 text-[12px] font-medium text-text-secondary transition-all hover:border-border-bright hover:text-text-primary"
+                    style={{ '--hover-color': catColor } as React.CSSProperties}
+                  >
+                    {term.term}
+                  </Link>
+                );
+              })}
           </div>
         </section>
       </div>
