@@ -47,10 +47,7 @@ export default function HomePage() {
         />
 
         {/* Browse / Periodic Table toggle + content */}
-        <TermsExplorer
-          categories={categoriesData}
-          terms={allTerms}
-        />
+        <TermsExplorer categories={categoriesData} />
       </div>
     </>
   );
