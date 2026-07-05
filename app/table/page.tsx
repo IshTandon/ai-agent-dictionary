@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Periodic Table of AI | Agent Atlas',
+  title: 'Periodic Table of AI | AgentDict',
   description: 'The 17 core AI concepts arranged as a periodic table — primitives, compositions, deployment, and emerging paradigms.',
 };
 

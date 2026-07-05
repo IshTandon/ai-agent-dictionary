@@ -23,11 +23,10 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <div className="mx-auto max-w-2xl text-center">
             <h1 className="font-[family-name:var(--font-display)] text-4xl font-bold tracking-tight text-text-primary sm:text-5xl lg:text-6xl">
-              The AI Agent{' '}
-              <span className="text-accent-indigo">Dictionary</span>
+              Agent<span className="text-accent-indigo">Dict</span>
             </h1>
             <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed text-text-secondary">
-              Every term you hear in a meeting, explained so you can use it in the next one.
+              Every AI agent term, explained in plain English. Updated daily.
             </p>
             <div className="mx-auto mt-8 w-full max-w-[480px]">
               <SearchBar terms={allTerms} variant="hero" />

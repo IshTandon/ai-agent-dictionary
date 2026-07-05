@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'About | Agent Atlas',
-  description: 'About the Agent Atlas project — sources, attribution, and how to contribute.',
+  title: 'About | AgentDict',
+  description: 'About AgentDict — an AI agent dictionary updated daily with plain-English definitions, scenarios, and quizzes.',
 };
 
 export default function AboutPage() {

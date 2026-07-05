@@ -69,7 +69,7 @@ export default function SearchBar({ terms, variant = 'default' }: SearchBarProps
           value={query}
           onChange={e => setQuery(e.target.value)}
           onFocus={() => setIsFocused(true)}
-          placeholder={isNav ? 'Search terms...' : 'Search 100 AI agent terms...'}
+          placeholder={isNav ? 'Search terms...' : 'Search all AI agent terms...'}
           className={inputClass}
         />
         {query && (

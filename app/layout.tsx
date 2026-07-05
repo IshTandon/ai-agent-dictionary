@@ -20,9 +20,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Agent Atlas — 100 AI terms explained in plain English',
+  title: 'AgentDict — The AI agent dictionary, updated daily',
   description:
-    'A gamified glossary of AI agent terminology. Plain English definitions, real-world scenarios, and quizzes for every term.',
+    'The AI agent dictionary — every term explained in plain English with scenarios, quizzes, and real-world examples. Updated daily.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -38,10 +38,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3.5">
             <Link href="/" className="flex items-center gap-3">
               <div className="flex h-8 w-8 items-center justify-center rounded-md bg-accent-indigo font-[family-name:var(--font-display)] text-xs font-bold text-white">
-                Aa
+                Ad
               </div>
               <span className="font-[family-name:var(--font-display)] text-sm font-medium tracking-tight text-text-primary">
-                Agent<span className="text-text-muted">Atlas</span>
+                Agent<span className="text-text-muted">Dict</span>
               </span>
             </Link>
             <XPBar />
@@ -66,9 +66,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
               <div className="flex items-center gap-2.5">
                 <div className="flex h-5 w-5 items-center justify-center rounded bg-surface-elevated font-[family-name:var(--font-display)] text-[9px] font-bold text-text-muted">
-                  Aa
+                  Ad
                 </div>
-                <span className="text-xs text-text-muted">Agent Atlas</span>
+                <span className="text-xs text-text-muted">AgentDict</span>
               </div>
               <p className="text-center text-[11px] text-text-muted">
                 Term selection inspired by{' '}
