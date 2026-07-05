@@ -5,6 +5,7 @@ import { CATEGORIES, CATEGORY_SLUGS, CATEGORY_DESCRIPTIONS, CATEGORY_COLORS } fr
 import { Category } from '@/lib/types';
 import SearchBar from '@/components/SearchBar';
 import TierBadge from '@/components/TierBadge';
+import ViewToggle from '@/components/ViewToggle';
 
 const CATEGORY_ICONS: Record<string, string> = {
   Foundation: '\u2B22',
@@ -60,6 +61,11 @@ export default function HomePage() {
       </section>
 
       <div className="mx-auto max-w-6xl px-6 py-14">
+        <div className="mb-10 flex items-center justify-between">
+          <div />
+          <ViewToggle />
+        </div>
+
         {/* Category grid — colored cards */}
         <section className="mb-16">
           <h2 className="mb-2 font-[family-name:var(--font-display)] text-lg font-semibold text-text-primary">

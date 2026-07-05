@@ -132,3 +132,15 @@ body {
 .cat-badge:hover {
   box-shadow: 0 0 12px -2px currentColor;
 }
+
+/* Periodic table cell */
+.element-cell {
+  transition: transform 0.15s cubic-bezier(0.33, 1, 0.68, 1),
+              box-shadow 0.15s ease,
+              z-index 0s;
+}
+
+.element-cell:hover {
+  box-shadow: 0 8px 30px -8px rgba(0, 0, 0, 0.5),
+              0 0 0 1px var(--color-border-bright);
+}
