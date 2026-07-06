@@ -1,0 +1,10 @@
+{
+  "term": "Synthetic Data",
+  "slug": "synthetic-data",
+  "category": "Evaluation",
+  "tier": 3,
+  "definition_plain": "Synthetic data is artificially generated training or evaluation data created by AI models rather than collected from real-world events. As the supply of high-quality real data becomes scarce, synthetic data fills the gap — letting teams train, fine-tune, and benchmark models without waiting for enough real examples to accumulate.",
+  "related_terms": ["fine-tuning", "golden-dataset", "evaluation-set", "red-teaming"],
+  "source_url": "https://arxiv.org/abs/2404.07503",
+  "source_label": "Liu et al., 2024 — Best Practices and Lessons Learned on Synthetic Data"
+}

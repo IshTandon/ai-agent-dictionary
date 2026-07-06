@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 import { getDailyTerm, getProgress, saveProgress } from '@/lib/progress';
+import { getSymbol } from '@/lib/symbols';
 
 interface SerializedTerm {
   slug: string;
@@ -13,24 +14,6 @@ interface SerializedTerm {
 
 interface DailyTermProps {
   terms: SerializedTerm[];
-}
-
-const VOWELS_SET = new Set(['a', 'e', 'i', 'o', 'u']);
-
-function getSymbol(name: string): string {
-  const trimmed = name.trim();
-  if (trimmed.length <= 5 && trimmed === trimmed.toUpperCase() && /^[A-Z0-9]+$/.test(trimmed)) {
-    return trimmed.slice(0, 3);
-  }
-  const consonants: string[] = [];
-  for (const ch of trimmed) {
-    const lower = ch.toLowerCase();
-    if (lower >= 'a' && lower <= 'z' && !VOWELS_SET.has(lower)) {
-      consonants.push(ch.toUpperCase());
-      if (consonants.length === 3) break;
-    }
-  }
-  return consonants.join('').padEnd(3, 'X').slice(0, 3);
 }
 
 export default function DailyTerm({ terms }: DailyTermProps) {
@@ -48,7 +31,7 @@ export default function DailyTerm({ terms }: DailyTermProps) {
 
   if (!dailyTermData) return null;
 
-  const symbol = getSymbol(dailyTermData.term);
+  const symbol = getSymbol(dailyTermData.term, dailyTermData.slug);
   const firstSentence = dailyTermData.definition_plain.split('. ')[0] + '.';
 
   function handleClick() {

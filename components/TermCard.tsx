@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import { Term, isTier1, isTier2, Category } from '@/lib/types';
 import { CATEGORY_SLUGS, CATEGORY_COLORS } from '@/lib/categories';
+import { getSymbol } from '@/lib/symbols';
 
 import TierBadge from './TierBadge';
 import QuizBlock from './QuizBlock';
@@ -12,27 +13,9 @@ interface TermCardProps {
   slug?: string;
 }
 
-const VOWELS = new Set(['a', 'e', 'i', 'o', 'u']);
-
-function getSymbol(name: string): string {
-  const trimmed = name.trim();
-  if (trimmed.length <= 5 && trimmed === trimmed.toUpperCase() && /^[A-Z0-9]+$/.test(trimmed)) {
-    return trimmed.slice(0, 3);
-  }
-  const consonants: string[] = [];
-  for (const ch of trimmed) {
-    const lower = ch.toLowerCase();
-    if (lower >= 'a' && lower <= 'z' && !VOWELS.has(lower)) {
-      consonants.push(ch.toUpperCase());
-      if (consonants.length === 3) break;
-    }
-  }
-  return consonants.join('').padEnd(3, trimmed.replace(/[^a-zA-Z]/g, '').toUpperCase().slice(-1)).slice(0, 3);
-}
-
 export default function TermCard({ term, slug }: TermCardProps) {
   const catColor = CATEGORY_COLORS[term.category as Category];
-  const symbol = getSymbol(term.term);
+  const symbol = getSymbol(term.term, slug ?? term.slug);
 
   return (
     <article className="mx-auto max-w-[720px] px-6 py-10">

@@ -114,7 +114,7 @@ export default function QuizBlock({ question, options, answer, explanation, slug
               {LETTERS[i]}
             </span>
             <span className="text-[13px]" style={{ color: getTextColor(i) }}>
-              {option}
+              {option.replace(/^[A-D]\)\s*/, '')}
             </span>
           </button>
         ))}
