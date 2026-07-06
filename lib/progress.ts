@@ -24,6 +24,12 @@ function todayISO(): string {
   return new Date().toISOString().slice(0, 10);
 }
 
+function yesterdayISO(): string {
+  const d = new Date();
+  d.setDate(d.getDate() - 1);
+  return d.toISOString().slice(0, 10);
+}
+
 export function getProgress(): UserProgress {
   if (typeof window === 'undefined') return defaultProgress();
   try {
@@ -40,16 +46,18 @@ export function saveProgress(p: UserProgress): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
 }
 
+function notifyUpdate(): void {
+  if (typeof window === 'undefined') return;
+  window.dispatchEvent(new CustomEvent('aad-progress-update'));
+}
+
 export function updateStreak(p: UserProgress): void {
   const today = todayISO();
   if (p.last_visit === today) return;
 
-  if (p.last_visit) {
-    const yesterday = new Date();
-    yesterday.setDate(yesterday.getDate() - 1);
-    const yesterdayISO = yesterday.toISOString().slice(0, 10);
-    p.streak = p.last_visit === yesterdayISO ? p.streak + 1 : 1;
-  } else {
+  if (p.last_visit === yesterdayISO()) {
+    p.streak += 1;
+  } else if (p.last_visit !== today) {
     p.streak = 1;
   }
   p.last_visit = today;
@@ -57,17 +65,20 @@ export function updateStreak(p: UserProgress): void {
 
 export function trackTermView(slug: string): number {
   const p = getProgress();
-  let gained = 0;
 
-  if (!p.viewed_terms.includes(slug)) {
-    p.viewed_terms.push(slug);
-    p.xp += 5;
-    gained = 5;
+  if (p.viewed_terms.includes(slug)) {
+    updateStreak(p);
+    saveProgress(p);
+    notifyUpdate();
+    return 0;
   }
 
+  p.viewed_terms.push(slug);
+  p.xp += 5;
   updateStreak(p);
   saveProgress(p);
-  return gained;
+  notifyUpdate();
+  return 5;
 }
 
 export function trackQuizAttempt(slug: string, correct: boolean): number {
@@ -82,6 +93,7 @@ export function trackQuizAttempt(slug: string, correct: boolean): number {
 
   updateStreak(p);
   saveProgress(p);
+  notifyUpdate();
   return gained;
 }
 

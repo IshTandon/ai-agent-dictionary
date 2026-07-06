@@ -3,7 +3,6 @@
 import { useState } from 'react';
 
 import { trackQuizAttempt } from '@/lib/progress';
-import { useProgress } from '@/lib/progress-context';
 
 interface QuizBlockProps {
   question: string;
@@ -21,7 +20,6 @@ export default function QuizBlock({ question, options, answer, explanation, slug
   const [revealed, setRevealed] = useState(false);
   const [xpGained, setXpGained] = useState<number | null>(null);
   const [shaking, setShaking] = useState(false);
-  const { triggerUpdate } = useProgress();
 
   const correctIndex = ANSWER_INDEX[answer];
 
@@ -32,7 +30,6 @@ export default function QuizBlock({ question, options, answer, explanation, slug
 
     const correct = index === correctIndex;
     const gained = trackQuizAttempt(slug, correct);
-    triggerUpdate();
     setXpGained(gained);
 
     if (!correct) {

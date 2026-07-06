@@ -2,68 +2,83 @@
 
 import { createContext, useContext, useEffect, useState, useCallback, type ReactNode } from 'react';
 
-import { getProgress, getLevel, type UserProgress } from './progress';
+import { getProgress, updateStreak, saveProgress } from './progress';
 
-interface ProgressContextValue {
+interface ProgressState {
   xp: number;
-  streak: number;
   level: number;
-  levelCurrent: number;
-  levelNeeded: number;
+  xpToNextLevel: number;
+  streak: number;
   viewedTerms: string[];
-  dailyTermViewed: string | null;
-  triggerUpdate: () => void;
+  quizResults: Record<string, { correct: boolean; timestamp: number }>;
 }
 
-const defaultValue: ProgressContextValue = {
+interface ProgressContextValue extends ProgressState {
+  refresh: () => void;
+}
+
+const defaultState: ProgressState = {
   xp: 0,
-  streak: 0,
   level: 1,
-  levelCurrent: 0,
-  levelNeeded: 100,
+  xpToNextLevel: 100,
+  streak: 0,
   viewedTerms: [],
-  dailyTermViewed: null,
-  triggerUpdate: () => {},
+  quizResults: {},
 };
 
-const ProgressContext = createContext<ProgressContextValue>(defaultValue);
+const ProgressContext = createContext<ProgressContextValue>({
+  ...defaultState,
+  refresh: () => {},
+});
 
 export function useProgress() {
   return useContext(ProgressContext);
 }
 
-function readState(p: UserProgress): Omit<ProgressContextValue, 'triggerUpdate'> {
-  const { level, current, needed } = getLevel(p.xp);
+function readState(): ProgressState {
+  const p = getProgress();
   return {
     xp: p.xp,
+    level: Math.floor(p.xp / 100) + 1,
+    xpToNextLevel: 100 - (p.xp % 100),
     streak: p.streak,
-    level,
-    levelCurrent: current,
-    levelNeeded: needed,
     viewedTerms: p.viewed_terms,
-    dailyTermViewed: p.daily_term_viewed,
+    quizResults: Object.fromEntries(
+      Object.entries(p.quiz_attempts).map(([k, v]) => [
+        k,
+        { correct: v.correct, timestamp: new Date(v.attempted_at).getTime() },
+      ])
+    ),
   };
 }
 
 export function ProgressProvider({ children }: { children: ReactNode }) {
-  const [state, setState] = useState<Omit<ProgressContextValue, 'triggerUpdate'>>(defaultValue);
+  const [state, setState] = useState<ProgressState>(defaultState);
 
-  const triggerUpdate = useCallback(() => {
-    setState(readState(getProgress()));
+  const refresh = useCallback(() => {
+    setState(readState());
   }, []);
 
   useEffect(() => {
-    triggerUpdate();
+    const p = getProgress();
+    updateStreak(p);
+    saveProgress(p);
+    refresh();
 
-    function onStorage() {
-      triggerUpdate();
+    function onProgressUpdate() {
+      refresh();
     }
-    window.addEventListener('storage', onStorage);
-    return () => window.removeEventListener('storage', onStorage);
-  }, [triggerUpdate]);
+
+    window.addEventListener('aad-progress-update', onProgressUpdate);
+    window.addEventListener('storage', onProgressUpdate);
+    return () => {
+      window.removeEventListener('aad-progress-update', onProgressUpdate);
+      window.removeEventListener('storage', onProgressUpdate);
+    };
+  }, [refresh]);
 
   return (
-    <ProgressContext.Provider value={{ ...state, triggerUpdate }}>
+    <ProgressContext.Provider value={{ ...state, refresh }}>
       {children}
     </ProgressContext.Provider>
   );

@@ -3,8 +3,8 @@
 import { useProgress } from '@/lib/progress-context';
 
 export default function XPBar() {
-  const { xp, level, levelCurrent, levelNeeded, streak } = useProgress();
-  const pct = Math.min((levelCurrent / levelNeeded) * 100, 100);
+  const { xp, level, xpToNextLevel, streak } = useProgress();
+  const pct = Math.min(((100 - xpToNextLevel) / 100) * 100, 100);
 
   if (xp === 0 && streak === 0) return null;
 

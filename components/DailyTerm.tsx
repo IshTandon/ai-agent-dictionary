@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 import { getDailyTerm, getProgress, saveProgress } from '@/lib/progress';
-import { useProgress } from '@/lib/progress-context';
 
 interface SerializedTerm {
   slug: string;
@@ -35,11 +34,12 @@ function getSymbol(name: string): string {
 }
 
 export default function DailyTerm({ terms }: DailyTermProps) {
-  const { dailyTermViewed, triggerUpdate } = useProgress();
-  const [mounted, setMounted] = useState(false);
+  const [dailyViewed, setDailyViewed] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
+    const p = getProgress();
+    const today = new Date().toISOString().slice(0, 10);
+    setDailyViewed(p.daily_term_viewed === today);
   }, []);
 
   const allSlugs = terms.map(t => t.slug);
@@ -50,14 +50,13 @@ export default function DailyTerm({ terms }: DailyTermProps) {
 
   const symbol = getSymbol(dailyTermData.term);
   const firstSentence = dailyTermData.definition_plain.split('. ')[0] + '.';
-  const today = new Date().toISOString().slice(0, 10);
-  const alreadyViewed = mounted && dailyTermViewed === today;
 
   function handleClick() {
-    if (alreadyViewed) return;
+    if (dailyViewed) return;
+    const today = new Date().toISOString().slice(0, 10);
     const p = getProgress();
     saveProgress({ ...p, daily_term_viewed: today });
-    triggerUpdate();
+    setDailyViewed(true);
   }
 
   return (
@@ -96,7 +95,7 @@ export default function DailyTerm({ terms }: DailyTermProps) {
             </p>
           </div>
         </div>
-        {!alreadyViewed && (
+        {!dailyViewed && (
           <span
             className="mt-3 inline-flex items-center gap-1.5 rounded-md px-2.5 py-1 text-[11px] font-semibold"
             style={{ backgroundColor: 'rgba(245,166,35,0.12)', color: 'var(--color-amber)' }}
