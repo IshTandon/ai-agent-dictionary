@@ -59,7 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   borderRadius: '7px',
                 }}
               >
-                Ai
+                Ad
               </div>
               <span className="font-[family-name:var(--font-display)] text-sm font-[800] tracking-tight" style={{ color: 'var(--color-text)' }}>
                 agentdict
