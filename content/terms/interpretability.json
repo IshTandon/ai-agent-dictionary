@@ -1,0 +1,10 @@
+{
+  "term": "Interpretability",
+  "slug": "interpretability",
+  "category": "Evaluation",
+  "tier": 3,
+  "definition_plain": "Interpretability is the study of understanding why a model does what it does — opening the black box to find which internal features activate for which concepts, and why a given input produced a given output. It is frontier safety work: if you can understand what a model is 'thinking,' you can catch misaligned behaviour before it causes harm.",
+  "related_terms": ["red-teaming", "guardrail", "hallucination", "llm-as-a-judge"],
+  "source_url": "https://transformer-circuits.pub/2022/toy_model/index.html",
+  "source_label": "Elhage et al., 2022 — Toy Models of Superposition"
+}

@@ -1,0 +1,10 @@
+{
+  "term": "Large Language Model",
+  "slug": "large-language-model",
+  "category": "Foundation",
+  "tier": 3,
+  "definition_plain": "A large language model (LLM) is a neural network trained on massive amounts of text that can generate, summarise, translate, and reason about language. It is the foundational engine underneath nearly every AI product — the thing that everything else (agents, RAG systems, guardrails) is built around. LLMs predict the most likely next token, and from that simple mechanism emerges surprisingly general capability.",
+  "related_terms": ["hallucination", "context-window", "fine-tuning", "embedding"],
+  "source_url": "https://arxiv.org/abs/2303.18223",
+  "source_label": "OpenAI et al., 2023 — GPT-4 Technical Report"
+}

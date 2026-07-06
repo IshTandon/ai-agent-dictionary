@@ -1,9 +1,30 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
 import { REACTIONS, GROUP_COLORS_DARK, type Reaction } from '@/lib/reactions';
+
+const ELEMENT_SLUGS: Record<string, string> = {
+  'Pr': 'prompting',
+  'Em': 'embedding',
+  'Lg': 'large-language-model',
+  'Fc': 'tool-use',
+  'Vx': 'vector-store',
+  'Rg': 'rag',
+  'Gr': 'guardrail',
+  'Mm': 'multimodal-models',
+  'Ag': 'agent',
+  'Ft': 'fine-tuning',
+  'Fw': 'ai-frameworks',
+  'Rt': 'red-teaming',
+  'Sm': 'small-models',
+  'Ma': 'multi-agent',
+  'Sy': 'synthetic-data',
+  'In': 'interpretability',
+  'Th': 'thinking-models',
+};
 import ReactionWalkthrough from './ReactionWalkthrough';
 
 type Group = 'G1' | 'G2' | 'G3' | 'G4' | 'G5';
@@ -50,6 +71,7 @@ export default function PeriodicTableView({
   groupLabels,
   rowLabels,
 }: PeriodicTableViewProps) {
+  const router = useRouter();
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [activePopover, setActivePopover] = useState<Group | null>(null);
   const [activeReaction, setActiveReaction] = useState<string | null>(null);
@@ -222,10 +244,18 @@ export default function PeriodicTableView({
 
                 if (el) {
                   const colors = groupColors[el.group];
-                  const inner = (
+                  const slug = ELEMENT_SLUGS[el.sym];
+                  return (
                     <div
-                      className="cell relative flex h-[80px] w-full cursor-pointer flex-col items-center justify-center rounded-[6px] transition-transform duration-150 hover:scale-[1.04]"
-                      style={{ backgroundColor: colors.bg, color: colors.text, minWidth: '72px' }}
+                      key={key}
+                      className="cell relative flex h-[80px] w-full flex-col items-center justify-center rounded-[6px] transition-transform duration-150 hover:scale-[1.04]"
+                      style={{
+                        backgroundColor: colors.bg,
+                        color: colors.text,
+                        minWidth: '72px',
+                        cursor: slug ? 'pointer' : 'default',
+                      }}
+                      onClick={slug ? () => router.push(`/terms/${slug}`) : undefined}
                     >
                       <span className="absolute right-1 top-1 font-[family-name:var(--font-mono)] text-[9px] tabular-nums" style={{ opacity: 0.6 }}>
                         {el.num}
@@ -238,7 +268,6 @@ export default function PeriodicTableView({
                       </span>
                     </div>
                   );
-                  return el.slug ? <Link key={key} href={`/terms/${el.slug}`}>{inner}</Link> : <div key={key}>{inner}</div>;
                 }
 
                 if (gap) {

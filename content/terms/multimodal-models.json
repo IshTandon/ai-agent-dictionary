@@ -1,0 +1,10 @@
+{
+  "term": "Multimodal Models",
+  "slug": "multimodal-models",
+  "category": "Foundation",
+  "tier": 3,
+  "definition_plain": "Multimodal models are LLMs that can process and generate multiple types of input and output — text, images, audio, and video — rather than text alone. They extend the foundational LLM capability to understand the world the way humans do: through more than just words. A model that reads a photo of a receipt and extracts line items is multimodal.",
+  "related_terms": ["large-language-model", "embedding", "computer-use"],
+  "source_url": "https://arxiv.org/abs/2309.11206",
+  "source_label": "OpenAI, 2023 — GPT-4V System Card"
+}

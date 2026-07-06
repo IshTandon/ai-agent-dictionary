@@ -1,0 +1,10 @@
+{
+  "term": "AI Frameworks",
+  "slug": "ai-frameworks",
+  "category": "Orchestration",
+  "tier": 3,
+  "definition_plain": "AI frameworks are platforms and libraries that provide the plumbing for building and deploying AI agent systems — handling the loop mechanics, tool registration, memory management, and deployment infrastructure so developers write business logic, not boilerplate. LangChain, LangGraph, CrewAI, and Strands Agents are all examples.",
+  "related_terms": ["langgraph", "crewai", "autogen", "agentic-loop", "tool-use"],
+  "source_url": "https://python.langchain.com/docs/introduction/",
+  "source_label": "LangChain Documentation"
+}

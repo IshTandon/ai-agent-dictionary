@@ -1,0 +1,10 @@
+{
+  "term": "Prompting",
+  "slug": "prompting",
+  "category": "Foundation",
+  "tier": 3,
+  "definition_plain": "Prompting is the act of giving instructions to an AI model through text input. It is the most basic unit of interaction — a prompt is the question, command, or context you provide, and everything the model does flows from it. Changing even a single word can dramatically change the output, which is why prompting is called the most reactive element in AI.",
+  "related_terms": ["prompt-injection", "chain-of-thought", "guardrail", "hallucination"],
+  "source_url": "https://www.promptingguide.ai/",
+  "source_label": "Prompt Engineering Guide — DAIR.AI"
+}

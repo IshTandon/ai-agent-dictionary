@@ -1,0 +1,10 @@
+{
+  "term": "Thinking Models",
+  "slug": "thinking-models",
+  "category": "Foundation",
+  "tier": 3,
+  "definition_plain": "Thinking models are LLMs that generate an explicit chain of reasoning before producing a final answer — spending extra compute at inference time to 'think through' a problem step by step. This test-time compute scaling makes them significantly better at maths, coding, and multi-step reasoning compared to models that answer immediately.",
+  "related_terms": ["chain-of-thought", "large-language-model", "agentic-loop"],
+  "source_url": "https://openai.com/index/learning-to-reason-with-llms/",
+  "source_label": "OpenAI, 2024 — Learning to Reason with LLMs"
+}

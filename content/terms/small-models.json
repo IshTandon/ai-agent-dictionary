@@ -1,0 +1,10 @@
+{
+  "term": "Small Models",
+  "slug": "small-models",
+  "category": "Foundation",
+  "tier": 3,
+  "definition_plain": "Small models are compact, specialised language models — typically 1B–7B parameters — that run fast, cheaply, and often locally on a device. They trade raw reasoning power for speed, cost, and privacy. A small model fine-tuned on a narrow domain can outperform a large general model on that specific task while running on a laptop.",
+  "related_terms": ["fine-tuning", "large-language-model", "latency-budget"],
+  "source_url": "https://arxiv.org/abs/2305.07759",
+  "source_label": "Touvron et al., 2023 — LLaMA 2"
+}
