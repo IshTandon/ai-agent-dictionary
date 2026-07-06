@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
-import { getDailyTerm, getProgress, saveProgress, type UserProgress } from '@/lib/progress';
+import { getDailyTerm, getProgress, saveProgress } from '@/lib/progress';
+import { useProgress } from '@/lib/progress-context';
 
 interface SerializedTerm {
   slug: string;
@@ -34,10 +35,11 @@ function getSymbol(name: string): string {
 }
 
 export default function DailyTerm({ terms }: DailyTermProps) {
-  const [progress, setProgress] = useState<UserProgress | null>(null);
+  const { dailyTermViewed, triggerUpdate } = useProgress();
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setProgress(getProgress());
+    setMounted(true);
   }, []);
 
   const allSlugs = terms.map(t => t.slug);
@@ -49,13 +51,13 @@ export default function DailyTerm({ terms }: DailyTermProps) {
   const symbol = getSymbol(dailyTermData.term);
   const firstSentence = dailyTermData.definition_plain.split('. ')[0] + '.';
   const today = new Date().toISOString().slice(0, 10);
-  const alreadyViewed = progress?.daily_term_viewed === today;
+  const alreadyViewed = mounted && dailyTermViewed === today;
 
   function handleClick() {
-    if (!progress || alreadyViewed) return;
-    const updated = { ...progress, daily_term_viewed: today };
-    saveProgress(updated);
-    setProgress(updated);
+    if (alreadyViewed) return;
+    const p = getProgress();
+    saveProgress({ ...p, daily_term_viewed: today });
+    triggerUpdate();
   }
 
   return (

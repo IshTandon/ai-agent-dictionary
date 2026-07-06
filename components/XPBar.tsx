@@ -1,26 +1,12 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-
-import { getProgress, getLevel, type UserProgress } from '@/lib/progress';
+import { useProgress } from '@/lib/progress-context';
 
 export default function XPBar() {
-  const [progress, setProgress] = useState<UserProgress | null>(null);
+  const { xp, level, levelCurrent, levelNeeded, streak } = useProgress();
+  const pct = Math.min((levelCurrent / levelNeeded) * 100, 100);
 
-  useEffect(() => {
-    setProgress(getProgress());
-
-    function onStorage() {
-      setProgress(getProgress());
-    }
-    window.addEventListener('storage', onStorage);
-    return () => window.removeEventListener('storage', onStorage);
-  }, []);
-
-  if (!progress) return null;
-
-  const { level, current, needed } = getLevel(progress.xp);
-  const pct = Math.min((current / needed) * 100, 100);
+  if (xp === 0 && streak === 0) return null;
 
   return (
     <div className="flex items-center gap-2">
@@ -41,12 +27,12 @@ export default function XPBar() {
           />
         </div>
         <span className="font-[family-name:var(--font-mono)] text-[10px] tabular-nums" style={{ color: 'var(--color-dim)' }}>
-          {progress.xp} XP
+          {xp} XP
         </span>
       </div>
-      {progress.streak > 0 && (
+      {streak > 0 && (
         <span className="text-[11px] font-medium" style={{ color: 'var(--color-amber)' }}>
-          🔥 {progress.streak}
+          🔥 {streak}
         </span>
       )}
     </div>

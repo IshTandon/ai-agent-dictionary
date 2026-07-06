@@ -2,22 +2,24 @@
 
 import { useEffect, useState } from 'react';
 
-import { trackTermView, getProgress } from '@/lib/progress';
+import { trackTermView } from '@/lib/progress';
+import { useProgress } from '@/lib/progress-context';
 
 interface TermViewTrackerProps {
   slug: string;
 }
 
 export default function TermViewTracker({ slug }: TermViewTrackerProps) {
+  const { viewedTerms, triggerUpdate } = useProgress();
   const [learned, setLearned] = useState(false);
 
   useEffect(() => {
     trackTermView(slug);
-    const p = getProgress();
-    setLearned(p.viewed_terms.includes(slug));
-  }, [slug]);
+    triggerUpdate();
+    setLearned(true);
+  }, [slug, triggerUpdate]);
 
-  if (!learned) return null;
+  if (!learned && !viewedTerms.includes(slug)) return null;
 
   return (
     <span

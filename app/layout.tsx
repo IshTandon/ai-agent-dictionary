@@ -3,6 +3,7 @@ import { Inter, JetBrains_Mono, Syne } from 'next/font/google';
 import Link from 'next/link';
 
 import { getAllTerms } from '@/lib/terms';
+import { ProgressProvider } from '@/lib/progress-context';
 import SearchBar from '@/components/SearchBar';
 import XPBar from '@/components/XPBar';
 import './globals.css';
@@ -44,6 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       style={{ backgroundColor: 'var(--color-bg)', color: 'var(--color-text)' }}
     >
       <body className="flex min-h-full flex-col" style={{ fontFamily: "'Inter', sans-serif" }}>
+        <ProgressProvider>
         <nav
           className="sticky top-0 z-50"
           style={{ backgroundColor: 'var(--color-surface)', borderBottom: '0.5px solid var(--color-border)' }}
@@ -89,6 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             . All definitions original. &copy; {new Date().getFullYear()} AgentDict
           </p>
         </footer>
+        </ProgressProvider>
       </body>
     </html>
   );
