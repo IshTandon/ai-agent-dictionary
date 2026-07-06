@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import { Inter, JetBrains_Mono, Syne } from 'next/font/google';
 import Link from 'next/link';
 
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import { getAllTerms } from '@/lib/terms';
 import { ProgressProvider } from '@/lib/progress-context';
 import SearchBar from '@/components/SearchBar';
@@ -92,6 +95,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </p>
         </footer>
         </ProgressProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
