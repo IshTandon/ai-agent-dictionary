@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { getAllSlugs, getTermBySlug } from '@/lib/terms';
 import TermCard from '@/components/TermCard';
 import TermViewTracker from '@/components/TermViewTracker';
+import BackButton from '@/components/BackButton';
 
 interface TermPageProps {
   params: Promise<{ slug: string }>;
@@ -30,6 +31,7 @@ export default async function TermPage({ params }: TermPageProps) {
   return (
     <div>
       <div className="mx-auto max-w-[720px] px-6 pt-4">
+        <BackButton />
         <TermViewTracker slug={slug} />
       </div>
       <TermCard term={term} slug={slug} />
