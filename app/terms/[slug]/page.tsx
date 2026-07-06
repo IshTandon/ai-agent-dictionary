@@ -29,7 +29,7 @@ export default async function TermPage({ params }: TermPageProps) {
   if (!term) notFound();
   return (
     <div>
-      <div className="mx-auto max-w-2xl px-6 pt-4">
+      <div className="mx-auto max-w-[720px] px-6 pt-4">
         <TermViewTracker slug={slug} />
       </div>
       <TermCard term={term} slug={slug} />

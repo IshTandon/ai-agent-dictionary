@@ -18,25 +18,21 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-border">
-        <div className="absolute inset-0 bg-gradient-to-b from-accent-indigo/5 via-transparent to-transparent" />
-        <div className="relative mx-auto max-w-6xl px-6 py-20 sm:py-28">
-          <div className="mx-auto max-w-2xl text-center">
-            <h1 className="font-[family-name:var(--font-display)] text-4xl font-bold tracking-tight text-text-primary sm:text-5xl lg:text-6xl">
-              Agent<span className="text-accent-indigo">Dict</span>
-            </h1>
-            <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed text-text-secondary">
-              Every AI agent term, explained in plain English. Updated daily.
-            </p>
-            <div className="mx-auto mt-8 w-full max-w-[480px]">
-              <SearchBar terms={allTerms} variant="hero" />
-            </div>
+      <section style={{ padding: '60px 24px', textAlign: 'center' }}>
+        <div className="mx-auto max-w-[720px]">
+          <h1 className="gradient-text font-[family-name:var(--font-display)] text-[40px] font-[800] leading-[1.1]">
+            The AI Agent Dictionary
+          </h1>
+          <p className="mx-auto mt-4 text-[16px]" style={{ color: 'var(--color-muted)' }}>
+            Every term. Plain English. No fluff.
+          </p>
+          <div className="mx-auto mt-8 max-w-[480px]">
+            <SearchBar terms={allTerms} variant="hero" />
           </div>
         </div>
       </section>
 
-      <div className="mx-auto max-w-6xl px-6 py-14">
-        {/* Daily Term */}
+      <div className="mx-auto max-w-[720px] px-6 pb-14">
         <DailyTerm
           terms={allTerms.map(t => ({
             slug: t.slug,
@@ -45,7 +41,6 @@ export default function HomePage() {
           }))}
         />
 
-        {/* Browse / Periodic Table toggle + content */}
         <TermsExplorer categories={categoriesData} />
       </div>
     </>

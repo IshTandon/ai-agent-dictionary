@@ -23,23 +23,29 @@ export default function XPBar() {
   const pct = Math.min((current / needed) * 100, 100);
 
   return (
-    <div className="flex items-center gap-2.5">
-      <div className="flex h-6 w-6 items-center justify-center rounded-md bg-accent-indigo text-[10px] font-bold text-white">
-        {level}
-      </div>
-      <div className="flex w-20 flex-col gap-0.5">
-        <div className="h-1.5 w-full overflow-hidden rounded-full bg-void-lighter">
+    <div className="flex items-center gap-2">
+      <div
+        className="flex items-center gap-2 rounded-full px-3 py-1"
+        style={{
+          backgroundColor: 'rgba(124,111,255,0.12)',
+          border: '1px solid rgba(124,111,255,0.3)',
+        }}
+      >
+        <span className="font-[family-name:var(--font-mono)] text-[10px] font-bold" style={{ color: 'var(--color-accent-soft)' }}>
+          Lv {level}
+        </span>
+        <div className="h-[3px] w-[50px] overflow-hidden rounded-full" style={{ backgroundColor: 'var(--color-border)' }}>
           <div
-            className="h-full rounded-full bg-accent-indigo transition-all duration-500"
-            style={{ width: `${pct}%` }}
+            className="h-full rounded-full transition-all duration-500"
+            style={{ width: `${pct}%`, backgroundColor: 'var(--color-accent)' }}
           />
         </div>
-        <span className="text-[9px] tabular-nums text-text-muted">
-          {current}/{needed} XP
+        <span className="font-[family-name:var(--font-mono)] text-[10px] tabular-nums" style={{ color: 'var(--color-dim)' }}>
+          {progress.xp} XP
         </span>
       </div>
       {progress.streak > 0 && (
-        <span className="flex items-center gap-0.5 text-[11px] font-medium text-accent-amber">
+        <span className="text-[11px] font-medium" style={{ color: 'var(--color-amber)' }}>
           🔥 {progress.streak}
         </span>
       )}

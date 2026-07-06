@@ -8,68 +8,90 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="mx-auto max-w-2xl px-6 py-12 sm:py-16">
+    <div className="mx-auto max-w-[720px] px-6 py-12">
       <header className="mb-10">
-        <h1 className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-text-primary sm:text-3xl">
+        <h1 className="gradient-text font-[family-name:var(--font-display)] text-2xl font-[800]">
           About
         </h1>
-        <p className="mt-3 text-sm leading-relaxed text-text-muted">
+        <p className="mt-3 text-sm leading-relaxed" style={{ color: 'var(--color-muted)' }}>
           A free, open reference for anyone working with AI agent technology.
         </p>
       </header>
 
-      <div className="space-y-6">
-        <section className="rounded-xl border border-border bg-surface p-6">
-          <h2 className="mb-3 font-[family-name:var(--font-display)] text-sm font-semibold text-text-primary">
+      <div className="flex flex-col gap-2.5">
+        <section
+          style={{
+            backgroundColor: 'var(--color-surface)',
+            borderRadius: '14px',
+            border: '0.5px solid var(--color-border)',
+            padding: '20px',
+          }}
+        >
+          <h2 className="mb-3 font-[family-name:var(--font-display)] text-sm font-[700]" style={{ color: 'var(--color-text)' }}>
             What is this?
           </h2>
-          <p className="text-sm leading-relaxed text-text-secondary">
+          <p className="text-[13px] leading-relaxed" style={{ color: 'var(--color-muted)' }}>
             Every term is explained in plain English with real-world scenarios, quizzes, and links
             to source material. Whether you&apos;re an engineer building with agents, a PM scoping an
             agent feature, or someone who just wants to keep up — this is your reference.
           </p>
         </section>
 
-        <section className="rounded-xl border border-border bg-surface p-6">
-          <h2 className="mb-4 font-[family-name:var(--font-display)] text-sm font-semibold text-text-primary">
+        <section
+          style={{
+            backgroundColor: 'var(--color-surface)',
+            borderRadius: '14px',
+            border: '0.5px solid var(--color-border)',
+            padding: '20px',
+          }}
+        >
+          <h2 className="mb-4 font-[family-name:var(--font-display)] text-sm font-[700]" style={{ color: 'var(--color-text)' }}>
             Content tiers
           </h2>
-          <div className="space-y-3">
-            <div className="flex items-start gap-3 rounded-lg border border-border bg-void-lighter p-3">
-              <span className="mt-0.5 h-2 w-2 shrink-0 rounded-full bg-accent-amber" />
-              <div>
-                <span className="text-sm font-medium text-text-primary">Deep dive</span>
-                <span className="ml-1 text-sm text-text-muted">— Definition, scenario, quiz, and real-world company example</span>
+          <div className="flex flex-col gap-2">
+            {[
+              { label: 'Deep dive', desc: 'Definition, scenario, quiz, and real-world company example', color: '#F5A623' },
+              { label: 'Detailed', desc: 'Definition, scenario, and quiz', color: '#A78BFA' },
+              { label: 'Core', desc: 'Definition and related terms', color: '#4A5580' },
+            ].map(t => (
+              <div
+                key={t.label}
+                className="flex items-start gap-3"
+                style={{
+                  backgroundColor: 'var(--color-card)',
+                  borderRadius: '10px',
+                  padding: '10px 14px',
+                }}
+              >
+                <span className="mt-1 h-2 w-2 shrink-0 rounded-full" style={{ backgroundColor: t.color }} />
+                <div>
+                  <span className="text-[13px] font-medium" style={{ color: 'var(--color-text)' }}>{t.label}</span>
+                  <span className="ml-1.5 text-[13px]" style={{ color: 'var(--color-dim)' }}>— {t.desc}</span>
+                </div>
               </div>
-            </div>
-            <div className="flex items-start gap-3 rounded-lg border border-border bg-void-lighter p-3">
-              <span className="mt-0.5 h-2 w-2 shrink-0 rounded-full bg-accent-indigo" />
-              <div>
-                <span className="text-sm font-medium text-text-primary">Detailed</span>
-                <span className="ml-1 text-sm text-text-muted">— Definition, scenario, and quiz</span>
-              </div>
-            </div>
-            <div className="flex items-start gap-3 rounded-lg border border-border bg-void-lighter p-3">
-              <span className="mt-0.5 h-2 w-2 shrink-0 rounded-full bg-text-muted" />
-              <div>
-                <span className="text-sm font-medium text-text-primary">Core</span>
-                <span className="ml-1 text-sm text-text-muted">— Definition and related terms</span>
-              </div>
-            </div>
+            ))}
           </div>
         </section>
 
-        <section className="rounded-xl border border-border bg-surface p-6">
-          <h2 className="mb-3 font-[family-name:var(--font-display)] text-sm font-semibold text-text-primary">
+        <section
+          style={{
+            backgroundColor: 'var(--color-surface)',
+            borderRadius: '14px',
+            border: '0.5px solid var(--color-border)',
+            padding: '20px',
+          }}
+        >
+          <h2 className="mb-3 font-[family-name:var(--font-display)] text-sm font-[700]" style={{ color: 'var(--color-text)' }}>
             Attribution
           </h2>
-          <p className="text-sm leading-relaxed text-text-secondary">
+          <p className="text-[13px] leading-relaxed" style={{ color: 'var(--color-muted)' }}>
             Term selection inspired by{' '}
             <a
               href="https://hidekazu-konishi.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-accent-indigo-light underline decoration-accent-indigo/30 underline-offset-2 hover:text-accent-indigo hover:decoration-accent-indigo"
+              className="font-medium transition-colors"
+              style={{ color: 'var(--color-accent-soft)' }}
             >
               Hidekazu Konishi&apos;s AI Agent Engineering Glossary
             </a>
@@ -81,12 +103,17 @@ export default function AboutPage() {
         <div className="pt-4 text-center">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 rounded-lg border border-border bg-surface px-4 py-2 text-sm font-medium text-text-secondary transition-all hover:border-accent-indigo/40 hover:text-accent-indigo-light"
+            className="inline-flex items-center gap-2 rounded-lg px-4 py-2 text-[13px] font-medium transition-colors"
+            style={{
+              backgroundColor: 'var(--color-surface)',
+              border: '0.5px solid var(--color-border)',
+              color: 'var(--color-muted)',
+            }}
           >
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Back to atlas
+            Back to dictionary
           </Link>
         </div>
       </div>

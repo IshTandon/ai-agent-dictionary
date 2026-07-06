@@ -18,7 +18,12 @@ export default function RelatedTerms({ slugs }: RelatedTermsProps) {
             <Link
               key={slug}
               href={`/terms/${slug}`}
-              className="inline-flex items-center gap-1.5 rounded-md border border-border bg-void-lighter px-3 py-1.5 text-xs font-medium text-text-secondary transition-all hover:border-accent-indigo/40 hover:text-accent-indigo-light"
+              className="inline-flex items-center rounded-full px-3 py-1 text-[12px] transition-colors"
+              style={{
+                backgroundColor: 'var(--color-card)',
+                border: '0.5px solid var(--color-border)',
+                color: 'var(--color-muted)',
+              }}
             >
               {label}
             </Link>
@@ -27,7 +32,12 @@ export default function RelatedTerms({ slugs }: RelatedTermsProps) {
         return (
           <span
             key={slug}
-            className="inline-flex items-center rounded-md border border-border bg-void-lighter px-3 py-1.5 text-xs text-text-muted"
+            className="inline-flex items-center rounded-full px-3 py-1 text-[12px]"
+            style={{
+              backgroundColor: 'var(--color-card)',
+              border: '0.5px solid var(--color-border)',
+              color: 'var(--color-dim)',
+            }}
           >
             {label}
           </span>

@@ -12,6 +12,7 @@ interface QuizBlockProps {
   slug: string;
 }
 
+const LETTERS = ['A', 'B', 'C', 'D'];
 const ANSWER_INDEX: Record<string, number> = { A: 0, B: 1, C: 2, D: 3 };
 
 export default function QuizBlock({ question, options, answer, explanation, slug }: QuizBlockProps) {
@@ -39,62 +40,107 @@ export default function QuizBlock({ question, options, answer, explanation, slug
     setTimeout(() => setXpGained(null), 2000);
   }
 
-  function getOptionStyle(index: number): string {
-    const base = 'quiz-option w-full text-left rounded-lg border px-4 py-3 text-sm leading-relaxed';
-    if (!revealed) {
-      return `${base} border-border bg-surface text-text-secondary cursor-pointer`;
-    }
+  function getOptionStyle(index: number): React.CSSProperties {
+    const base: React.CSSProperties = {
+      backgroundColor: 'var(--color-card)',
+      border: '0.5px solid var(--color-border)',
+      borderRadius: '10px',
+      padding: '10px 12px',
+      cursor: revealed ? 'default' : 'pointer',
+      transition: 'border-color 0.15s ease, background 0.15s ease',
+    };
+
+    if (!revealed) return base;
+
     if (index === correctIndex) {
-      return `${base} border-emerald-500/40 bg-emerald-500/10 text-emerald-300`;
+      return {
+        ...base,
+        borderColor: '#10B981',
+        backgroundColor: 'rgba(16,185,129,0.08)',
+      };
     }
     if (index === selected && index !== correctIndex) {
-      return `${base} border-red-500/40 bg-red-500/10 text-red-300`;
+      return {
+        ...base,
+        borderColor: '#EF4444',
+        backgroundColor: 'rgba(239,68,68,0.06)',
+      };
     }
-    return `${base} border-border bg-surface/30 text-text-muted`;
+    return { ...base, opacity: 0.5 };
+  }
+
+  function getLetterColor(index: number): string {
+    if (!revealed) return 'var(--color-accent-soft)';
+    if (index === correctIndex) return '#10B981';
+    if (index === selected && index !== correctIndex) return '#EF4444';
+    return 'var(--color-dim)';
+  }
+
+  function getTextColor(index: number): string {
+    if (!revealed) return 'var(--color-muted)';
+    if (index === correctIndex) return 'var(--color-text)';
+    if (index === selected && index !== correctIndex) return 'var(--color-muted)';
+    return 'var(--color-dim)';
   }
 
   return (
-    <div className={`relative rounded-xl border border-accent-indigo/20 bg-accent-indigo-dim/20 overflow-hidden ${shaking ? 'shake' : ''}`}>
+    <div className={`relative ${shaking ? 'shake' : ''}`}>
       {xpGained !== null && (
-        <div className="xp-toast absolute right-4 top-3 z-10 rounded-md bg-emerald-500/20 px-2.5 py-1 text-xs font-bold text-emerald-400">
+        <div
+          className="xp-toast absolute right-0 -top-2 z-10 rounded-lg px-2.5 py-1 font-[family-name:var(--font-mono)] text-[11px] font-bold"
+          style={{ backgroundColor: 'rgba(16,185,129,0.15)', color: '#6EE7B7' }}
+        >
           +{xpGained} XP
         </div>
       )}
-      <div className="flex items-center gap-2 border-b border-accent-indigo/10 px-5 py-3">
-        <svg className="h-4 w-4 text-accent-indigo-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-        </svg>
-        <span className="font-[family-name:var(--font-display)] text-[11px] font-semibold uppercase tracking-wider text-accent-indigo-light">
-          Test yourself
-        </span>
-      </div>
-      <div className="p-5">
-        <p className="mb-5 text-sm font-medium leading-relaxed text-text-primary">{question}</p>
-        <div className="space-y-2">
-          {options.map((option, i) => (
-            <button
-              key={i}
-              onClick={() => handleSelect(i)}
-              className={getOptionStyle(i)}
-              disabled={revealed}
+
+      <p className="mb-4 text-[14px] leading-[1.65]" style={{ color: 'var(--color-text)' }}>
+        {question}
+      </p>
+
+      <div className="flex flex-col gap-2">
+        {options.map((option, i) => (
+          <button
+            key={i}
+            onClick={() => handleSelect(i)}
+            className="quiz-option flex w-full items-start gap-2.5 text-left"
+            style={getOptionStyle(i)}
+            disabled={revealed}
+          >
+            <span
+              className="shrink-0 font-[family-name:var(--font-mono)] text-[11px] font-bold"
+              style={{ color: getLetterColor(i), marginTop: '1px' }}
             >
+              {LETTERS[i]}
+            </span>
+            <span className="text-[13px]" style={{ color: getTextColor(i) }}>
               {option}
-            </button>
-          ))}
-        </div>
-        {revealed && (
-          <div className={`mt-4 rounded-lg border p-4 text-sm leading-relaxed ${
-            selected === correctIndex
-              ? 'border-emerald-500/30 bg-emerald-500/10 text-emerald-200'
-              : 'border-amber-500/30 bg-amber-500/10 text-amber-200'
-          }`}>
-            <span className="font-semibold">
+            </span>
+          </button>
+        ))}
+      </div>
+
+      {revealed && (
+        <div
+          className="mt-3"
+          style={{
+            backgroundColor: selected === correctIndex ? 'rgba(16,185,129,0.08)' : 'rgba(239,68,68,0.06)',
+            border: selected === correctIndex ? '0.5px solid rgba(16,185,129,0.25)' : '0.5px solid rgba(239,68,68,0.2)',
+            borderRadius: '10px',
+            padding: '10px 12px',
+          }}
+        >
+          <p className="text-[12px] leading-relaxed" style={{ color: selected === correctIndex ? '#6EE7B7' : '#FCA5A5' }}>
+            <span className="font-bold" style={{ color: selected === correctIndex ? '#10B981' : '#EF4444' }}>
               {selected === correctIndex ? 'Correct.' : 'Not quite.'}
             </span>{' '}
-            {explanation}
-          </div>
-        )}
-      </div>
+            {explanation}{' '}
+            <span style={{ color: selected === correctIndex ? '#10B981' : 'var(--color-dim)' }}>
+              {selected === correctIndex ? '+25 XP earned.' : '+10 XP for trying.'}
+            </span>
+          </p>
+        </div>
+      )}
     </div>
   );
 }

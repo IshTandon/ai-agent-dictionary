@@ -25,15 +25,15 @@ export const CATEGORY_SLUGS: Record<Category, string> = {
 };
 
 export const CATEGORY_COLORS: Record<Category, string> = {
-  Foundation: '#6366F1',
-  Memory: '#8B5CF6',
-  Tools: '#F59E0B',
-  Protocols: '#06B6D4',
-  Retrieval: '#10B981',
-  Orchestration: '#EC4899',
-  Evaluation: '#14B8A6',
-  Security: '#EF4444',
-  Observability: '#F97316',
+  Foundation: '#7C6FFF',
+  Memory: '#378ADD',
+  Tools: '#1D9E75',
+  Protocols: '#D85A30',
+  Retrieval: '#BA7517',
+  Orchestration: '#639922',
+  Evaluation: '#D4537E',
+  Security: '#E24B4A',
+  Observability: '#888780',
 };
 
 export const CATEGORY_DESCRIPTIONS: Record<Category, string> = {

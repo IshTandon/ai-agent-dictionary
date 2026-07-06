@@ -20,7 +20,10 @@ export default function TermViewTracker({ slug }: TermViewTrackerProps) {
   if (!learned) return null;
 
   return (
-    <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2.5 py-0.5 text-xs font-medium text-emerald-400">
+    <span
+      className="inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[11px] font-medium"
+      style={{ backgroundColor: 'rgba(16,185,129,0.12)', color: '#10B981' }}
+    >
       ✓ Learned
     </span>
   );
