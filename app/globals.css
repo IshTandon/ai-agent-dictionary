@@ -99,3 +99,20 @@ a {
 .xp-toast {
   animation: xp-toast 1.5s ease-out forwards;
 }
+
+/* Periodic table fullscreen */
+@media (orientation: landscape) and (display-mode: fullscreen) {
+  .periodic-table-grid {
+    grid-template-columns: 60px repeat(5, 1fr) !important;
+    min-width: unset !important;
+    width: 100% !important;
+  }
+  .cell { min-height: 100px; }
+  .cell-sym { font-size: 28px !important; }
+}
+
+/* Mobile rotate hint */
+.mobile-rotate-hint { display: none; }
+@media (max-width: 600px) {
+  .mobile-rotate-hint { display: block; }
+}
