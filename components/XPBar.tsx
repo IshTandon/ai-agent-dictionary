@@ -11,7 +11,7 @@ export default function XPBar() {
   return (
     <div className="flex shrink-0 items-center gap-2 whitespace-nowrap">
       <div
-        className="flex items-center gap-1.5 rounded-full px-2.5 py-1"
+        className="flex items-center gap-1.5 rounded-full px-2.5 py-1 whitespace-nowrap"
         style={{
           backgroundColor: 'rgba(139,124,255,0.12)',
           border: '1px solid rgba(139,124,255,0.25)',
@@ -20,13 +20,13 @@ export default function XPBar() {
         <span className="font-[family-name:var(--font-mono)] text-[10px] font-bold" style={{ color: 'var(--color-accent-soft)' }}>
           Lv {level}
         </span>
-        <span className="hidden font-[family-name:var(--font-mono)] text-[10px] tabular-nums sm:inline" style={{ color: 'var(--color-dim)' }}>
+        <span className="font-[family-name:var(--font-mono)] text-[10px] tabular-nums" style={{ color: 'var(--color-dim)' }}>
           ·
         </span>
-        <span className="hidden font-[family-name:var(--font-mono)] text-[10px] tabular-nums sm:inline" style={{ color: 'var(--color-dim)' }}>
+        <span className="font-[family-name:var(--font-mono)] text-[10px] tabular-nums" style={{ color: 'var(--color-dim)' }}>
           {xp} XP
         </span>
-        <div className="hidden h-[3px] w-[40px] overflow-hidden rounded-full sm:block" style={{ backgroundColor: 'var(--color-border)' }}>
+        <div className="hidden h-[3px] w-[40px] overflow-hidden rounded-full md:block" style={{ backgroundColor: 'var(--color-border)' }}>
           <div
             className="h-full rounded-full transition-all duration-500"
             style={{ width: `${pct}%`, backgroundColor: 'var(--color-accent)' }}

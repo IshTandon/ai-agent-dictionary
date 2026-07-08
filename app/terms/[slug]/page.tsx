@@ -30,7 +30,7 @@ export default async function TermPage({ params }: TermPageProps) {
   if (!term) notFound();
   return (
     <div>
-      <div className="mx-auto flex max-w-[720px] items-center justify-between px-6 py-3">
+      <div className="mx-auto flex max-w-[720px] items-center justify-between px-4 py-3">
         <BackButton />
         <TermViewTracker slug={slug} />
       </div>

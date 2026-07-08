@@ -55,7 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           className="sticky top-0 z-50"
           style={{ backgroundColor: 'var(--color-surface)', borderBottom: '0.5px solid var(--color-border)' }}
         >
-          <div className="mx-auto flex max-w-5xl items-center gap-2 px-4 py-2.5 sm:gap-3 sm:px-6 sm:py-3">
+          <div className="mx-auto flex max-w-5xl flex-nowrap items-center justify-between gap-3 px-4 py-2.5 sm:px-6 sm:py-3">
             <Link href="/" className="flex items-center gap-2 shrink-0">
               <div
                 className="flex h-7 w-7 items-center justify-center font-[family-name:var(--font-mono)] text-[11px] font-bold text-white"
@@ -76,7 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="ml-auto flex items-center gap-1">
               <Link
                 href="/whats-new"
-                className="nav-link relative hidden rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors sm:inline-flex"
+                className="nav-link relative hidden rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors md:inline-flex"
                 style={{ color: 'var(--color-muted)' }}
               >
                 What&apos;s New
@@ -84,7 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </Link>
               <Link
                 href="/table"
-                className="nav-link hidden rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors sm:inline-flex"
+                className="nav-link hidden rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors md:inline-flex"
                 style={{ color: 'var(--color-muted)' }}
               >
                 Periodic Table
@@ -96,7 +96,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               >
                 About
               </Link>
-              <div className="ml-1 hidden sm:block">
+              <div className="ml-1 hidden md:block">
                 <SearchBar terms={allTerms} variant="nav" />
               </div>
             </div>
