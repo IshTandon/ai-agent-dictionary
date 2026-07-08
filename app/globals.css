@@ -185,6 +185,21 @@ a {
   background: var(--color-dim);
 }
 
+/* Trending pill hover */
+.trending-pill:hover {
+  border-color: #7C6FFF !important;
+  color: var(--color-text) !important;
+}
+
+/* Hide scrollbar for trending strip */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 /* Keyboard shortcut hint */
 kbd {
   font-family: var(--font-mono), monospace;

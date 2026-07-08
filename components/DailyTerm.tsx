@@ -43,50 +43,54 @@ export default function DailyTerm({ terms }: DailyTermProps) {
   }
 
   return (
-    <section className="mb-12">
-      <Link
-        href={`/terms/${dailySlug}`}
-        onClick={handleClick}
-        className="card-lift block"
-        style={{
-          backgroundColor: 'var(--color-surface)',
-          borderRadius: '14px',
-          border: '0.5px solid var(--color-border)',
-          borderLeft: '3px solid var(--color-amber)',
-          padding: '20px 24px',
-        }}
-      >
-        <div className="mb-3 inline-flex items-center gap-2 rounded-full px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-[0.08em]"
-          style={{ backgroundColor: 'rgba(245,166,35,0.12)', color: 'var(--color-amber)' }}
+    <Link
+      href={`/terms/${dailySlug}`}
+      onClick={handleClick}
+      className="card-lift block"
+      style={{
+        backgroundColor: 'var(--color-surface)',
+        borderRadius: '12px',
+        border: '0.5px solid var(--color-border)',
+        borderLeft: '3px solid var(--color-amber)',
+        padding: '14px 16px',
+      }}
+    >
+      <div className="flex items-center gap-3">
+        <span
+          className="shrink-0 font-[family-name:var(--font-mono)] text-[24px] font-bold leading-none"
+          style={{ color: 'var(--color-amber)', opacity: 0.5 }}
         >
-          <span className="h-1.5 w-1.5 rounded-full" style={{ backgroundColor: 'var(--color-amber)' }} />
-          Today&apos;s term
-        </div>
-        <div className="flex items-center gap-4">
-          <span
-            className="shrink-0 font-[family-name:var(--font-mono)] text-[36px] font-bold leading-none"
-            style={{ color: 'var(--color-amber)', opacity: 0.6 }}
-          >
-            {symbol}
-          </span>
-          <div className="min-w-0 flex-1">
-            <h3 className="mb-1 font-[family-name:var(--font-display)] text-lg font-[700]" style={{ color: 'var(--color-text)' }}>
+          {symbol}
+        </span>
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center gap-2">
+            <span
+              className="inline-flex items-center gap-1.5 rounded-full px-2 py-0.5 text-[9px] font-semibold uppercase tracking-[0.08em]"
+              style={{ backgroundColor: 'rgba(245,166,35,0.12)', color: 'var(--color-amber)' }}
+            >
+              <span className="h-1 w-1 rounded-full" style={{ backgroundColor: 'var(--color-amber)' }} />
+              Today
+            </span>
+            <span className="text-[13px] font-medium" style={{ color: 'var(--color-text)' }}>
               {dailyTermData.term}
-            </h3>
-            <p className="text-[13px] leading-relaxed" style={{ color: 'var(--color-muted)' }}>
-              {firstSentence}
-            </p>
+            </span>
+            {!dailyViewed && (
+              <span
+                className="rounded px-1.5 py-0.5 text-[9px] font-bold tabular-nums"
+                style={{ backgroundColor: 'rgba(245,166,35,0.12)', color: 'var(--color-amber)' }}
+              >
+                +25 XP
+              </span>
+            )}
           </div>
+          <p className="mt-1 line-clamp-1 text-[12px] leading-relaxed" style={{ color: 'var(--color-muted)' }}>
+            {firstSentence}
+          </p>
         </div>
-        {!dailyViewed && (
-          <span
-            className="mt-3 inline-flex items-center gap-1.5 rounded-md px-2.5 py-1 text-[11px] font-semibold"
-            style={{ backgroundColor: 'rgba(245,166,35,0.12)', color: 'var(--color-amber)' }}
-          >
-            +25 XP bonus
-          </span>
-        )}
-      </Link>
-    </section>
+        <svg className="h-4 w-4 shrink-0" style={{ color: 'var(--color-dim)' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+        </svg>
+      </div>
+    </Link>
   );
 }
