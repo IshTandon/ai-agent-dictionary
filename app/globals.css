@@ -71,11 +71,44 @@ a {
 
 /* Card hover lift */
 .card-lift {
-  transition: transform 0.15s ease, border-color 0.15s ease;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .card-lift:hover {
   transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Nav link hover */
+.nav-link:hover {
+  color: var(--color-text) !important;
+  background-color: var(--color-card);
+}
+
+/* News ticker */
+.news-ticker {
+  background: linear-gradient(90deg, rgba(124,111,255,0.06) 0%, rgba(16,185,129,0.06) 100%);
+  border-bottom: 0.5px solid var(--color-border);
+}
+
+.news-pulse {
+  background-color: rgba(16,185,129,0.15);
+  color: var(--color-green);
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+.news-link {
+  color: var(--color-muted);
+  transition: color 0.15s ease;
+}
+
+.news-link:hover {
+  color: var(--color-text);
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
 }
 
 /* Gamification animations */
@@ -100,6 +133,22 @@ a {
   animation: xp-toast 1.5s ease-out forwards;
 }
 
+/* Fade in animation for page content */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in-up 0.4s ease-out;
+}
+
 /* Periodic table fullscreen */
 @media (orientation: landscape) and (display-mode: fullscreen) {
   .periodic-table-grid {
@@ -115,4 +164,28 @@ a {
 .mobile-rotate-hint { display: none; }
 @media (max-width: 600px) {
   .mobile-rotate-hint { display: block; }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-dim);
+}
+
+/* Keyboard shortcut hint */
+kbd {
+  font-family: var(--font-mono), monospace;
 }

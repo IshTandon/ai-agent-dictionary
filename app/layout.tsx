@@ -9,6 +9,7 @@ import { getAllTerms } from '@/lib/terms';
 import { ProgressProvider } from '@/lib/progress-context';
 import SearchBar from '@/components/SearchBar';
 import XPBar from '@/components/XPBar';
+import KeyboardShortcut from '@/components/KeyboardShortcut';
 import './globals.css';
 
 const inter = Inter({
@@ -49,6 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <body className="flex min-h-full flex-col" style={{ fontFamily: "'Inter', sans-serif" }}>
         <ProgressProvider>
+        <KeyboardShortcut />
         <nav
           className="sticky top-0 z-50"
           style={{ backgroundColor: 'var(--color-surface)', borderBottom: '0.5px solid var(--color-border)' }}
@@ -71,28 +73,90 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
             <XPBar />
 
-            <div className="ml-auto hidden sm:block">
-              <SearchBar terms={allTerms} variant="nav" />
+            {/* Nav links */}
+            <div className="ml-auto flex items-center gap-1">
+              <Link
+                href="/whats-new"
+                className="nav-link relative rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors"
+                style={{ color: 'var(--color-muted)' }}
+              >
+                What&apos;s New
+                <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 rounded-full" style={{ backgroundColor: 'var(--color-green)' }} />
+              </Link>
+              <Link
+                href="/table"
+                className="nav-link hidden rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors sm:inline-flex"
+                style={{ color: 'var(--color-muted)' }}
+              >
+                Periodic Table
+              </Link>
+              <Link
+                href="/about"
+                className="nav-link hidden rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors sm:inline-flex"
+                style={{ color: 'var(--color-muted)' }}
+              >
+                About
+              </Link>
+              <div className="ml-1 hidden sm:block">
+                <SearchBar terms={allTerms} variant="nav" />
+              </div>
             </div>
           </div>
         </nav>
 
         <main className="flex-1">{children}</main>
 
-        <footer style={{ borderTop: '1px solid var(--color-border)', padding: '24px' }}>
-          <p className="text-center text-[11px]" style={{ color: 'var(--color-dim)' }}>
-            Term selection inspired by{' '}
-            <a
-              href="https://hidekazu-konishi.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors"
-              style={{ color: 'var(--color-muted)' }}
-            >
-              Hidekazu Konishi
-            </a>
-            . All definitions original. &copy; {new Date().getFullYear()} AgentDict
-          </p>
+        <footer style={{ borderTop: '1px solid var(--color-border)' }}>
+          <div className="mx-auto max-w-5xl px-6 py-8">
+            <div className="flex flex-col items-center gap-5 sm:flex-row sm:justify-between">
+              <div className="flex items-center gap-2.5">
+                <div
+                  className="flex h-6 w-6 items-center justify-center font-[family-name:var(--font-mono)] text-[9px] font-bold text-white"
+                  style={{
+                    background: 'linear-gradient(135deg, #7C6FFF 0%, #A78BFA 100%)',
+                    borderRadius: '6px',
+                  }}
+                >
+                  Ad
+                </div>
+                <span className="text-[12px] font-medium" style={{ color: 'var(--color-dim)' }}>
+                  AgentDict &mdash; Updated daily
+                </span>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <Link href="/whats-new" className="text-[11px] transition-colors" style={{ color: 'var(--color-dim)' }}>
+                  What&apos;s New
+                </Link>
+                <Link href="/table" className="text-[11px] transition-colors" style={{ color: 'var(--color-dim)' }}>
+                  Periodic Table
+                </Link>
+                <Link href="/about" className="text-[11px] transition-colors" style={{ color: 'var(--color-dim)' }}>
+                  About
+                </Link>
+              </div>
+            </div>
+
+            <div className="mt-5 text-center sm:text-left" style={{ borderTop: '0.5px solid var(--color-border)', paddingTop: '16px' }}>
+              <p className="text-[11px]" style={{ color: 'var(--color-dim)' }}>
+                Term selection inspired by{' '}
+                <a
+                  href="https://hidekazu-konishi.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors"
+                  style={{ color: 'var(--color-muted)' }}
+                >
+                  Hidekazu Konishi
+                </a>
+                . All definitions original. Press{' '}
+                <kbd className="rounded px-1 py-0.5 font-[family-name:var(--font-mono)] text-[10px]" style={{ backgroundColor: 'var(--color-card)', border: '0.5px solid var(--color-border)' }}>
+                  Ctrl+K
+                </kbd>{' '}
+                to search. &copy; {new Date().getFullYear()} AgentDict
+              </p>
+            </div>
+          </div>
         </footer>
         </ProgressProvider>
         <Analytics />
