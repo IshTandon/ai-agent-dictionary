@@ -48,7 +48,7 @@ export default function WhatsNewPage() {
           </svg>
           Home
         </Link>
-        <h1 className="gradient-text font-[family-name:var(--font-display)] text-2xl font-[800]">
+        <h1 className="gradient-text font-[family-name:var(--font-display)] text-2xl font-[700]">
           What&apos;s New
         </h1>
         <p className="mt-3 text-sm leading-relaxed" style={{ color: 'var(--color-muted)' }}>

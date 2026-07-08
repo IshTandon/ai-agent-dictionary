@@ -10,7 +10,7 @@ export default function AboutPage() {
   return (
     <div className="mx-auto max-w-[720px] px-6 py-12">
       <header className="mb-10">
-        <h1 className="gradient-text font-[family-name:var(--font-display)] text-2xl font-[800]">
+        <h1 className="gradient-text font-[family-name:var(--font-display)] text-2xl font-[700]">
           About
         </h1>
         <p className="mt-3 text-sm leading-relaxed" style={{ color: 'var(--color-muted)' }}>

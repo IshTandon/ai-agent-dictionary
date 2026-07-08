@@ -66,7 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               >
                 Ad
               </div>
-              <span className="hidden font-[family-name:var(--font-display)] text-sm font-[800] tracking-tight sm:inline" style={{ color: 'var(--color-text)' }}>
+              <span className="hidden font-[family-name:var(--font-display)] text-sm font-[700] tracking-tight sm:inline" style={{ color: 'var(--color-text)' }}>
                 agentdict
               </span>
             </Link>

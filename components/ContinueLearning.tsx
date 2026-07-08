@@ -71,7 +71,7 @@ export default function ContinueLearning({ categories }: ContinueLearningProps) 
       >
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.08em]" style={{ color: 'var(--color-dim)' }}>
+            <p className="text-xs font-medium uppercase tracking-widest" style={{ color: 'var(--color-muted)' }}>
               Start learning
             </p>
             <p className="mt-1 font-[family-name:var(--font-display)] text-[15px] font-[700]" style={{ color: 'var(--color-text)' }}>
@@ -104,7 +104,7 @@ export default function ContinueLearning({ categories }: ContinueLearningProps) 
     >
       <div className="flex items-center justify-between">
         <div className="min-w-0 flex-1">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.08em]" style={{ color: 'var(--color-dim)' }}>
+          <p className="text-xs font-medium uppercase tracking-widest" style={{ color: 'var(--color-muted)' }}>
             Continue learning
           </p>
           <p className="mt-1 font-[family-name:var(--font-display)] text-[15px] font-[700]" style={{ color: 'var(--color-text)' }}>

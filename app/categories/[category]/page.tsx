@@ -52,7 +52,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         <div className="mb-2 flex items-center gap-3">
           <span className="h-3 w-3 rounded-sm" style={{ backgroundColor: catColor }} />
           <h1
-            className="font-[family-name:var(--font-display)] text-2xl font-[800]"
+            className="font-[family-name:var(--font-display)] text-3xl font-[700] tracking-tight md:text-5xl"
             style={{ color: catColor }}
           >
             {category}

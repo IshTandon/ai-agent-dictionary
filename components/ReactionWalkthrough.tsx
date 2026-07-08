@@ -68,10 +68,10 @@ export default function ReactionWalkthrough({ reaction, onDone }: ReactionWalkth
 
       {/* Step content */}
       <div className="px-5 py-5">
-        <p className="mb-2 text-[10px] font-semibold uppercase tracking-[0.08em]" style={{ color: 'var(--color-accent)' }}>
+        <p className="mb-2 text-xs font-medium uppercase tracking-widest" style={{ color: 'var(--color-muted)' }}>
           Step {activeStep + 1} of {total} &middot; {step.sym}
         </p>
-        <h3 className="mb-3 font-[family-name:var(--font-display)] text-[20px] font-[800] leading-tight" style={{ color: 'var(--color-text)' }}>
+        <h3 className="mb-3 font-[family-name:var(--font-display)] text-[20px] font-[700] leading-tight" style={{ color: 'var(--color-text)' }}>
           {step.title}
         </h3>
         <p className="mb-4 text-[13px] leading-[1.65]" style={{ color: 'var(--color-muted)' }}>

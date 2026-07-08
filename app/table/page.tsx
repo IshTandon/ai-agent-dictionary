@@ -75,7 +75,7 @@ export default function PeriodicTablePage() {
             Home
           </Link>
         </div>
-        <h1 className="font-[family-name:var(--font-display)] text-2xl font-[800] tracking-tight sm:text-3xl" style={{ color: 'var(--color-text)' }}>
+        <h1 className="font-[family-name:var(--font-display)] text-2xl font-[700] tracking-tight sm:text-3xl" style={{ color: 'var(--color-text)' }}>
           Periodic Table of AI
         </h1>
         <p className="mt-2 text-[13px]" style={{ color: 'var(--color-muted)' }}>

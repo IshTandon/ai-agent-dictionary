@@ -65,7 +65,7 @@ export default function TermCard({ term, slug }: TermCardProps) {
 
           {/* Term name */}
           <h1
-            className="gradient-text mb-4 font-[family-name:var(--font-display)] text-3xl font-[700] leading-[1.15] tracking-tight sm:text-4xl"
+            className="gradient-text mb-4 font-[family-name:var(--font-display)] text-4xl font-[700] leading-[1.05] tracking-tight md:text-6xl"
           >
             {term.term}
           </h1>
@@ -88,7 +88,7 @@ export default function TermCard({ term, slug }: TermCardProps) {
             padding: '20px',
           }}
         >
-          <p className="section-label mb-4 text-[10px] font-semibold uppercase tracking-[0.08em]" style={{ color: 'var(--color-dim)' }}>
+          <p className="section-label mb-4 text-xs font-medium uppercase tracking-widest" style={{ color: 'var(--color-muted)' }}>
             Scenario
           </p>
 
@@ -102,7 +102,7 @@ export default function TermCard({ term, slug }: TermCardProps) {
               padding: '12px 14px',
             }}
           >
-            <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-[0.08em]" style={{ color: 'var(--color-accent-soft)' }}>
+            <p className="mb-1.5 text-xs font-medium uppercase tracking-widest" style={{ color: 'var(--color-muted)' }}>
               In the meeting
             </p>
             <p className="text-[13px] italic leading-relaxed" style={{ color: 'var(--color-muted)' }}>
@@ -118,7 +118,7 @@ export default function TermCard({ term, slug }: TermCardProps) {
               padding: '10px 14px',
             }}
           >
-            <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-[0.08em]" style={{ color: 'var(--color-accent)' }}>
+            <p className="mb-1.5 text-xs font-medium uppercase tracking-widest" style={{ color: 'var(--color-muted)' }}>
               💡 Sound smart — ask this
             </p>
             <p className="text-[13px] leading-relaxed" style={{ color: 'var(--color-muted)' }}>
@@ -139,7 +139,7 @@ export default function TermCard({ term, slug }: TermCardProps) {
             padding: '20px',
           }}
         >
-          <p className="section-label mb-4 text-[10px] font-semibold uppercase tracking-[0.08em]" style={{ color: 'var(--color-dim)' }}>
+          <p className="section-label mb-4 text-xs font-medium uppercase tracking-widest" style={{ color: 'var(--color-muted)' }}>
             Quiz
           </p>
           <QuizBlock
@@ -163,7 +163,7 @@ export default function TermCard({ term, slug }: TermCardProps) {
             padding: '20px',
           }}
         >
-          <p className="section-label mb-4 text-[10px] font-semibold uppercase tracking-[0.08em]" style={{ color: 'var(--color-dim)' }}>
+          <p className="section-label mb-4 text-xs font-medium uppercase tracking-widest" style={{ color: 'var(--color-muted)' }}>
             Real-world example
           </p>
           <p className="mb-4 text-[13px] leading-[1.7]" style={{ color: 'var(--color-muted)' }}>
@@ -195,7 +195,7 @@ export default function TermCard({ term, slug }: TermCardProps) {
             padding: '20px',
           }}
         >
-          <p className="section-label mb-4 text-[10px] font-semibold uppercase tracking-[0.08em]" style={{ color: 'var(--color-dim)' }}>
+          <p className="section-label mb-4 text-xs font-medium uppercase tracking-widest" style={{ color: 'var(--color-muted)' }}>
             Related terms
           </p>
           <RelatedTerms slugs={term.related_terms} />
