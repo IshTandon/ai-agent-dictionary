@@ -25,7 +25,7 @@ export const CATEGORY_SLUGS: Record<Category, string> = {
 };
 
 export const CATEGORY_COLORS: Record<Category, string> = {
-  Foundation: '#7C6FFF',
+  Foundation: '#8B7CFF',
   Memory: '#378ADD',
   Tools: '#1D9E75',
   Protocols: '#D85A30',

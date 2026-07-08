@@ -60,7 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div
                 className="flex h-7 w-7 items-center justify-center font-[family-name:var(--font-mono)] text-[11px] font-bold text-white"
                 style={{
-                  background: 'linear-gradient(135deg, #8B7CFF 0%, #A78BFA 100%)',
+                  background: 'linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-soft) 100%)',
                   borderRadius: '7px',
                 }}
               >
@@ -112,7 +112,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div
                   className="flex h-6 w-6 items-center justify-center font-[family-name:var(--font-mono)] text-[9px] font-bold text-white"
                   style={{
-                    background: 'linear-gradient(135deg, #8B7CFF 0%, #A78BFA 100%)',
+                    background: 'linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-soft) 100%)',
                     borderRadius: '6px',
                   }}
                 >

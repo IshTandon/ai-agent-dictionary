@@ -50,8 +50,8 @@ export default function AboutPage() {
           </h2>
           <div className="flex flex-col gap-2">
             {[
-              { label: 'Deep dive', desc: 'Definition, scenario, quiz, and real-world company example', color: '#F5A623' },
-              { label: 'Detailed', desc: 'Definition, scenario, and quiz', color: '#A78BFA' },
+              { label: 'Deep dive', desc: 'Definition, scenario, quiz, and real-world company example', color: '#E8A33D' },
+              { label: 'Detailed', desc: 'Definition, scenario, and quiz', color: '#A99CFF' },
               { label: 'Core', desc: 'Definition and related terms', color: '#4A5580' },
             ].map(t => (
               <div

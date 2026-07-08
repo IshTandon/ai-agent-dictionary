@@ -3,8 +3,8 @@ interface TierBadgeProps {
 }
 
 const TIER_CONFIG = {
-  1: { label: 'Deep dive', color: '#F5A623' },
-  2: { label: 'Detailed', color: '#A78BFA' },
+  1: { label: 'Deep dive', color: '#E8A33D' },
+  2: { label: 'Detailed', color: '#A99CFF' },
   3: { label: 'Core', color: '#4A5580' },
 } as const;
 
