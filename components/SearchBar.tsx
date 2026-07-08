@@ -59,7 +59,7 @@ export default function SearchBar({ terms, variant = 'default' }: SearchBarProps
           className="search-ring relative transition-all"
           style={{
             borderRadius: '12px',
-            border: '1px solid #2A3054',
+            border: '1px solid var(--color-border)',
           }}
         >
           <svg
@@ -82,11 +82,11 @@ export default function SearchBar({ terms, variant = 'default' }: SearchBarProps
             value={query}
             onChange={e => setQuery(e.target.value)}
             onFocus={() => setIsFocused(true)}
-            placeholder="What did they just say in your meeting?"
+            placeholder="Heard a term? Look it up"
             className="w-full focus:outline-none"
             style={{
-              backgroundColor: '#141929',
-              color: '#F0EDE8',
+              backgroundColor: 'var(--color-surface)',
+              color: 'var(--color-text)',
               padding: '16px 48px 16px 52px',
               fontSize: '15px',
               borderRadius: '12px',

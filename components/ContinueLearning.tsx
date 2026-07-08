@@ -111,10 +111,10 @@ export default function ContinueLearning({ categories }: ContinueLearningProps) 
             {best.name}
           </p>
           <div className="mt-3 flex items-center gap-3">
-            <div className="h-[6px] flex-1 overflow-hidden rounded-full" style={{ backgroundColor: '#2A3054' }}>
+            <div className="h-[6px] flex-1 overflow-hidden rounded-full" style={{ backgroundColor: 'var(--color-border)' }}>
               <div
                 className="h-full rounded-full transition-all duration-500"
-                style={{ width: `${pct}%`, backgroundColor: '#7C6FFF' }}
+                style={{ width: `${pct}%`, backgroundColor: 'var(--color-accent)' }}
               />
             </div>
             <span className="shrink-0 font-[family-name:var(--font-mono)] text-[11px] tabular-nums" style={{ color: 'var(--color-dim)' }}>

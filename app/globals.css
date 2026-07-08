@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-bg: #0B0F1C;
-  --color-surface: #141929;
-  --color-card: #1C2340;
-  --color-border: #2A3054;
-  --color-accent: #7C6FFF;
+  --color-bg: #101014;
+  --color-surface: #17171C;
+  --color-card: #1E1E24;
+  --color-border: #2C2C34;
+  --color-accent: #8B7CFF;
   --color-accent-soft: #A78BFA;
-  --color-text: #F0EDE8;
-  --color-muted: #8892B0;
-  --color-dim: #4A5580;
-  --color-amber: #F5A623;
+  --color-text: #EDEAE4;
+  --color-muted: #9A9AA6;
+  --color-dim: #5A5A66;
+  --color-amber: #E8A33D;
   --color-green: #10B981;
   --color-red: #EF4444;
 
@@ -57,7 +57,7 @@ a {
 /* Search focus ring */
 .search-ring:focus-within {
   border-color: var(--color-accent) !important;
-  box-shadow: 0 0 0 2px rgba(124, 111, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(139, 124, 255, 0.2);
 }
 
 /* Quiz option interaction */
@@ -76,7 +76,7 @@ a {
 
 .card-lift:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 /* Nav link hover */
@@ -87,7 +87,7 @@ a {
 
 /* News ticker */
 .news-ticker {
-  background: linear-gradient(90deg, rgba(124,111,255,0.06) 0%, rgba(16,185,129,0.06) 100%);
+  background: linear-gradient(90deg, rgba(139,124,255,0.05) 0%, rgba(16,185,129,0.05) 100%);
   border-bottom: 0.5px solid var(--color-border);
 }
 
@@ -187,7 +187,7 @@ a {
 
 /* Trending pill hover */
 .trending-pill:hover {
-  border-color: #7C6FFF !important;
+  border-color: var(--color-accent) !important;
   color: var(--color-text) !important;
 }
 

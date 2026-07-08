@@ -9,29 +9,32 @@ export default function XPBar() {
   if (xp === 0 && streak === 0) return null;
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex shrink-0 items-center gap-2 whitespace-nowrap">
       <div
-        className="flex items-center gap-2 rounded-full px-3 py-1"
+        className="flex items-center gap-1.5 rounded-full px-2.5 py-1"
         style={{
-          backgroundColor: 'rgba(124,111,255,0.12)',
-          border: '1px solid rgba(124,111,255,0.3)',
+          backgroundColor: 'rgba(139,124,255,0.12)',
+          border: '1px solid rgba(139,124,255,0.25)',
         }}
       >
         <span className="font-[family-name:var(--font-mono)] text-[10px] font-bold" style={{ color: 'var(--color-accent-soft)' }}>
           Lv {level}
         </span>
-        <div className="h-[3px] w-[50px] overflow-hidden rounded-full" style={{ backgroundColor: 'var(--color-border)' }}>
+        <span className="hidden font-[family-name:var(--font-mono)] text-[10px] tabular-nums sm:inline" style={{ color: 'var(--color-dim)' }}>
+          ·
+        </span>
+        <span className="hidden font-[family-name:var(--font-mono)] text-[10px] tabular-nums sm:inline" style={{ color: 'var(--color-dim)' }}>
+          {xp} XP
+        </span>
+        <div className="hidden h-[3px] w-[40px] overflow-hidden rounded-full sm:block" style={{ backgroundColor: 'var(--color-border)' }}>
           <div
             className="h-full rounded-full transition-all duration-500"
             style={{ width: `${pct}%`, backgroundColor: 'var(--color-accent)' }}
           />
         </div>
-        <span className="font-[family-name:var(--font-mono)] text-[10px] tabular-nums" style={{ color: 'var(--color-dim)' }}>
-          {xp} XP
-        </span>
       </div>
       {streak > 0 && (
-        <span className="text-[11px] font-medium" style={{ color: 'var(--color-amber)' }}>
+        <span className="flex items-center gap-1 whitespace-nowrap text-[11px] font-medium" style={{ color: 'var(--color-amber)' }}>
           🔥 {streak}
         </span>
       )}

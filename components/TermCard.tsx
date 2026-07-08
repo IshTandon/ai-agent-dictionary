@@ -65,7 +65,7 @@ export default function TermCard({ term, slug }: TermCardProps) {
 
           {/* Term name */}
           <h1
-            className="gradient-text mb-4 font-[family-name:var(--font-display)] text-[38px] font-[800] leading-[1.1]"
+            className="gradient-text mb-4 font-[family-name:var(--font-display)] text-3xl font-[700] leading-[1.15] tracking-tight sm:text-4xl"
           >
             {term.term}
           </h1>

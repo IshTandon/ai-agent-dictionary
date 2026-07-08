@@ -55,29 +55,28 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           className="sticky top-0 z-50"
           style={{ backgroundColor: 'var(--color-surface)', borderBottom: '0.5px solid var(--color-border)' }}
         >
-          <div className="mx-auto flex max-w-5xl items-center gap-3 px-6 py-3">
-            <Link href="/" className="flex items-center gap-2.5 shrink-0">
+          <div className="mx-auto flex max-w-5xl items-center gap-2 px-4 py-2.5 sm:gap-3 sm:px-6 sm:py-3">
+            <Link href="/" className="flex items-center gap-2 shrink-0">
               <div
                 className="flex h-7 w-7 items-center justify-center font-[family-name:var(--font-mono)] text-[11px] font-bold text-white"
                 style={{
-                  background: 'linear-gradient(135deg, #7C6FFF 0%, #A78BFA 100%)',
+                  background: 'linear-gradient(135deg, #8B7CFF 0%, #A78BFA 100%)',
                   borderRadius: '7px',
                 }}
               >
                 Ad
               </div>
-              <span className="font-[family-name:var(--font-display)] text-sm font-[800] tracking-tight" style={{ color: 'var(--color-text)' }}>
+              <span className="hidden font-[family-name:var(--font-display)] text-sm font-[800] tracking-tight sm:inline" style={{ color: 'var(--color-text)' }}>
                 agentdict
               </span>
             </Link>
 
             <XPBar />
 
-            {/* Nav links */}
             <div className="ml-auto flex items-center gap-1">
               <Link
                 href="/whats-new"
-                className="nav-link relative rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors"
+                className="nav-link relative hidden rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors sm:inline-flex"
                 style={{ color: 'var(--color-muted)' }}
               >
                 What&apos;s New
@@ -92,7 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </Link>
               <Link
                 href="/about"
-                className="nav-link hidden rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors sm:inline-flex"
+                className="nav-link hidden rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors md:inline-flex"
                 style={{ color: 'var(--color-muted)' }}
               >
                 About
@@ -113,7 +112,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div
                   className="flex h-6 w-6 items-center justify-center font-[family-name:var(--font-mono)] text-[9px] font-bold text-white"
                   style={{
-                    background: 'linear-gradient(135deg, #7C6FFF 0%, #A78BFA 100%)',
+                    background: 'linear-gradient(135deg, #8B7CFF 0%, #A78BFA 100%)',
                     borderRadius: '6px',
                   }}
                 >

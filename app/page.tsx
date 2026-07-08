@@ -41,13 +41,13 @@ export default function HomePage() {
       <section className="pt-12 pb-4">
         <SearchBar terms={allTerms} variant="panic" />
         <p className="mt-3 text-center text-[13px]" style={{ color: 'var(--color-dim)' }}>
-          {allTerms.length} AI terms &middot; plain-English definitions
+          {allTerms.length}&nbsp;AI terms &middot; plain-English definitions
         </p>
       </section>
 
       {/* 2. Trending strip */}
       <section className="pb-8">
-        <div className="flex items-center gap-3 overflow-x-auto no-scrollbar">
+        <div className="flex items-center gap-3 overflow-x-auto px-4 no-scrollbar">
           <span className="shrink-0 text-[12px] font-medium" style={{ color: 'var(--color-dim)' }}>
             🔥 Hot this week
           </span>
@@ -57,14 +57,15 @@ export default function HomePage() {
               href={`/terms/${t.slug}`}
               className="trending-pill shrink-0 rounded-full px-3 py-1.5 text-[13px] font-medium transition-colors"
               style={{
-                backgroundColor: '#1C2340',
-                border: '1px solid #2A3054',
+                backgroundColor: 'var(--color-card)',
+                border: '1px solid var(--color-border)',
                 color: 'var(--color-muted)',
               }}
             >
               {t.name}
             </Link>
           ))}
+          <span className="shrink-0 w-4" aria-hidden="true" />
         </div>
       </section>
 
