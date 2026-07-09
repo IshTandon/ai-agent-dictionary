@@ -17,13 +17,10 @@ export default function DailySessionCard() {
   if (!mounted) return null;
 
   if (done) {
-    const tomorrow = new Date();
-    tomorrow.setDate(tomorrow.getDate() + 1);
-    const label = tomorrow.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
-
     return (
-      <div
-        className="flex items-center justify-between"
+      <Link
+        href="/session"
+        className="card-lift flex items-center justify-between"
         style={{
           backgroundColor: 'var(--color-surface)',
           borderRadius: '14px',
@@ -35,12 +32,17 @@ export default function DailySessionCard() {
           <p className="text-xs font-medium uppercase tracking-widest" style={{ color: 'var(--color-green)' }}>
             ✓ Done today
           </p>
-          <p className="mt-1 text-[13px]" style={{ color: 'var(--color-dim)' }}>
-            Next session {label}
+          <p className="mt-1 text-[13px]" style={{ color: 'var(--color-muted)' }}>
+            Bonus round for extra XP
           </p>
         </div>
-        <span className="text-lg">🔥</span>
-      </div>
+        <span
+          className="rounded-lg px-3 py-1.5 text-[12px] font-medium"
+          style={{ backgroundColor: 'var(--color-card)', border: '0.5px solid var(--color-border)', color: 'var(--color-muted)' }}
+        >
+          Bonus &rarr;
+        </span>
+      </Link>
     );
   }
 
