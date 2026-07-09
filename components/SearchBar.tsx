@@ -41,7 +41,10 @@ export default function SearchBar({ terms, variant = 'default' }: SearchBarProps
   }, []);
 
   useEffect(() => {
-    if (variant === 'panic' && inputRef.current && window.innerWidth >= 768) {
+    if (variant !== 'panic') return;
+    const shouldFocus = window.innerWidth >= 768 ||
+      new URLSearchParams(window.location.search).has('focus');
+    if (shouldFocus && inputRef.current) {
       inputRef.current.focus();
     }
   }, [variant]);

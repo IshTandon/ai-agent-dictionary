@@ -73,7 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
             <XPBar />
 
-            <div className="ml-auto flex items-center gap-1">
+            <div className="ml-auto flex items-center gap-1.5">
               <Link
                 href="/whats-new"
                 className="nav-link relative hidden rounded-lg px-2.5 py-1.5 text-[12px] font-medium transition-colors md:inline-flex"
@@ -99,6 +99,27 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div className="ml-1 hidden md:block">
                 <SearchBar terms={allTerms} variant="nav" />
               </div>
+              <Link
+                href="/session"
+                className="shrink-0 rounded-full px-2.5 py-1 text-[11px] font-medium transition-colors"
+                style={{
+                  backgroundColor: 'rgba(139,124,255,0.12)',
+                  border: '1px solid rgba(139,124,255,0.25)',
+                  color: 'var(--color-accent-soft)',
+                }}
+              >
+                Daily 5 &rarr;
+              </Link>
+              <Link
+                href="/?focus=search"
+                className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg transition-colors md:hidden"
+                style={{ color: 'var(--color-muted)' }}
+                aria-label="Search"
+              >
+                <svg className="h-[18px] w-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </Link>
             </div>
           </div>
         </nav>
