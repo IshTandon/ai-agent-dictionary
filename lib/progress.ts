@@ -123,12 +123,15 @@ export function getLevel(xp: number): { level: number; current: number; needed: 
 export function completeSession(): { newStreak: number; oldStreak: number } {
   const p = getProgress();
   const today = todayISO();
+  const yesterday = yesterdayISO();
   const oldStreak = p.streak;
 
-  if (p.last_session_date === yesterdayISO()) {
-    p.streak = oldStreak + 1;
-  } else if (p.last_session_date !== today) {
-    p.streak = Math.max(1, oldStreak === 0 ? 1 : (p.last_visit === yesterdayISO() ? oldStreak + 1 : 1));
+  if (p.last_session_date === today) {
+    // Already completed today — no change
+  } else if (p.last_session_date === yesterday) {
+    p.streak += 1;
+  } else {
+    p.streak = 1;
   }
 
   p.last_session_date = today;
