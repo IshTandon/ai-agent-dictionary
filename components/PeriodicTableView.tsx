@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
@@ -64,6 +64,101 @@ const GROUP_TOOLTIPS: Record<Group, string> = {
 const ALL_GROUPS: Group[] = ['G1', 'G2', 'G3', 'G4', 'G5'];
 const ROWS = [1, 2, 3, 4];
 
+function ReactionAccordionItem({
+  reaction,
+  isActive,
+  onToggle,
+  onDone,
+}: {
+  reaction: Reaction;
+  isActive: boolean;
+  onToggle: () => void;
+  onDone: () => void;
+}) {
+  const cardRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (isActive && cardRef.current) {
+      cardRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }, [isActive]);
+
+  return (
+    <div ref={cardRef}>
+      <button
+        onClick={onToggle}
+        className="w-full text-left transition-colors"
+        style={{
+          backgroundColor: 'var(--color-surface)',
+          borderRadius: isActive ? '14px 14px 0 0' : '14px',
+          border: isActive ? '1px solid var(--color-accent)' : '0.5px solid var(--color-border)',
+          borderBottom: isActive ? '0.5px solid var(--color-border)' : undefined,
+          padding: '16px 18px',
+          cursor: 'pointer',
+        }}
+      >
+        <div className="flex items-center justify-between">
+          <h3 className="font-[family-name:var(--font-display)] text-[14px] font-[700]" style={{ color: 'var(--color-text)' }}>
+            {reaction.name}
+          </h3>
+          <svg
+            className="h-4 w-4 shrink-0 transition-transform duration-200"
+            style={{
+              color: 'var(--color-dim)',
+              transform: isActive ? 'rotate(180deg)' : 'rotate(0)',
+            }}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+        <div className="mt-3 flex flex-wrap items-center gap-1.5">
+          {reaction.equation.map((part, j) => {
+            if (typeof part === 'string') {
+              return (
+                <span key={j} className="text-[12px] font-medium" style={{ color: 'var(--color-dim)' }}>
+                  {part}
+                </span>
+              );
+            }
+            const colors = GROUP_COLORS_DARK[part.group];
+            return (
+              <span
+                key={j}
+                className="inline-flex items-center justify-center rounded-[4px] px-1.5 py-0.5 font-[family-name:var(--font-mono)] text-[11px] font-bold"
+                style={{ backgroundColor: colors.bg, color: colors.text }}
+              >
+                {part.sym}
+              </span>
+            );
+          })}
+        </div>
+      </button>
+      <div
+        className="grid transition-[grid-template-rows] duration-200"
+        style={{ gridTemplateRows: isActive ? '1fr' : '0fr' }}
+      >
+        <div className="overflow-hidden">
+          {isActive && (
+            <div
+              style={{
+                backgroundColor: 'var(--color-surface)',
+                borderRadius: '0 0 14px 14px',
+                border: '1px solid var(--color-accent)',
+                borderTop: 'none',
+              }}
+            >
+              <ReactionWalkthrough reaction={reaction} onDone={onDone} />
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function PeriodicTableView({
   elements,
   gaps,
@@ -111,8 +206,6 @@ export default function PeriodicTableView({
   function toggleReaction(id: string) {
     setActiveReaction(prev => (prev === id ? null : id));
   }
-
-  const selectedReaction = REACTIONS.find(r => r.id === activeReaction) ?? null;
 
   return (
     <div>
@@ -308,58 +401,20 @@ export default function PeriodicTableView({
               How real AI systems are built &mdash; click to walk through step by step
             </p>
 
-            <div className="grid gap-3 sm:grid-cols-2">
+            <div className="flex flex-col gap-3">
               {REACTIONS.map(rx => {
                 const isActive = activeReaction === rx.id;
                 return (
-                  <button
+                  <ReactionAccordionItem
                     key={rx.id}
-                    onClick={() => toggleReaction(rx.id)}
-                    className="w-full text-left transition-colors"
-                    style={{
-                      backgroundColor: 'var(--color-surface)',
-                      borderRadius: '14px',
-                      border: isActive ? '1px solid var(--color-accent)' : '0.5px solid var(--color-border)',
-                      padding: '16px 18px',
-                      cursor: 'pointer',
-                    }}
-                  >
-                    <h3 className="mb-3 font-[family-name:var(--font-display)] text-[14px] font-[700]" style={{ color: 'var(--color-text)' }}>
-                      {rx.name}
-                    </h3>
-                    <div className="flex flex-wrap items-center gap-1.5">
-                      {rx.equation.map((part, j) => {
-                        if (typeof part === 'string') {
-                          return (
-                            <span key={j} className="text-[12px] font-medium" style={{ color: 'var(--color-dim)' }}>
-                              {part}
-                            </span>
-                          );
-                        }
-                        const colors = GROUP_COLORS_DARK[part.group];
-                        return (
-                          <span
-                            key={j}
-                            className="inline-flex items-center justify-center rounded-[4px] px-1.5 py-0.5 font-[family-name:var(--font-mono)] text-[11px] font-bold"
-                            style={{ backgroundColor: colors.bg, color: colors.text }}
-                          >
-                            {part.sym}
-                          </span>
-                        );
-                      })}
-                    </div>
-                  </button>
+                    reaction={rx}
+                    isActive={isActive}
+                    onToggle={() => toggleReaction(rx.id)}
+                    onDone={() => setActiveReaction(null)}
+                  />
                 );
               })}
             </div>
-
-            {selectedReaction && (
-              <ReactionWalkthrough
-                key={selectedReaction.id}
-                reaction={selectedReaction}
-                onDone={() => setActiveReaction(null)}
-              />
-            )}
           </section>
 
           {/* Gap explanation */}

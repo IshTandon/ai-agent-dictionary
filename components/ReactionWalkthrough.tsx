@@ -20,14 +20,7 @@ export default function ReactionWalkthrough({ reaction, onDone }: ReactionWalkth
   const stepSymIndex = pillElements.findIndex(p => p.sym === step.sym);
 
   return (
-    <div
-      className="mt-4 overflow-hidden"
-      style={{
-        backgroundColor: 'var(--color-surface)',
-        borderRadius: '14px',
-        border: '0.5px solid var(--color-border)',
-      }}
-    >
+    <div className="overflow-hidden">
       {/* Equation row */}
       <div
         className="flex flex-wrap items-center gap-2 px-5 py-4"
