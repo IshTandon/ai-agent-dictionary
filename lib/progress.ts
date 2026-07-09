@@ -5,6 +5,8 @@ export interface UserProgress {
   streak: number;
   last_visit: string | null;
   daily_term_viewed: string | null;
+  last_seen: Record<string, string>;
+  last_session_date: string | null;
 }
 
 const STORAGE_KEY = 'aad_progress';
@@ -17,6 +19,8 @@ function defaultProgress(): UserProgress {
     streak: 0,
     last_visit: null,
     daily_term_viewed: null,
+    last_seen: {},
+    last_session_date: null,
   };
 }
 
@@ -35,7 +39,8 @@ export function getProgress(): UserProgress {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return defaultProgress();
-    return JSON.parse(raw) as UserProgress;
+    const stored = JSON.parse(raw);
+    return { ...defaultProgress(), ...stored };
   } catch {
     return defaultProgress();
   }
@@ -65,6 +70,8 @@ export function updateStreak(p: UserProgress): void {
 
 export function trackTermView(slug: string): number {
   const p = getProgress();
+  if (!p.last_seen) p.last_seen = {};
+  p.last_seen[slug] = new Date().toISOString();
 
   if (p.viewed_terms.includes(slug)) {
     updateStreak(p);
@@ -112,3 +119,42 @@ export function getLevel(xp: number): { level: number; current: number; needed: 
   const needed = 100;
   return { level, current, needed };
 }
+
+export function completeSession(): { newStreak: number; oldStreak: number } {
+  const p = getProgress();
+  const today = todayISO();
+  const oldStreak = p.streak;
+
+  if (p.last_session_date === yesterdayISO()) {
+    p.streak = oldStreak + 1;
+  } else if (p.last_session_date !== today) {
+    p.streak = Math.max(1, oldStreak === 0 ? 1 : (p.last_visit === yesterdayISO() ? oldStreak + 1 : 1));
+  }
+
+  p.last_session_date = today;
+  p.last_visit = today;
+  saveProgress(p);
+  notifyUpdate();
+  return { newStreak: p.streak, oldStreak };
+}
+
+export function addXP(amount: number): void {
+  const p = getProgress();
+  p.xp += amount;
+  saveProgress(p);
+  notifyUpdate();
+}
+
+export function resetLastSeen(slug: string): void {
+  const p = getProgress();
+  if (!p.last_seen) p.last_seen = {};
+  p.last_seen[slug] = new Date(0).toISOString();
+  saveProgress(p);
+}
+
+export function isSessionCompletedToday(): boolean {
+  const p = getProgress();
+  return p.last_session_date === todayISO();
+}
+
+export { todayISO };

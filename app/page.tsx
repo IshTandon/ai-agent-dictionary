@@ -7,6 +7,7 @@ import SearchBar from '@/components/SearchBar';
 import DailyTerm from '@/components/DailyTerm';
 import TermsExplorer from '@/components/TermsExplorer';
 import ContinueLearning from '@/components/ContinueLearning';
+import DailySessionCard from '@/components/DailySessionCard';
 
 const TRENDING = ['rag', 'agentic-loop', 'guardrail', 'multi-agent', 'thinking-models'];
 
@@ -69,7 +70,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 3. Continue Learning */}
+      {/* 3. Daily 5 session */}
+      <section className="pb-4">
+        <DailySessionCard />
+      </section>
+
+      {/* 4. Continue Learning */}
       <section className="pb-6">
         <ContinueLearning categories={categoriesForProgress} />
       </section>
