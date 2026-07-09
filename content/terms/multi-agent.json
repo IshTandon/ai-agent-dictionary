@@ -21,5 +21,9 @@
     ],
     "answer": "B",
     "explanation": "Multiple agents with distinct roles and tool access collaborating on a task is the defining pattern of a multi-agent system."
-  }
+  },
+  "resources": [
+    { "type": "newsletter", "label": "Latent Space: Multi-Agent roundup", "url": "https://www.latent.space/p/multiagent" },
+    { "type": "x", "label": "Thread by @karpathy on agent swarms", "url": "https://twitter.com/karpathy" }
+  ]
 }

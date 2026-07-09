@@ -26,5 +26,8 @@
     "text": "In 2023, a New York lawyer used ChatGPT to draft a court filing that cited six nonexistent cases. The judge sanctioned the attorney, making it one of the first high-profile legal consequences of AI hallucination and prompting many law firms to mandate human verification of all AI-generated citations.",
     "citation_label": "Mata v. Avianca, Inc. (S.D.N.Y. 2023)",
     "citation_url": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/"
-  }
+  },
+  "resources": [
+    { "type": "newsletter", "label": "Latent Space on grounding and hallucination", "url": "https://www.latent.space/p/hallucination" }
+  ]
 }

@@ -26,5 +26,9 @@
     "text": "In 2023, researchers showed Bing Chat could be hijacked by invisible text on a webpage it was summarizing, causing it to ask users for personal information. Every major AI lab now treats prompt injection as a top unsolved security problem.",
     "citation_label": "Greshake et al., 2023",
     "citation_url": "https://arxiv.org/abs/2302.12173"
-  }
+  },
+  "resources": [
+    { "type": "newsletter", "label": "Simon Willison: Prompt injection explained", "url": "https://simonwillison.net/2022/Sep/12/prompt-injection/" },
+    { "type": "news", "label": "OWASP Top 10 for LLMs", "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/" }
+  ]
 }

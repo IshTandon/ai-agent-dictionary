@@ -9,6 +9,12 @@ export type Category =
   | 'Security'
   | 'Observability';
 
+export interface TermResource {
+  type: 'newsletter' | 'news' | 'x';
+  label: string;
+  url: string;
+}
+
 export interface TermBase {
   term: string;
   slug: string;
@@ -18,6 +24,7 @@ export interface TermBase {
   related_terms: string[];
   source_url: string;
   source_label: string;
+  resources?: TermResource[];
 }
 
 export interface TermTier2 extends TermBase {

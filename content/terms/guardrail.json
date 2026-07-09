@@ -26,5 +26,9 @@
     "text": "NVIDIA's NeMo Guardrails framework lets developers define conversational rails in plain English that are enforced at runtime — like 'the bot should not discuss competitors' or 'always verify identity before account changes.' It creates a programmable safety layer between the model and the user.",
     "citation_label": "NVIDIA — NeMo Guardrails",
     "citation_url": "https://github.com/NVIDIA/NeMo-Guardrails"
-  }
+  },
+  "resources": [
+    { "type": "news", "label": "NVIDIA NeMo Guardrails launch", "url": "https://blogs.nvidia.com/blog/ai-chatbot-guardrails-nemo/" },
+    { "type": "newsletter", "label": "Simon Willison on prompt injection", "url": "https://simonwillison.net/2022/Sep/12/prompt-injection/" }
+  ]
 }

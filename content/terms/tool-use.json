@@ -26,5 +26,8 @@
     "text": "OpenAI's function calling, launched in mid-2023, enabled thousands of developers to connect ChatGPT and GPT-4 to external APIs. It transformed language models from text generators into orchestrators that could book flights, execute trades, and control smart home devices through structured tool invocations.",
     "citation_label": "OpenAI — Function Calling",
     "citation_url": "https://platform.openai.com/docs/guides/function-calling"
-  }
+  },
+  "resources": [
+    { "type": "news", "label": "Anthropic: Tool use documentation", "url": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use" }
+  ]
 }

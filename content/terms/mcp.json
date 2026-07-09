@@ -26,5 +26,9 @@
     "text": "Anthropic open-sourced MCP in late 2024, and within months it was adopted by Cursor, Zed, Sourcegraph, and dozens of other AI tools. A single MCP server for GitHub, for example, lets any MCP-compatible IDE agent create PRs, review code, and manage issues without app-specific plugins.",
     "citation_label": "Anthropic — Introducing MCP",
     "citation_url": "https://www.anthropic.com/news/model-context-protocol"
-  }
+  },
+  "resources": [
+    { "type": "news", "label": "Anthropic: Introducing MCP", "url": "https://www.anthropic.com/news/model-context-protocol" },
+    { "type": "newsletter", "label": "Simon Willison's MCP deep dive", "url": "https://simonwillison.net/tags/model-context-protocol/" }
+  ]
 }

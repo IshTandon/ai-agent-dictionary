@@ -21,5 +21,8 @@
     ],
     "answer": "B",
     "explanation": "Chain-of-thought prompting makes the model produce intermediate reasoning steps, reducing errors on multi-step calculations."
-  }
+  },
+  "resources": [
+    { "type": "news", "label": "Wei et al. — Chain-of-Thought Prompting paper", "url": "https://arxiv.org/abs/2201.11903" }
+  ]
 }

@@ -26,5 +26,9 @@
     "text": "Cursor's IDE agent can read your codebase, plan multi-file changes, run terminal commands, and iterate on errors — completing complex engineering tasks that would take a junior developer hours. It demonstrates how agents combine planning, tool use, and self-correction in production.",
     "citation_label": "Cursor — AI Code Editor",
     "citation_url": "https://cursor.com"
-  }
+  },
+  "resources": [
+    { "type": "news", "label": "Lilian Weng — LLM Powered Autonomous Agents", "url": "https://lilianweng.github.io/posts/2023-06-23-agent/" },
+    { "type": "newsletter", "label": "The Batch: AI Agents overview", "url": "https://www.deeplearning.ai/the-batch/" }
+  ]
 }

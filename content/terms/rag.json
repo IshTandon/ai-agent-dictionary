@@ -26,5 +26,9 @@
     "text": "Perplexity AI built its entire product around RAG — every answer retrieves and cites live web sources, letting a relatively small model provide accurate, up-to-date responses that compete with much larger models operating from stale training data.",
     "citation_label": "Perplexity AI",
     "citation_url": "https://perplexity.ai"
-  }
+  },
+  "resources": [
+    { "type": "newsletter", "label": "Latent Space: RAG Is All You Need", "url": "https://www.latent.space/p/rag" },
+    { "type": "news", "label": "Lewis et al. — original RAG paper", "url": "https://arxiv.org/abs/2005.11401" }
+  ]
 }

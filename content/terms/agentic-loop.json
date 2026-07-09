@@ -26,5 +26,8 @@
     "text": "Devin, the AI software engineer by Cognition Labs, demonstrates agentic loops at their most autonomous — it plans implementation, writes code, runs tests, debugs failures, and iterates through dozens of loop iterations to complete complex engineering tasks without human intervention.",
     "citation_label": "Cognition Labs — Devin",
     "citation_url": "https://www.cognition.ai/blog/introducing-devin"
-  }
+  },
+  "resources": [
+    { "type": "news", "label": "Lilian Weng — agent loop architectures", "url": "https://lilianweng.github.io/posts/2023-06-23-agent/" }
+  ]
 }

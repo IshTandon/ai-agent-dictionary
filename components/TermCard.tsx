@@ -244,6 +244,45 @@ export default function TermCard({ term, slug }: TermCardProps) {
           </div>
         </div>
       )}
+
+      {/* External resources */}
+      {term.resources && term.resources.length > 0 && (
+        <div
+          className="mt-2.5"
+          style={{
+            backgroundColor: 'var(--color-surface)',
+            borderRadius: '14px',
+            border: '0.5px solid var(--color-border)',
+            padding: '20px',
+          }}
+        >
+          <p className="section-label mb-4 text-xs font-medium uppercase tracking-widest" style={{ color: 'var(--color-muted)' }}>
+            Go deeper
+          </p>
+          <div className="flex flex-col gap-2">
+            {term.resources.map((res, i) => (
+              <a
+                key={i}
+                href={res.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 rounded-lg px-3 py-2.5 transition-colors"
+                style={{ backgroundColor: 'var(--color-card)', border: '0.5px solid var(--color-border)' }}
+              >
+                <span className="shrink-0 text-[14px]">
+                  {res.type === 'news' ? '📰' : res.type === 'newsletter' ? '✉️' : '𝕏'}
+                </span>
+                <span className="min-w-0 flex-1 text-[13px] font-medium" style={{ color: 'var(--color-muted)' }}>
+                  {res.label}
+                </span>
+                <svg className="h-3.5 w-3.5 shrink-0" style={{ color: 'var(--color-dim)' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
     </article>
   );
 }

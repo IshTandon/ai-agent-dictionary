@@ -21,5 +21,8 @@
     ],
     "answer": "B",
     "explanation": "Vector stores use specialized indexes (like HNSW) for fast approximate nearest-neighbor search across high-dimensional embeddings."
-  }
+  },
+  "resources": [
+    { "type": "news", "label": "Pinecone: What is a vector database?", "url": "https://www.pinecone.io/learn/vector-database/" }
+  ]
 }

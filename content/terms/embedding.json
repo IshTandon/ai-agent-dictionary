@@ -26,5 +26,8 @@
     "text": "Spotify uses embeddings to represent both songs and user listening patterns in the same vector space, enabling their recommendation engine to find songs that are semantically similar to a user's taste even when they share no obvious genre tags or artist connections.",
     "citation_label": "Spotify Engineering — Embeddings",
     "citation_url": "https://engineering.atspotify.com/2023/10/introducing-natural-language-search-for-podcast-episodes/"
-  }
+  },
+  "resources": [
+    { "type": "newsletter", "label": "Simon Willison: Embeddings explained", "url": "https://simonwillison.net/2023/Oct/23/embeddings/" }
+  ]
 }
