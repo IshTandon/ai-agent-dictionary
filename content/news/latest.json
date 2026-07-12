@@ -1,5 +1,41 @@
 [
   {
+    "title": "AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory",
+    "url": "https://the-decoder.com/ai-agents-win-at-slay-the-spire-2-after-researchers-replace-growing-chat-logs-with-structured-memory/",
+    "source": "The Decoder",
+    "published_at": "2026-07-12T07:45:35.000Z"
+  },
+  {
+    "title": "OpenAI&#039;s GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour",
+    "url": "https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/",
+    "source": "The Decoder",
+    "published_at": "2026-07-11T17:38:35.000Z"
+  },
+  {
+    "title": "Terrorist groups are using every major AI chatbot for attack planning and weapons development",
+    "url": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development/",
+    "source": "The Decoder",
+    "published_at": "2026-07-11T17:04:28.000Z"
+  },
+  {
+    "title": "China&#039;s Orca world model matches specialized robotics systems without ever seeing a single action label",
+    "url": "https://the-decoder.com/chinas-orca-world-model-matches-specialized-robotics-systems-without-ever-seeing-a-single-action-label/",
+    "source": "The Decoder",
+    "published_at": "2026-07-11T09:03:26.000Z"
+  },
+  {
+    "title": "Meta&#039;s Muse Spark 1.1 outperforms GLM-5.2 in coding and costs slightly less",
+    "url": "https://the-decoder.com/metas-muse-spark-1-1-outperforms-glm-5-2-in-coding-and-costs-slightly-less/",
+    "source": "The Decoder",
+    "published_at": "2026-07-11T08:28:12.000Z"
+  },
+  {
+    "title": "OpenAI admits it &quot;didn&#039;t get everything quite right&quot; with ChatGPT Work launch and scrambles to fix UX and costs",
+    "url": "https://the-decoder.com/openai-admits-it-didnt-get-everything-quite-right-with-chatgpt-work-launch-and-scrambles-to-fix-ux-and-costs/",
+    "source": "The Decoder",
+    "published_at": "2026-07-11T08:01:09.000Z"
+  },
+  {
     "title": "Apple sues OpenAI for allegedly running a &quot;coordinated campaign&quot; to steal trade secrets through poached employees",
     "url": "https://the-decoder.com/apple-sues-openai-for-allegedly-running-a-coordinated-campaign-to-steal-trade-secrets-through-poached-employees/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/",
     "source": "The Decoder",
     "published_at": "2026-07-10T21:12:47.000Z"
-  },
-  {
-    "title": "OpenAI staffer maps out which of GPT-5.6 Sol&#039;s five reasoning levels fits which task complexity",
-    "url": "https://the-decoder.com/openai-staffer-maps-out-which-of-gpt-5-6-sols-five-reasoning-levels-fits-which-task-complexity/",
-    "source": "The Decoder",
-    "published_at": "2026-07-10T17:52:06.000Z"
-  },
-  {
-    "title": "Tencent moves to buy majority stake in Manus after Beijing forced Meta to unwind its $2 billion deal",
-    "url": "https://the-decoder.com/tencent-moves-to-buy-majority-stake-in-manus-after-beijing-forced-meta-to-unwind-its-2-billion-deal/",
-    "source": "The Decoder",
-    "published_at": "2026-07-10T16:48:05.000Z"
-  },
-  {
-    "title": "OpenAI kills its Atlas browser after just eight months and folds everything into ChatGPT",
-    "url": "https://the-decoder.com/openai-kills-its-atlas-browser-after-just-eight-months-and-folds-everything-into-chatgpt/",
-    "source": "The Decoder",
-    "published_at": "2026-07-10T12:19:21.000Z"
-  },
-  {
-    "title": "The Fed wants AI investor Marc Andreessen to help figure out if AI can tame inflation",
-    "url": "https://the-decoder.com/the-fed-wants-ai-investor-marc-andreessen-to-help-figure-out-if-ai-can-tame-inflation/",
-    "source": "The Decoder",
-    "published_at": "2026-07-10T12:18:32.000Z"
-  },
-  {
-    "title": "Bun ditches Zig for Rust with help from Claude Fable 5, writes over a million lines of code in 11 days",
-    "url": "https://the-decoder.com/bun-ditches-zig-for-rust-with-help-from-claude-fable-5-writes-over-a-million-lines-of-code-in-11-days/",
-    "source": "The Decoder",
-    "published_at": "2026-07-10T11:09:44.000Z"
-  },
-  {
-    "title": "GPT-5.6 Sol nearly matches Fable 5 on aggregated benchmarks at one-third the cost",
-    "url": "https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/",
-    "source": "The Decoder",
-    "published_at": "2026-07-09T18:37:51.000Z"
   }
 ]
