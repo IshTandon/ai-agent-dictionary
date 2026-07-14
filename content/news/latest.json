@@ -1,5 +1,35 @@
 [
   {
+    "title": "OpenAI&#039;s new prompting guide tells users to stop overthinking and start with the result",
+    "url": "https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/",
+    "source": "The Decoder",
+    "published_at": "2026-07-13T17:47:39.000Z"
+  },
+  {
+    "title": "Turing Award winner Rich Sutton founds Oak Lab to build AI agents that learn on their own",
+    "url": "https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/",
+    "source": "The Decoder",
+    "published_at": "2026-07-13T17:15:58.000Z"
+  },
+  {
+    "title": "Nobel laureates and AI leaders warn the window to prepare for AI&#039;s economic impact is closing fast",
+    "url": "https://the-decoder.com/nobel-laureates-and-ai-leaders-warn-the-window-to-prepare-for-ais-economic-impact-is-closing-fast/",
+    "source": "The Decoder",
+    "published_at": "2026-07-13T16:00:24.000Z"
+  },
+  {
+    "title": "Nadella calls out AI labs like OpenAI and Anthropic for banning distillation while training on everyone else&#039;s data",
+    "url": "https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/",
+    "source": "The Decoder",
+    "published_at": "2026-07-13T14:28:50.000Z"
+  },
+  {
+    "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+    "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+    "source": "The Decoder",
+    "published_at": "2026-07-13T11:41:01.000Z"
+  },
+  {
     "title": "Google’s SensorFM turns messy wearable sensor data into a general-purpose health intelligence layer",
     "url": "https://the-decoder.com/sensorfm/",
     "source": "The Decoder",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-five-platforms/",
     "source": "The Decoder",
     "published_at": "2026-07-12T16:41:47.000Z"
-  },
-  {
-    "title": "Claude Code now has a built-in browser that lets the AI read, click, and type on external websites",
-    "url": "https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/",
-    "source": "The Decoder",
-    "published_at": "2026-07-12T15:02:06.000Z"
-  },
-  {
-    "title": "S&#038;P Global sees OpenAI as a &quot;key credit risk&quot; for Oracle and cuts its credit rating",
-    "url": "https://the-decoder.com/sp-global-sees-openai-as-a-key-credit-risk-for-oracle-and-cuts-its-credit-rating/",
-    "source": "The Decoder",
-    "published_at": "2026-07-12T11:43:36.000Z"
-  },
-  {
-    "title": "Meta kills Muse Image feature that let anyone generate AI photos of Instagram users without consent",
-    "url": "https://the-decoder.com/meta-kills-muse-image-feature-that-let-anyone-generate-ai-photos-of-instagram-users-without-consent/",
-    "source": "The Decoder",
-    "published_at": "2026-07-12T11:20:30.000Z"
-  },
-  {
-    "title": "Claude Cowork&#039;s biggest use case is the mundane office work nobody wants to own, Anthropic says",
-    "url": "https://the-decoder.com/claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthropic-says/",
-    "source": "The Decoder",
-    "published_at": "2026-07-12T09:36:39.000Z"
-  },
-  {
-    "title": "OpenAI CEO Altman is now &quot;pretty sure&quot; AI is net job-creating, which is quite the pivot from predicting mass layoffs",
-    "url": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs/",
-    "source": "The Decoder",
-    "published_at": "2026-07-12T09:15:49.000Z"
   }
 ]
