@@ -1,5 +1,41 @@
 [
   {
+    "title": "Anthropic slashes Claude Fable 5 limits in Max and Team Premium and pushes Pro users toward API pricing",
+    "url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/",
+    "source": "The Decoder",
+    "published_at": "2026-07-18T07:17:11.000Z"
+  },
+  {
+    "title": "Zuckerberg&#039;s plan to sell excess AI compute could finds its first big customer in Anthropic",
+    "url": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/",
+    "source": "The Decoder",
+    "published_at": "2026-07-17T21:16:00.000Z"
+  },
+  {
+    "title": "GPT-5.6 is deleting user files when given full access, and OpenAI says it shouldn&#039;t but did",
+    "url": "https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/",
+    "source": "The Decoder",
+    "published_at": "2026-07-17T19:35:52.000Z"
+  },
+  {
+    "title": "Just like Deepseek, China&#039;s Kimi K3 is forcing Western AI labs to question their compute advantage",
+    "url": "https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/",
+    "source": "The Decoder",
+    "published_at": "2026-07-17T19:16:07.000Z"
+  },
+  {
+    "title": "Linus Torvalds tells AI critics in the Linux kernel community to fork off",
+    "url": "https://the-decoder.com/linus-torvalds-tells-ai-critics-in-the-linux-kernel-community-to-fork-off/",
+    "source": "The Decoder",
+    "published_at": "2026-07-17T11:12:47.000Z"
+  },
+  {
+    "title": "Netflix&#039;s 300 AI productions show how fast the technology is spreading through entertainment",
+    "url": "https://the-decoder.com/netflixs-300-ai-productions-show-how-fast-the-technology-is-spreading-through-entertainment/",
+    "source": "The Decoder",
+    "published_at": "2026-07-17T08:53:31.000Z"
+  },
+  {
     "title": "Kimi&#039;s open model K3 nears GPT-5.6 Sol and Fable 5 while signaling the end of super cheap Chinese AI",
     "url": "https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/google-rebrands-notebooklm-as-gemini-notebook-and-opens-its-search-app-to-third-party-integration/",
     "source": "The Decoder",
     "published_at": "2026-07-16T17:22:18.000Z"
-  },
-  {
-    "title": "Germany puts Google&#039;s AI Overviews and Perplexity under media law in first-of-its-kind ruling",
-    "url": "https://the-decoder.com/germany-puts-googles-ai-overviews-and-perplexity-under-media-law-in-first-of-its-kind-ruling/",
-    "source": "The Decoder",
-    "published_at": "2026-07-16T16:12:26.000Z"
-  },
-  {
-    "title": "OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
-    "url": "https://the-decoder.com/openai-wants-developers-to-stop-typing-commands-and-start-using-a-joystick-to-control-their-ai-agents/",
-    "source": "The Decoder",
-    "published_at": "2026-07-16T14:31:34.000Z"
-  },
-  {
-    "title": "Sakana AI&#039;s orchestrator adds Nvidia Nemotron to prove &quot;collective intelligence&quot; can rival single frontier models",
-    "url": "https://the-decoder.com/sakana-ais-fugu-adds-nvidia-nemotron-to-prove-collective-intelligence-can-rival-single-frontier-models/",
-    "source": "The Decoder",
-    "published_at": "2026-07-16T14:02:13.000Z"
-  },
-  {
-    "title": "Ex-OpenAI CTO Murati&#039;s Thinking Machines drops Inkling, a 975B parameter model that leads US labs but trails China",
-    "url": "https://the-decoder.com/ex-openai-cto-muratis-thinking-machines-drops-inkling-a-975b-parameter-model-that-leads-us-labs-but-trails-china/",
-    "source": "The Decoder",
-    "published_at": "2026-07-16T09:55:28.000Z"
-  },
-  {
-    "title": "Gemma 4 gets a stealth update that fixes tool calling bugs and truncated responses under the same name",
-    "url": "https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/",
-    "source": "The Decoder",
-    "published_at": "2026-07-16T09:07:58.000Z"
-  },
-  {
-    "title": "xAI open-sources &quot;Grok-Build&quot; on GitHub after massive data breach",
-    "url": "https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/",
-    "source": "The Decoder",
-    "published_at": "2026-07-16T07:56:21.000Z"
   }
 ]
