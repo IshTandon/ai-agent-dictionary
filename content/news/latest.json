@@ -1,5 +1,29 @@
 [
   {
+    "title": "AI chatbots reading X-rays can be dangerously confident even when they&#039;re wrong",
+    "url": "https://the-decoder.com/ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong/",
+    "source": "The Decoder",
+    "published_at": "2026-07-19T07:35:20.000Z"
+  },
+  {
+    "title": "China&#039;s new World Artificial Intelligence Cooperation Organization is President Xi&#039;s clearest play yet for a parallel AI order",
+    "url": "https://the-decoder.com/chinas-new-world-artificial-intelligence-cooperation-organization-is-president-xis-clearest-play-yet-for-a-parallel-ai-order/",
+    "source": "The Decoder",
+    "published_at": "2026-07-18T10:46:04.000Z"
+  },
+  {
+    "title": "Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost",
+    "url": "https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/",
+    "source": "The Decoder",
+    "published_at": "2026-07-18T10:16:02.000Z"
+  },
+  {
+    "title": "The Pentagon&#039;s new AI playbook treats slow adoption as a bigger risk than imperfect alignment",
+    "url": "https://the-decoder.com/the-pentagons-new-ai-playbook-treats-slow-adoption-as-a-bigger-risk-than-imperfect-alignment/",
+    "source": "The Decoder",
+    "published_at": "2026-07-18T08:10:40.000Z"
+  },
+  {
     "title": "Anthropic slashes Claude Fable 5 limits in Max and Team Premium and pushes Pro users toward API pricing",
     "url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/",
     "source": "The Decoder",
@@ -22,29 +46,5 @@
     "url": "https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/",
     "source": "The Decoder",
     "published_at": "2026-07-17T19:16:07.000Z"
-  },
-  {
-    "title": "Linus Torvalds tells AI critics in the Linux kernel community to fork off",
-    "url": "https://the-decoder.com/linus-torvalds-tells-ai-critics-in-the-linux-kernel-community-to-fork-off/",
-    "source": "The Decoder",
-    "published_at": "2026-07-17T11:12:47.000Z"
-  },
-  {
-    "title": "Netflix&#039;s 300 AI productions show how fast the technology is spreading through entertainment",
-    "url": "https://the-decoder.com/netflixs-300-ai-productions-show-how-fast-the-technology-is-spreading-through-entertainment/",
-    "source": "The Decoder",
-    "published_at": "2026-07-17T08:53:31.000Z"
-  },
-  {
-    "title": "Kimi&#039;s open model K3 nears GPT-5.6 Sol and Fable 5 while signaling the end of super cheap Chinese AI",
-    "url": "https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/",
-    "source": "The Decoder",
-    "published_at": "2026-07-16T19:49:39.000Z"
-  },
-  {
-    "title": "Google rebrands NotebookLM as Gemini Notebook and opens its search app to third-party integration",
-    "url": "https://the-decoder.com/google-rebrands-notebooklm-as-gemini-notebook-and-opens-its-search-app-to-third-party-integration/",
-    "source": "The Decoder",
-    "published_at": "2026-07-16T17:22:18.000Z"
   }
 ]
