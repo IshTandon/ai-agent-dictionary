@@ -1,5 +1,35 @@
 [
   {
+    "title": "Moonshot pauses new Kimi K3 subscriptions after GPU demand maxes out in 48 hours",
+    "url": "https://the-decoder.com/moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-maxes-out-in-48-hours/",
+    "source": "The Decoder",
+    "published_at": "2026-07-20T07:55:09.000Z"
+  },
+  {
+    "title": "Alibaba&#039;s Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is &quot;second only to Fable 5&quot;",
+    "url": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/",
+    "source": "The Decoder",
+    "published_at": "2026-07-19T12:07:06.000Z"
+  },
+  {
+    "title": "Google Deepmind argues video generators already contain the world models computer vision has been missing",
+    "url": "https://the-decoder.com/google-deepmind-argues-video-generators-already-contain-the-world-models-computer-vision-has-been-missing/",
+    "source": "The Decoder",
+    "published_at": "2026-07-19T10:17:49.000Z"
+  },
+  {
+    "title": "Moonshot&#039;s Kimi K3 outperforms Fable 5 in frontend code but lags far behind in complex math",
+    "url": "https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/",
+    "source": "The Decoder",
+    "published_at": "2026-07-19T09:32:19.000Z"
+  },
+  {
+    "title": "AI text detectors struggle when language models mimic an author&#039;s style",
+    "url": "https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/",
+    "source": "The Decoder",
+    "published_at": "2026-07-19T08:35:26.000Z"
+  },
+  {
     "title": "AI chatbots reading X-rays can be dangerously confident even when they&#039;re wrong",
     "url": "https://the-decoder.com/ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong/",
     "source": "The Decoder",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/",
     "source": "The Decoder",
     "published_at": "2026-07-18T10:16:02.000Z"
-  },
-  {
-    "title": "The Pentagon&#039;s new AI playbook treats slow adoption as a bigger risk than imperfect alignment",
-    "url": "https://the-decoder.com/the-pentagons-new-ai-playbook-treats-slow-adoption-as-a-bigger-risk-than-imperfect-alignment/",
-    "source": "The Decoder",
-    "published_at": "2026-07-18T08:10:40.000Z"
-  },
-  {
-    "title": "Anthropic slashes Claude Fable 5 limits in Max and Team Premium and pushes Pro users toward API pricing",
-    "url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/",
-    "source": "The Decoder",
-    "published_at": "2026-07-18T07:17:11.000Z"
-  },
-  {
-    "title": "Zuckerberg&#039;s plan to sell excess AI compute could finds its first big customer in Anthropic",
-    "url": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/",
-    "source": "The Decoder",
-    "published_at": "2026-07-17T21:16:00.000Z"
-  },
-  {
-    "title": "GPT-5.6 is deleting user files when given full access, and OpenAI says it shouldn&#039;t but did",
-    "url": "https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/",
-    "source": "The Decoder",
-    "published_at": "2026-07-17T19:35:52.000Z"
-  },
-  {
-    "title": "Just like Deepseek, China&#039;s Kimi K3 is forcing Western AI labs to question their compute advantage",
-    "url": "https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/",
-    "source": "The Decoder",
-    "published_at": "2026-07-17T19:16:07.000Z"
   }
 ]
