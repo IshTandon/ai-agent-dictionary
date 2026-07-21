@@ -1,5 +1,35 @@
 [
   {
+    "title": "Google&#039;s &quot;Frozen v2&quot; chip reportedly bakes Gemini&#039;s architecture directly into silicon for efficiency gains",
+    "url": "https://the-decoder.com/googles-frozen-v2-chip-reportedly-bakes-geminis-architecture-directly-into-silicon-for-efficiency-gains/",
+    "source": "The Decoder",
+    "published_at": "2026-07-20T18:08:33.000Z"
+  },
+  {
+    "title": "District 9 director Neill Blomkamp releases first short film made entirely with AI video generation",
+    "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation/",
+    "source": "The Decoder",
+    "published_at": "2026-07-20T17:32:41.000Z"
+  },
+  {
+    "title": "Nvidia&#039;s grip on AI chips weakens as Microsoft turns to AMD and Anthropic may follow",
+    "url": "https://the-decoder.com/nvidias-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-and-anthropic-may-follow/",
+    "source": "The Decoder",
+    "published_at": "2026-07-20T16:44:30.000Z"
+  },
+  {
+    "title": "Trump administration reportedly builds a slow-motion ban on Chinese AI models through sanctions and soft pressure",
+    "url": "https://the-decoder.com/trump-administration-reportedly-builds-a-slow-motion-ban-on-chinese-ai-models-through-sanctions-and-soft-pressure/",
+    "source": "The Decoder",
+    "published_at": "2026-07-20T14:03:53.000Z"
+  },
+  {
+    "title": "Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back",
+    "url": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/",
+    "source": "The Decoder",
+    "published_at": "2026-07-20T12:12:47.000Z"
+  },
+  {
     "title": "Moonshot pauses new Kimi K3 subscriptions after GPU demand maxes out in 48 hours",
     "url": "https://the-decoder.com/moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-maxes-out-in-48-hours/",
     "source": "The Decoder",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/google-deepmind-argues-video-generators-already-contain-the-world-models-computer-vision-has-been-missing/",
     "source": "The Decoder",
     "published_at": "2026-07-19T10:17:49.000Z"
-  },
-  {
-    "title": "Moonshot&#039;s Kimi K3 outperforms Fable 5 in frontend code but lags far behind in complex math",
-    "url": "https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/",
-    "source": "The Decoder",
-    "published_at": "2026-07-19T09:32:19.000Z"
-  },
-  {
-    "title": "AI text detectors struggle when language models mimic an author&#039;s style",
-    "url": "https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/",
-    "source": "The Decoder",
-    "published_at": "2026-07-19T08:35:26.000Z"
-  },
-  {
-    "title": "AI chatbots reading X-rays can be dangerously confident even when they&#039;re wrong",
-    "url": "https://the-decoder.com/ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong/",
-    "source": "The Decoder",
-    "published_at": "2026-07-19T07:35:20.000Z"
-  },
-  {
-    "title": "China&#039;s new World Artificial Intelligence Cooperation Organization is President Xi&#039;s clearest play yet for a parallel AI order",
-    "url": "https://the-decoder.com/chinas-new-world-artificial-intelligence-cooperation-organization-is-president-xis-clearest-play-yet-for-a-parallel-ai-order/",
-    "source": "The Decoder",
-    "published_at": "2026-07-18T10:46:04.000Z"
-  },
-  {
-    "title": "Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost",
-    "url": "https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/",
-    "source": "The Decoder",
-    "published_at": "2026-07-18T10:16:02.000Z"
   }
 ]
