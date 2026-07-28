@@ -1,5 +1,35 @@
 [
   {
+    "title": "Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race",
+    "url": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/",
+    "source": "The Decoder",
+    "published_at": "2026-07-27T19:35:08.000Z"
+  },
+  {
+    "title": "OpenAI says more workers are using ChatGPT to do other people&#039;s jobs",
+    "url": "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs/",
+    "source": "The Decoder",
+    "published_at": "2026-07-27T19:08:51.000Z"
+  },
+  {
+    "title": "Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
+    "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/",
+    "source": "The Decoder",
+    "published_at": "2026-07-27T18:50:07.000Z"
+  },
+  {
+    "title": "Delhi High Court hands OpenAI a win by rejecting major Indian news agency&#039;s copyright injunction",
+    "url": "https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/",
+    "source": "The Decoder",
+    "published_at": "2026-07-27T17:55:24.000Z"
+  },
+  {
+    "title": "METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
+    "url": "https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/",
+    "source": "The Decoder",
+    "published_at": "2026-07-27T12:28:06.000Z"
+  },
+  {
     "title": "Shared Claude chats were reportedly showing up in search engines",
     "url": "https://the-decoder.com/shared-claude-chats-were-reportedly-showing-up-in-search-engines/",
     "source": "The Decoder",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
     "source": "The Decoder",
     "published_at": "2026-07-26T09:43:02.000Z"
-  },
-  {
-    "title": "Hundreds asked ChatGPT for poison and bioweapon recipes and some got step-by-step high school level guides",
-    "url": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides/",
-    "source": "The Decoder",
-    "published_at": "2026-07-26T08:35:49.000Z"
-  },
-  {
-    "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
-    "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/",
-    "source": "The Decoder",
-    "published_at": "2026-07-26T07:56:24.000Z"
-  },
-  {
-    "title": "The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
-    "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills/",
-    "source": "The Decoder",
-    "published_at": "2026-07-26T06:59:56.000Z"
-  },
-  {
-    "title": "New reports reveal the extent of OpenAI&#039;s loss of control during the autonomous hack on Hugging Face",
-    "url": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/",
-    "source": "The Decoder",
-    "published_at": "2026-07-25T13:45:50.000Z"
-  },
-  {
-    "title": "Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
-    "url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/",
-    "source": "The Decoder",
-    "published_at": "2026-07-25T10:43:36.000Z"
   }
 ]
