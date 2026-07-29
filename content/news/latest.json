@@ -1,5 +1,35 @@
 [
   {
+    "title": "Anthropic says its Mythos model found vulnerabilities in cryptographic algorithms that secure the internet",
+    "url": "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/",
+    "source": "The Decoder",
+    "published_at": "2026-07-28T19:12:27.000Z"
+  },
+  {
+    "title": "Amazon reportedly scales back its Nova AI models and bets on a new Frontier research team",
+    "url": "https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/",
+    "source": "The Decoder",
+    "published_at": "2026-07-28T16:03:39.000Z"
+  },
+  {
+    "title": "Taiwan detains Nvidia employee in widening China chip smuggling probe",
+    "url": "https://the-decoder.com/taiwan-detains-nvidia-employee-in-widening-china-chip-smuggling-probe/",
+    "source": "The Decoder",
+    "published_at": "2026-07-28T13:15:43.000Z"
+  },
+  {
+    "title": "Nvidia invests in Ilya Sutskever&#039;s AI lab, shifting SSI away from Google chips",
+    "url": "https://the-decoder.com/nvidia-invests-in-ilya-sutskevers-ai-lab-shifting-ssi-away-from-google-chips/",
+    "source": "The Decoder",
+    "published_at": "2026-07-28T13:06:35.000Z"
+  },
+  {
+    "title": "Anthropic CEO Amodei doubles down on open-weight risk stance while insisting he never called for a ban",
+    "url": "https://the-decoder.com/anthropic-ceo-amodei-doubles-down-on-open-weight-risk-stance-while-insisting-he-never-called-for-a-ban/",
+    "source": "The Decoder",
+    "published_at": "2026-07-28T12:06:42.000Z"
+  },
+  {
     "title": "Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race",
     "url": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/",
     "source": "The Decoder",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/",
     "source": "The Decoder",
     "published_at": "2026-07-27T18:50:07.000Z"
-  },
-  {
-    "title": "Delhi High Court hands OpenAI a win by rejecting major Indian news agency&#039;s copyright injunction",
-    "url": "https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/",
-    "source": "The Decoder",
-    "published_at": "2026-07-27T17:55:24.000Z"
-  },
-  {
-    "title": "METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
-    "url": "https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/",
-    "source": "The Decoder",
-    "published_at": "2026-07-27T12:28:06.000Z"
-  },
-  {
-    "title": "Shared Claude chats were reportedly showing up in search engines",
-    "url": "https://the-decoder.com/shared-claude-chats-were-reportedly-showing-up-in-search-engines/",
-    "source": "The Decoder",
-    "published_at": "2026-07-27T07:51:16.000Z"
-  },
-  {
-    "title": "Cursor&#039;s agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
-    "url": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/",
-    "source": "The Decoder",
-    "published_at": "2026-07-26T15:09:11.000Z"
-  },
-  {
-    "title": "Anthropic&#039;s Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
-    "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
-    "source": "The Decoder",
-    "published_at": "2026-07-26T09:43:02.000Z"
   }
 ]
