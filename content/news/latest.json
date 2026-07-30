@@ -1,50 +1,50 @@
 [
   {
-    "title": "Anthropic says its Mythos model found vulnerabilities in cryptographic algorithms that secure the internet",
-    "url": "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/",
+    "title": "OpenAI claims GPT-5.6 Sol beats Opus 5 on ARC-AGI-3 but only with its own custom test harness",
+    "url": "https://the-decoder.com/openai-claims-gpt-5-6-sol-beats-opus-5-on-arc-agi-3-but-only-with-its-own-custom-test-harness/",
     "source": "The Decoder",
-    "published_at": "2026-07-28T19:12:27.000Z"
+    "published_at": "2026-07-30T07:40:11.000Z"
   },
   {
-    "title": "Amazon reportedly scales back its Nova AI models and bets on a new Frontier research team",
-    "url": "https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/",
+    "title": "Google&#039;s Lyria 3.5 music model now lets users edit individual track sections without starting over",
+    "url": "https://the-decoder.com/googles-lyria-3-5-music-model-now-lets-users-edit-individual-track-sections-without-starting-over/",
     "source": "The Decoder",
-    "published_at": "2026-07-28T16:03:39.000Z"
+    "published_at": "2026-07-29T18:37:49.000Z"
   },
   {
-    "title": "Taiwan detains Nvidia employee in widening China chip smuggling probe",
-    "url": "https://the-decoder.com/taiwan-detains-nvidia-employee-in-widening-china-chip-smuggling-probe/",
+    "title": "PwC has allegedly published AI-generated reports containing false or fabricated sources",
+    "url": "https://the-decoder.com/pwc-has-allegedly-published-ai-generated-reports-containing-false-or-fabricated-sources/",
     "source": "The Decoder",
-    "published_at": "2026-07-28T13:15:43.000Z"
+    "published_at": "2026-07-29T17:44:18.000Z"
   },
   {
-    "title": "Nvidia invests in Ilya Sutskever&#039;s AI lab, shifting SSI away from Google chips",
-    "url": "https://the-decoder.com/nvidia-invests-in-ilya-sutskevers-ai-lab-shifting-ssi-away-from-google-chips/",
+    "title": "Pangram says its new AI text detector makes only one mistake per 24,000 documents",
+    "url": "https://the-decoder.com/pangram-says-its-new-ai-text-detector-makes-only-one-mistake-per-24000-documents/",
     "source": "The Decoder",
-    "published_at": "2026-07-28T13:06:35.000Z"
+    "published_at": "2026-07-29T17:16:53.000Z"
   },
   {
-    "title": "Anthropic CEO Amodei doubles down on open-weight risk stance while insisting he never called for a ban",
-    "url": "https://the-decoder.com/anthropic-ceo-amodei-doubles-down-on-open-weight-risk-stance-while-insisting-he-never-called-for-a-ban/",
+    "title": "OpenAI admits its autonomous AI models also compromised credentials on other platforms during security eval",
+    "url": "https://the-decoder.com/openai-admits-its-autonomous-ai-models-also-compromised-credentials-on-other-platforms-during-security-eval/",
     "source": "The Decoder",
-    "published_at": "2026-07-28T12:06:42.000Z"
+    "published_at": "2026-07-29T16:26:56.000Z"
   },
   {
-    "title": "Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race",
-    "url": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/",
+    "title": "Deepmind dismantles its AlphaFold team as key authors leave for Anthropic",
+    "url": "https://the-decoder.com/deepmind-dismantles-its-alphafold-team-as-key-authors-leave-for-anthropic/",
     "source": "The Decoder",
-    "published_at": "2026-07-27T19:35:08.000Z"
+    "published_at": "2026-07-29T13:47:11.000Z"
   },
   {
-    "title": "OpenAI says more workers are using ChatGPT to do other people&#039;s jobs",
-    "url": "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs/",
+    "title": "GPT Transcribe improves on its predecessor but can&#039;t catch ElevenLabs, Google, or Mistral on error rates",
+    "url": "https://the-decoder.com/gpt-transcribe-improves-on-its-predecessor-but-cant-catch-elevenlabs-google-or-mistral-on-error-rates/",
     "source": "The Decoder",
-    "published_at": "2026-07-27T19:08:51.000Z"
+    "published_at": "2026-07-29T12:45:33.000Z"
   },
   {
-    "title": "Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
-    "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/",
+    "title": "Frontier AI developers urge international coordination to pace automated research before capabilities outstrip control",
+    "url": "https://the-decoder.com/frontier-ai-developers-urge-international-coordination-to-pace-automated-research-before-capabilities-outstrip-control/",
     "source": "The Decoder",
-    "published_at": "2026-07-27T18:50:07.000Z"
+    "published_at": "2026-07-29T12:13:16.000Z"
   }
 ]
