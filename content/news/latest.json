@@ -1,9 +1,39 @@
 [
   {
-    "title": "OpenAI claims GPT-5.6 Sol beats Opus 5 on ARC-AGI-3 but only with its own custom test harness",
-    "url": "https://the-decoder.com/openai-claims-gpt-5-6-sol-beats-opus-5-on-arc-agi-3-but-only-with-its-own-custom-test-harness/",
+    "title": "OpenAI goes full China pricing mode with an 80 percent cut to its most affordable GPT-5.6 model",
+    "url": "https://the-decoder.com/openai-goes-full-china-pricing-mode-with-an-80-percent-cut-to-its-most-affordable-gpt-5-6-model/",
     "source": "The Decoder",
-    "published_at": "2026-07-30T07:40:11.000Z"
+    "published_at": "2026-07-30T18:46:24.000Z"
+  },
+  {
+    "title": "Ex-OpenAI researcher bets $100 billion will flow into training data because scaling alone won&#039;t cut it",
+    "url": "https://the-decoder.com/ex-openai-researcher-bets-100-billion-will-flow-into-training-data-because-scaling-alone-wont-cut-it/",
+    "source": "The Decoder",
+    "published_at": "2026-07-30T18:07:17.000Z"
+  },
+  {
+    "title": "Language models can&#039;t spark scientific revolutions, but world models might",
+    "url": "https://the-decoder.com/language-models-cant-spark-scientific-revolutions-but-world-models-might/",
+    "source": "The Decoder",
+    "published_at": "2026-07-30T14:01:33.000Z"
+  },
+  {
+    "title": "Microsoft AI bets on cheap specialist models instead of chasing the frontier",
+    "url": "https://the-decoder.com/microsoft-ai-bets-on-cheap-specialist-models-instead-of-chasing-the-frontier/",
+    "source": "The Decoder",
+    "published_at": "2026-07-30T13:11:48.000Z"
+  },
+  {
+    "title": "FCC bans new Chinese robots and power inverters to protect US AI buildout from foreign threats",
+    "url": "https://the-decoder.com/fcc-bans-new-chinese-robots-and-power-inverters-to-protect-us-ai-buildout-from-foreign-threats/",
+    "source": "The Decoder",
+    "published_at": "2026-07-30T12:47:46.000Z"
+  },
+  {
+    "title": "OpenAI claims GPT-5.6 Sol beats Opus 5 on ARC-AGI-3 with its latest API and two additional settings",
+    "url": "https://the-decoder.com/openai-claims-gpt-5-6-sol-beats-opus-5-on-arc-agi-3-with-its-latest-api-and-two-additional-settings/",
+    "source": "The Decoder",
+    "published_at": "2026-07-30T09:03:11.000Z"
   },
   {
     "title": "Google&#039;s Lyria 3.5 music model now lets users edit individual track sections without starting over",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/pwc-has-allegedly-published-ai-generated-reports-containing-false-or-fabricated-sources/",
     "source": "The Decoder",
     "published_at": "2026-07-29T17:44:18.000Z"
-  },
-  {
-    "title": "Pangram says its new AI text detector makes only one mistake per 24,000 documents",
-    "url": "https://the-decoder.com/pangram-says-its-new-ai-text-detector-makes-only-one-mistake-per-24000-documents/",
-    "source": "The Decoder",
-    "published_at": "2026-07-29T17:16:53.000Z"
-  },
-  {
-    "title": "OpenAI admits its autonomous AI models also compromised credentials on other platforms during security eval",
-    "url": "https://the-decoder.com/openai-admits-its-autonomous-ai-models-also-compromised-credentials-on-other-platforms-during-security-eval/",
-    "source": "The Decoder",
-    "published_at": "2026-07-29T16:26:56.000Z"
-  },
-  {
-    "title": "Deepmind dismantles its AlphaFold team as key authors leave for Anthropic",
-    "url": "https://the-decoder.com/deepmind-dismantles-its-alphafold-team-as-key-authors-leave-for-anthropic/",
-    "source": "The Decoder",
-    "published_at": "2026-07-29T13:47:11.000Z"
-  },
-  {
-    "title": "GPT Transcribe improves on its predecessor but can&#039;t catch ElevenLabs, Google, or Mistral on error rates",
-    "url": "https://the-decoder.com/gpt-transcribe-improves-on-its-predecessor-but-cant-catch-elevenlabs-google-or-mistral-on-error-rates/",
-    "source": "The Decoder",
-    "published_at": "2026-07-29T12:45:33.000Z"
-  },
-  {
-    "title": "Frontier AI developers urge international coordination to pace automated research before capabilities outstrip control",
-    "url": "https://the-decoder.com/frontier-ai-developers-urge-international-coordination-to-pace-automated-research-before-capabilities-outstrip-control/",
-    "source": "The Decoder",
-    "published_at": "2026-07-29T12:13:16.000Z"
   }
 ]
