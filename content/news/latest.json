@@ -1,5 +1,41 @@
 [
   {
+    "title": "Google Deepmind unveils Gemini Robotics 2 to power robots of all shapes from tabletop arms to humanoids",
+    "url": "https://the-decoder.com/google-deepmind-unveils-gemini-robotics-2-to-power-robots-of-all-shapes-from-tabletop-arms-to-humanoids/",
+    "source": "The Decoder",
+    "published_at": "2026-07-31T18:25:08.000Z"
+  },
+  {
+    "title": "Thinking Machines bets on efficiency over size with its second model, Inkling Small",
+    "url": "https://the-decoder.com/thinking-machines-bets-on-efficiency-over-size-with-its-second-model-inkling-small/",
+    "source": "The Decoder",
+    "published_at": "2026-07-31T17:41:50.000Z"
+  },
+  {
+    "title": "New Deepseek Flash model matches OpenAI&#039;s GPT-5.6 Luna at roughly 60 percent lower cost",
+    "url": "https://the-decoder.com/new-deepseek-flash-model-matches-openais-gpt-5-6-luna-at-roughly-60-percent-lower-cost/",
+    "source": "The Decoder",
+    "published_at": "2026-07-31T16:39:25.000Z"
+  },
+  {
+    "title": "EU pools up to €30 billion for AI gigafactories while US tech giants casually spend 20 times more",
+    "url": "https://the-decoder.com/eu-pools-up-to-e30-billion-for-ai-gigafactories-while-us-tech-giants-casually-spend-20-times-more/",
+    "source": "The Decoder",
+    "published_at": "2026-07-31T15:28:08.000Z"
+  },
+  {
+    "title": "Anthropic follows OpenAI in admitting its Claude models reached out of test environments and attacked real-world systems",
+    "url": "https://the-decoder.com/anthropic-follows-openai-in-admitting-its-claude-models-reached-out-of-test-environments-and-attacked-real-world-systems/",
+    "source": "The Decoder",
+    "published_at": "2026-07-31T10:57:37.000Z"
+  },
+  {
+    "title": "Aschenbrenner&#039;s AI thesis could be correct, his timing and leverage were not",
+    "url": "https://the-decoder.com/aschenbrenners-ai-thesis-could-be-correct-his-timing-and-leverage-were-not/",
+    "source": "The Decoder",
+    "published_at": "2026-07-31T10:49:05.000Z"
+  },
+  {
     "title": "OpenAI goes full China pricing mode with an 80 percent cut to its most affordable GPT-5.6 model",
     "url": "https://the-decoder.com/openai-goes-full-china-pricing-mode-with-an-80-percent-cut-to-its-most-affordable-gpt-5-6-model/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/ex-openai-researcher-bets-100-billion-will-flow-into-training-data-because-scaling-alone-wont-cut-it/",
     "source": "The Decoder",
     "published_at": "2026-07-30T18:07:17.000Z"
-  },
-  {
-    "title": "Language models can&#039;t spark scientific revolutions, but world models might",
-    "url": "https://the-decoder.com/language-models-cant-spark-scientific-revolutions-but-world-models-might/",
-    "source": "The Decoder",
-    "published_at": "2026-07-30T14:01:33.000Z"
-  },
-  {
-    "title": "Microsoft AI bets on cheap specialist models instead of chasing the frontier",
-    "url": "https://the-decoder.com/microsoft-ai-bets-on-cheap-specialist-models-instead-of-chasing-the-frontier/",
-    "source": "The Decoder",
-    "published_at": "2026-07-30T13:11:48.000Z"
-  },
-  {
-    "title": "FCC bans new Chinese robots and power inverters to protect US AI buildout from foreign threats",
-    "url": "https://the-decoder.com/fcc-bans-new-chinese-robots-and-power-inverters-to-protect-us-ai-buildout-from-foreign-threats/",
-    "source": "The Decoder",
-    "published_at": "2026-07-30T12:47:46.000Z"
-  },
-  {
-    "title": "OpenAI claims GPT-5.6 Sol beats Opus 5 on ARC-AGI-3 with its latest API and two additional settings",
-    "url": "https://the-decoder.com/openai-claims-gpt-5-6-sol-beats-opus-5-on-arc-agi-3-with-its-latest-api-and-two-additional-settings/",
-    "source": "The Decoder",
-    "published_at": "2026-07-30T09:03:11.000Z"
-  },
-  {
-    "title": "Google&#039;s Lyria 3.5 music model now lets users edit individual track sections without starting over",
-    "url": "https://the-decoder.com/googles-lyria-3-5-music-model-now-lets-users-edit-individual-track-sections-without-starting-over/",
-    "source": "The Decoder",
-    "published_at": "2026-07-29T18:37:49.000Z"
-  },
-  {
-    "title": "PwC has allegedly published AI-generated reports containing false or fabricated sources",
-    "url": "https://the-decoder.com/pwc-has-allegedly-published-ai-generated-reports-containing-false-or-fabricated-sources/",
-    "source": "The Decoder",
-    "published_at": "2026-07-29T17:44:18.000Z"
   }
 ]
