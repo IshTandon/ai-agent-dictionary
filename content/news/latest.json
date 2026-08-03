@@ -1,5 +1,35 @@
 [
   {
+    "title": "OpenAI Presence wants to make AI agents production-ready for businesses",
+    "url": "https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/",
+    "source": "The Decoder",
+    "published_at": "2026-08-02T13:10:21.000Z"
+  },
+  {
+    "title": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+    "url": "https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/",
+    "source": "The Decoder",
+    "published_at": "2026-08-02T12:57:38.000Z"
+  },
+  {
+    "title": "A real macOS flaw worth $200K went unreported because Apple&#039;s bug bounty inbox was full of AI slop",
+    "url": "https://the-decoder.com/a-real-macos-flaw-worth-200k-went-unreported-because-apples-bug-bounty-inbox-was-full-of-ai-slop/",
+    "source": "The Decoder",
+    "published_at": "2026-08-02T12:42:49.000Z"
+  },
+  {
+    "title": "AI finds plenty of security flaws, but almost none of them get exploited",
+    "url": "https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/",
+    "source": "The Decoder",
+    "published_at": "2026-08-02T10:09:34.000Z"
+  },
+  {
+    "title": "Claude Opus 5 pushes prompt-to-game AI from rough color blocks to full 3D prototypes with physics and music",
+    "url": "https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/",
+    "source": "The Decoder",
+    "published_at": "2026-08-02T08:51:07.000Z"
+  },
+  {
     "title": "After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior",
     "url": "https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/",
     "source": "The Decoder",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/ai-keeps-cracking-unsolved-math-problems-and-mathematicians-have-mixed-feelings/",
     "source": "The Decoder",
     "published_at": "2026-08-01T16:01:31.000Z"
-  },
-  {
-    "title": "AI coding agents can modernize research software but can&#039;t judge if the science is right",
-    "url": "https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right/",
-    "source": "The Decoder",
-    "published_at": "2026-08-01T14:26:28.000Z"
-  },
-  {
-    "title": "A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot",
-    "url": "https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/",
-    "source": "The Decoder",
-    "published_at": "2026-08-01T13:51:57.000Z"
-  },
-  {
-    "title": "ByteDance&#039;s Seedance 2.5 generates 30-second video clips with built-in audio",
-    "url": "https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/",
-    "source": "The Decoder",
-    "published_at": "2026-08-01T13:33:41.000Z"
-  },
-  {
-    "title": "German court rules AI music generator Suno violated copyrights, rejects fair use defense",
-    "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/",
-    "source": "The Decoder",
-    "published_at": "2026-08-01T10:40:50.000Z"
-  },
-  {
-    "title": "OpenAI announces its &quot;next major model&quot; Astra by dropping ten previously unsolved math solutions",
-    "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/",
-    "source": "The Decoder",
-    "published_at": "2026-08-01T09:29:49.000Z"
   }
 ]
