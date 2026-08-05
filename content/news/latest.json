@@ -1,5 +1,35 @@
 [
   {
+    "title": "This year&#039;s Pulitzer Prizes saw a record number of winners disclose AI use",
+    "url": "https://the-decoder.com/this-years-pulitzer-prizes-saw-a-record-number-of-winners-disclose-ai-use/",
+    "source": "The Decoder",
+    "published_at": "2026-08-04T17:26:03.000Z"
+  },
+  {
+    "title": "Google moves billions in Anthropic chip risk off its balance sheet",
+    "url": "https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/",
+    "source": "The Decoder",
+    "published_at": "2026-08-04T16:38:58.000Z"
+  },
+  {
+    "title": "Anthropic locks in $10 billion of compute from Volta, a cloud startup that didn&#039;t exist six months ago",
+    "url": "https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/",
+    "source": "The Decoder",
+    "published_at": "2026-08-04T15:21:14.000Z"
+  },
+  {
+    "title": "Silicon Valley’s rift over open source pushes back contemplated White House bans on Chinese AI",
+    "url": "https://the-decoder.com/silicon-valleys-rift-over-open-source-pushes-back-contemplated-white-house-bans-on-chinese-ai/",
+    "source": "The Decoder",
+    "published_at": "2026-08-04T12:23:43.000Z"
+  },
+  {
+    "title": "OpenAI fires back at Apple&#039;s trade secret lawsuit with chat logs showing Apple employees kept texting their former colleague",
+    "url": "https://the-decoder.com/openai-fires-back-at-apples-trade-secret-lawsuit-with-chat-logs-showing-apple-employees-kept-texting-their-former-colleague/",
+    "source": "The Decoder",
+    "published_at": "2026-08-04T10:22:53.000Z"
+  },
+  {
     "title": "Alibaba&#039;s new Qwen model is also taking your job, but this time it&#039;s great",
     "url": "https://the-decoder.com/alibabas-new-qwen-model-is-also-taking-your-job-but-this-time-its-great/",
     "source": "The Decoder",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/interpol-says-ai-has-become-the-core-operational-driver-of-cybercrime-across-africa/",
     "source": "The Decoder",
     "published_at": "2026-08-03T15:00:28.000Z"
-  },
-  {
-    "title": "China&#039;s MiniMax H3 is the first open model to top an AI video ranking",
-    "url": "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/",
-    "source": "The Decoder",
-    "published_at": "2026-08-03T13:52:29.000Z"
-  },
-  {
-    "title": "Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test",
-    "url": "https://the-decoder.com/unicorn-pelican-middle-earth-openai-co-founder-karpathy-is-looking-for-the-next-ai-vibe-test/",
-    "source": "The Decoder",
-    "published_at": "2026-08-03T12:07:31.000Z"
-  },
-  {
-    "title": "Two teams solved the same quantum crypto problem using GPT-5.6 just three hours apart",
-    "url": "https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/",
-    "source": "The Decoder",
-    "published_at": "2026-08-03T10:49:58.000Z"
-  },
-  {
-    "title": "Alibaba’s open-weight Qwen3.8-Max takes on long-horizon AI tasks with 2.4 trillion parameters",
-    "url": "https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/",
-    "source": "The Decoder",
-    "published_at": "2026-08-03T10:48:50.000Z"
-  },
-  {
-    "title": "OpenAI Presence wants to make AI agents production-ready for businesses",
-    "url": "https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/",
-    "source": "The Decoder",
-    "published_at": "2026-08-02T13:10:21.000Z"
   }
 ]
