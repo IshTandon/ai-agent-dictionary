@@ -1,5 +1,41 @@
 [
   {
+    "title": "Scammers are enrolling fake students at US community colleges and using AI to collect financial aid",
+    "url": "https://the-decoder.com/scammers-are-enrolling-fake-students-at-us-community-colleges-and-using-ai-to-collect-financial-aid/",
+    "source": "The Decoder",
+    "published_at": "2026-08-09T13:00:59.000Z"
+  },
+  {
+    "title": "Google Deepmind&#039;s WeatherNext predicts cyclone tracks and intensity at the same time",
+    "url": "https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/",
+    "source": "The Decoder",
+    "published_at": "2026-08-09T12:29:06.000Z"
+  },
+  {
+    "title": "AI is flooding Britain&#039;s employment courts with lawsuits",
+    "url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/",
+    "source": "The Decoder",
+    "published_at": "2026-08-09T10:26:43.000Z"
+  },
+  {
+    "title": "Google&#039;s DiffusionGemma proves you don&#039;t need to train from scratch to build a text diffusion model",
+    "url": "https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/",
+    "source": "The Decoder",
+    "published_at": "2026-08-09T10:01:26.000Z"
+  },
+  {
+    "title": "AI&#039;s energy appetite drives Nvidia and Amazon to pour billions into massive power infrastructure",
+    "url": "https://the-decoder.com/ais-energy-appetite-drives-nvidia-and-amazon-to-pour-billions-into-massive-power-infrastructure/",
+    "source": "The Decoder",
+    "published_at": "2026-08-09T09:26:28.000Z"
+  },
+  {
+    "title": "Google dismantles Deepmind and bets on a fresh start as Hassabis heads for the exit",
+    "url": "https://the-decoder.com/google-dismantles-deepmind-and-bets-on-a-fresh-start-as-hassabis-heads-for-the-exit/",
+    "source": "The Decoder",
+    "published_at": "2026-08-09T08:56:12.000Z"
+  },
+  {
     "title": "Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals",
     "url": "https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/readers-rate-ai-generated-short-stories-higher-than-human-ones-until-they-learn-a-machine-wrote-them/",
     "source": "The Decoder",
     "published_at": "2026-08-08T14:18:55.000Z"
-  },
-  {
-    "title": "Claude Code sessions can now talk to each other and share context across terminals",
-    "url": "https://the-decoder.com/claude-code-sessions-can-now-talk-to-each-other-and-share-context-across-terminals/",
-    "source": "The Decoder",
-    "published_at": "2026-08-08T12:28:36.000Z"
-  },
-  {
-    "title": "Backflip AI turns 3D scans into editable CAD models in minutes instead of hours",
-    "url": "https://the-decoder.com/backflip-ai-turns-3d-scans-into-editable-cad-models-in-minutes-instead-of-hours/",
-    "source": "The Decoder",
-    "published_at": "2026-08-08T11:26:35.000Z"
-  },
-  {
-    "title": "Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI",
-    "url": "https://the-decoder.com/fields-medalist-who-published-a-paper-on-ai-driven-human-extinction-now-works-for-openai/",
-    "source": "The Decoder",
-    "published_at": "2026-08-08T11:08:48.000Z"
-  },
-  {
-    "title": "AI agents use roughly 600 times more energy than a simple chat prompt",
-    "url": "https://the-decoder.com/ai-agents-use-roughly-600-times-more-energy-than-a-simple-chat-prompt/",
-    "source": "The Decoder",
-    "published_at": "2026-08-08T09:44:06.000Z"
-  },
-  {
-    "title": "xAI&#039;s Imagine Image 2.0 lands just behind OpenAI&#039;s GPT-Image-2 in Arena benchmarks",
-    "url": "https://the-decoder.com/xais-imagine-image-2-0-lands-just-behind-openais-gpt-image-2-in-arena-benchmarks/",
-    "source": "The Decoder",
-    "published_at": "2026-08-08T08:22:39.000Z"
-  },
-  {
-    "title": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
-    "url": "https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/",
-    "source": "The Decoder",
-    "published_at": "2026-08-08T07:21:06.000Z"
   }
 ]
