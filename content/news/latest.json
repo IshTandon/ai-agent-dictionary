@@ -1,5 +1,41 @@
 [
   {
+    "title": "Optima tackles AI benchmarking&#039;s biggest flaw by letting users test models against their own data",
+    "url": "https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/",
+    "source": "The Decoder",
+    "published_at": "2026-08-16T05:50:50.000Z"
+  },
+  {
+    "title": "One in five US workers now delegates tasks to AI instead of colleagues, survey finds",
+    "url": "https://the-decoder.com/one-in-five-us-workers-now-delegates-tasks-to-ai-instead-of-colleagues-survey-finds/",
+    "source": "The Decoder",
+    "published_at": "2026-08-16T05:00:00.000Z"
+  },
+  {
+    "title": "Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic&#039;s numbers defy bubble warnings",
+    "url": "https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/",
+    "source": "The Decoder",
+    "published_at": "2026-08-15T15:41:02.000Z"
+  },
+  {
+    "title": "AI-generated books are flooding Amazon and tanking sales for human authors",
+    "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors/",
+    "source": "The Decoder",
+    "published_at": "2026-08-15T11:00:50.000Z"
+  },
+  {
+    "title": "Plaintiff hid invisible AI instructions in court filings to secretly influence automated review",
+    "url": "https://the-decoder.com/plaintiff-hid-invisible-ai-instructions-in-court-filings-to-secretly-influence-automated-review/",
+    "source": "The Decoder",
+    "published_at": "2026-08-15T08:00:45.000Z"
+  },
+  {
+    "title": "World Labs turns one real-world robot task into thousands of simulated variations for training",
+    "url": "https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/",
+    "source": "The Decoder",
+    "published_at": "2026-08-15T07:30:48.000Z"
+  },
+  {
     "title": "The &quot;tragedy of the cognitive commons&quot; explains how rational AI adoption could destroy entire professions&#039; expertise",
     "url": "https://the-decoder.com/the-tragedy-of-the-cognitive-commons-explains-how-rational-ai-adoption-could-destroy-entire-professions-expertise/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/",
     "source": "The Decoder",
     "published_at": "2026-08-15T05:30:18.000Z"
-  },
-  {
-    "title": "Anthropic announces watermark detection API that will let third parties detect Claude&#039;s AI texts",
-    "url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/",
-    "source": "The Decoder",
-    "published_at": "2026-08-14T21:29:17.000Z"
-  },
-  {
-    "title": "Alibaba&#039;s Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license",
-    "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/",
-    "source": "The Decoder",
-    "published_at": "2026-08-14T17:01:54.000Z"
-  },
-  {
-    "title": "OpenAI&#039;s Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
-    "url": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/",
-    "source": "The Decoder",
-    "published_at": "2026-08-14T16:43:43.000Z"
-  },
-  {
-    "title": "Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
-    "url": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/",
-    "source": "The Decoder",
-    "published_at": "2026-08-14T16:06:32.000Z"
-  },
-  {
-    "title": "GPT-5.6 Sol goes 14x faster as OpenAI launches Ultrafast mode powered by Cerebras",
-    "url": "https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras/",
-    "source": "The Decoder",
-    "published_at": "2026-08-14T14:21:50.000Z"
-  },
-  {
-    "title": "Claude Code now runs daily maintenance on Anthropic&#039;s software with a 46 percent merge rate",
-    "url": "https://the-decoder.com/claude-code-now-runs-daily-maintenance-on-anthropics-software-with-a-46-percent-merge-rate/",
-    "source": "The Decoder",
-    "published_at": "2026-08-14T11:44:38.000Z"
   }
 ]
