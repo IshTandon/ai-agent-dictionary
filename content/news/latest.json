@@ -1,5 +1,35 @@
 [
   {
+    "title": "Stripe is reportedly acquiring AI startup OpenRouter for more than $7 billion",
+    "url": "https://the-decoder.com/stripe-is-reportedly-acquiring-ai-startup-openrouter-for-more-than-7-billion/",
+    "source": "The Decoder",
+    "published_at": "2026-08-17T06:49:10.000Z"
+  },
+  {
+    "title": "Top mathematicians say LLMs are strong calculators but poor creative thinkers",
+    "url": "https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/",
+    "source": "The Decoder",
+    "published_at": "2026-08-16T15:31:21.000Z"
+  },
+  {
+    "title": "When AI models aren&#039;t allowed to reflect on themselves, it changes their entire worldview",
+    "url": "https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/",
+    "source": "The Decoder",
+    "published_at": "2026-08-16T11:23:30.000Z"
+  },
+  {
+    "title": "OpenAI dissolved the team built to catch catastrophic AI risks, reassigning its work to other groups",
+    "url": "https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/",
+    "source": "The Decoder",
+    "published_at": "2026-08-16T08:12:52.000Z"
+  },
+  {
+    "title": "Anthropic&#039;s bio-weapons filter was down for nearly a year, exposing 133 million requests",
+    "url": "https://the-decoder.com/anthropics-bio-weapons-filter-was-down-for-nearly-a-year-exposing-133-million-requests/",
+    "source": "The Decoder",
+    "published_at": "2026-08-16T07:20:06.000Z"
+  },
+  {
     "title": "Optima tackles AI benchmarking&#039;s biggest flaw by letting users test models against their own data",
     "url": "https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/",
     "source": "The Decoder",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/",
     "source": "The Decoder",
     "published_at": "2026-08-15T15:41:02.000Z"
-  },
-  {
-    "title": "AI-generated books are flooding Amazon and tanking sales for human authors",
-    "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors/",
-    "source": "The Decoder",
-    "published_at": "2026-08-15T11:00:50.000Z"
-  },
-  {
-    "title": "Plaintiff hid invisible AI instructions in court filings to secretly influence automated review",
-    "url": "https://the-decoder.com/plaintiff-hid-invisible-ai-instructions-in-court-filings-to-secretly-influence-automated-review/",
-    "source": "The Decoder",
-    "published_at": "2026-08-15T08:00:45.000Z"
-  },
-  {
-    "title": "World Labs turns one real-world robot task into thousands of simulated variations for training",
-    "url": "https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/",
-    "source": "The Decoder",
-    "published_at": "2026-08-15T07:30:48.000Z"
-  },
-  {
-    "title": "The &quot;tragedy of the cognitive commons&quot; explains how rational AI adoption could destroy entire professions&#039; expertise",
-    "url": "https://the-decoder.com/the-tragedy-of-the-cognitive-commons-explains-how-rational-ai-adoption-could-destroy-entire-professions-expertise/",
-    "source": "The Decoder",
-    "published_at": "2026-08-15T06:00:52.000Z"
-  },
-  {
-    "title": "New benchmark confirms AI models still perform poorly at visual perception",
-    "url": "https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/",
-    "source": "The Decoder",
-    "published_at": "2026-08-15T05:30:18.000Z"
   }
 ]
