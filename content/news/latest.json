@@ -1,5 +1,35 @@
 [
   {
+    "title": "Study explains why AI agents benefit from &quot;skills&quot; and when they fail",
+    "url": "https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/",
+    "source": "The Decoder",
+    "published_at": "2026-08-22T12:15:10.000Z"
+  },
+  {
+    "title": "World models that ignore human beliefs predict the wrong actions, new research shows",
+    "url": "https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows/",
+    "source": "The Decoder",
+    "published_at": "2026-08-22T09:00:20.000Z"
+  },
+  {
+    "title": "RayNeo&#039;s new AI glasses skip the camera, focus on text overlays",
+    "url": "https://the-decoder.com/rayneos-new-ai-glasses-skip-the-camera-focus-on-text-overlays/",
+    "source": "The Decoder",
+    "published_at": "2026-08-22T08:00:14.000Z"
+  },
+  {
+    "title": "Netflix tests language model as alternative to hand-built recommendation logic",
+    "url": "https://the-decoder.com/netflix-tests-language-model-as-alternative-to-hand-built-recommendation-logic/",
+    "source": "The Decoder",
+    "published_at": "2026-08-22T07:30:16.000Z"
+  },
+  {
+    "title": "Psychological methods reveal major weaknesses in AI security testing",
+    "url": "https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/",
+    "source": "The Decoder",
+    "published_at": "2026-08-22T07:00:05.000Z"
+  },
+  {
     "title": "Anthropic puts its most powerful model Claude Mythos 5 to work for cyber defense",
     "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/",
     "source": "The Decoder",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/data-center-opposition-surged-from-42-to-75-percent-in-just-one-year-survey-finds/",
     "source": "The Decoder",
     "published_at": "2026-08-21T18:25:44.000Z"
-  },
-  {
-    "title": "US wants to force partner countries to choose between Washington and Beijing in the AI race",
-    "url": "https://the-decoder.com/us-wants-to-force-partner-countries-to-choose-between-washington-and-beijing-in-the-ai-race/",
-    "source": "The Decoder",
-    "published_at": "2026-08-21T15:18:29.000Z"
-  },
-  {
-    "title": "Waymo builds its own chip for its robotaxis, cutting its reliance on Nvidia",
-    "url": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/",
-    "source": "The Decoder",
-    "published_at": "2026-08-21T11:04:09.000Z"
-  },
-  {
-    "title": "Meta spends hundreds of millions on Microsoft&#039;s AI services",
-    "url": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services/",
-    "source": "The Decoder",
-    "published_at": "2026-08-21T10:54:41.000Z"
-  },
-  {
-    "title": "Anthropic changes data retention policy after enterprise pushback",
-    "url": "https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback/",
-    "source": "The Decoder",
-    "published_at": "2026-08-21T09:59:51.000Z"
-  },
-  {
-    "title": "Nvidia is acquiring Poolside&#039;s &quot;Model Factory&quot; and 109 employees for $6 billion",
-    "url": "https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion/",
-    "source": "The Decoder",
-    "published_at": "2026-08-21T08:27:23.000Z"
   }
 ]
