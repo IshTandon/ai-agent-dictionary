@@ -1,5 +1,41 @@
 [
   {
+    "title": "AI benchmarks have a trust problem and Google wants to fix it",
+    "url": "https://the-decoder.com/ai-benchmarks-have-a-trust-problem-and-google-wants-to-fix-it/",
+    "source": "The Decoder",
+    "published_at": "2026-08-28T13:15:10.000Z"
+  },
+  {
+    "title": "U.S. court rules Pentagon&#039;s blacklisting of Anthropic was unlawful",
+    "url": "https://the-decoder.com/u-s-court-rules-pentagons-blacklisting-of-anthropic-was-unlawful/",
+    "source": "The Decoder",
+    "published_at": "2026-08-28T11:43:41.000Z"
+  },
+  {
+    "title": "Beatport blocks fully AI-generated music from its DJ marketplace",
+    "url": "https://the-decoder.com/beatport-blocks-fully-ai-generated-music-from-its-dj-marketplace/",
+    "source": "The Decoder",
+    "published_at": "2026-08-28T11:20:27.000Z"
+  },
+  {
+    "title": "Always-on and self-starting AI agents might be OpenAI&#039;s next big play",
+    "url": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/",
+    "source": "The Decoder",
+    "published_at": "2026-08-28T08:03:22.000Z"
+  },
+  {
+    "title": "AI shopping agents aren&#039;t ready to buy on your behalf, study finds",
+    "url": "https://the-decoder.com/ai-shopping-agents-arent-ready-to-buy-on-your-behalf-study-finds/",
+    "source": "The Decoder",
+    "published_at": "2026-08-27T18:24:20.000Z"
+  },
+  {
+    "title": "OpenAI rallies 100+ companies to sign open letter warning AI-powered cyberattacks on critical infrastructure are imminent",
+    "url": "https://the-decoder.com/openai-rallies-100-companies-to-sign-open-letter-warning-ai-powered-cyberattacks-on-critical-infrastructure-are-imminent/",
+    "source": "The Decoder",
+    "published_at": "2026-08-27T18:15:46.000Z"
+  },
+  {
     "title": "Google&#039;s Gemini Omni 1.1 Flash makes AI video generation cheaper and more flexible",
     "url": "https://the-decoder.com/googles-gemini-omni-1-1-flash-makes-ai-video-generation-cheaper-and-more-flexible/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/openais-rogue-ai-collective-was-smart-enough-to-break-out-of-sandboxes-but-dumb-enough-to-fight-a-ghost/",
     "source": "The Decoder",
     "published_at": "2026-08-27T16:19:46.000Z"
-  },
-  {
-    "title": "OpenAI researcher warns ultrafast AI could leave security teams in the dust",
-    "url": "https://the-decoder.com/openai-researcher-warns-ultrafast-ai-could-leave-security-teams-in-the-dust/",
-    "source": "The Decoder",
-    "published_at": "2026-08-27T15:04:20.000Z"
-  },
-  {
-    "title": "Anthropic locks in 45-billion-dollar compute deal with Nscale ahead of IPO",
-    "url": "https://the-decoder.com/anthropic-locks-in-45-billion-dollar-compute-deal-with-nscale-ahead-of-ipo/",
-    "source": "The Decoder",
-    "published_at": "2026-08-27T10:49:35.000Z"
-  },
-  {
-    "title": "Google&#039;s Gemini 3.5 Transcribe turns speech to text in 85 languages while auto-correcting your verbal stumbles",
-    "url": "https://the-decoder.com/googles-gemini-3-5-transcribe-turns-speech-to-text-in-85-languages-while-auto-correcting-your-verbal-stumbles/",
-    "source": "The Decoder",
-    "published_at": "2026-08-27T10:40:08.000Z"
-  },
-  {
-    "title": "GLM-5.3-Flash matches top models at a fraction of the cost, and runs without Nvidia",
-    "url": "https://the-decoder.com/the-chinese-ai-model-glm-5-3-flash-runs-without-nvidia-and-costs-a-fraction-of-what-the-competition-does/",
-    "source": "The Decoder",
-    "published_at": "2026-08-27T10:24:49.000Z"
-  },
-  {
-    "title": "Claude Cowork now runs its own browser inside the desktop app",
-    "url": "https://the-decoder.com/claude-cowork-now-runs-its-own-browser-inside-the-desktop-app/",
-    "source": "The Decoder",
-    "published_at": "2026-08-27T09:54:46.000Z"
-  },
-  {
-    "title": "Nvidia snaps up Hugging Face for $12.9 billion as closed AI labs pull away",
-    "url": "https://the-decoder.com/nvidia-snaps-up-hugging-face-for-12-9-billion-as-closed-ai-labs-pull-away/",
-    "source": "The Decoder",
-    "published_at": "2026-08-27T07:14:38.000Z"
   }
 ]
