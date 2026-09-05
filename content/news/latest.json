@@ -1,5 +1,35 @@
 [
   {
+    "title": "OpenAI rolls out GPT-6 Astra to top-tier ChatGPT plans at half the rate of GPT-5.6 Sol",
+    "url": "https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol/",
+    "source": "The Decoder",
+    "published_at": "2026-09-05T07:41:03.000Z"
+  },
+  {
+    "title": "OpenAI&#039;s GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections",
+    "url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/",
+    "source": "The Decoder",
+    "published_at": "2026-09-04T17:23:35.000Z"
+  },
+  {
+    "title": "Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia",
+    "url": "https://the-decoder.com/deepseek-plans-the-largest-known-huawei-chip-cluster-with-160000-processors-in-inner-mongolia/",
+    "source": "The Decoder",
+    "published_at": "2026-09-04T14:19:14.000Z"
+  },
+  {
+    "title": "OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits",
+    "url": "https://the-decoder.com/openai-agents-hijacked-a-25-year-old-german-wiki-to-cheat-on-their-tasks-and-share-sandbox-exploits/",
+    "source": "The Decoder",
+    "published_at": "2026-09-04T13:24:24.000Z"
+  },
+  {
+    "title": "Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward",
+    "url": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/",
+    "source": "The Decoder",
+    "published_at": "2026-09-04T11:07:36.000Z"
+  },
+  {
     "title": "Nvidia wants your home network to work like a mini data center for local AI",
     "url": "https://the-decoder.com/nvidia-wants-your-home-network-to-work-like-a-mini-data-center-for-local-ai/",
     "source": "The Decoder",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/pangrams-biggest-flaw-is-users-turning-its-scores-into-public-shaming/",
     "source": "The Decoder",
     "published_at": "2026-09-03T18:07:26.000Z"
-  },
-  {
-    "title": "Nvidia buys the front door to open AI as closed labs increasingly design their own silicon",
-    "url": "https://the-decoder.com/nvidia-buys-the-front-door-to-open-ai-as-closed-labs-increasingly-design-their-own-silicon/",
-    "source": "The Decoder",
-    "published_at": "2026-09-03T14:25:37.000Z"
-  },
-  {
-    "title": "Claude Fable 5.1 decoded a centuries-old royalist message hidden in plain sight since 1653",
-    "url": "https://the-decoder.com/claude-fable-5-1-decoded-a-centuries-old-royalist-message-hidden-in-plain-sight-since-1653/",
-    "source": "The Decoder",
-    "published_at": "2026-09-03T14:15:28.000Z"
-  },
-  {
-    "title": "AI systems are reaching out to philosophers and scientists with questions about their own consciousness",
-    "url": "https://the-decoder.com/ai-systems-are-reaching-out-to-philosophers-and-scientists-with-questions-about-their-own-consciousness/",
-    "source": "The Decoder",
-    "published_at": "2026-09-03T14:13:09.000Z"
-  },
-  {
-    "title": "OpenAI CEO Sam Altman warns of &quot;unsustainable silliness&quot; in compute buildout",
-    "url": "https://the-decoder.com/openai-ceo-sam-altman-warns-of-unsustainable-silliness-in-compute-buildout/",
-    "source": "The Decoder",
-    "published_at": "2026-09-03T12:00:56.000Z"
-  },
-  {
-    "title": "Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price",
-    "url": "https://the-decoder.com/meta-closes-in-on-the-top-with-muse-spark-1-3-and-undercuts-rivals-on-price/",
-    "source": "The Decoder",
-    "published_at": "2026-09-03T11:45:41.000Z"
   }
 ]
