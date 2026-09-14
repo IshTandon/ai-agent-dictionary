@@ -1,5 +1,23 @@
 [
   {
+    "title": "Sam Altman calls for pacing AI development but promises rapid progress will continue",
+    "url": "https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/",
+    "source": "The Decoder",
+    "published_at": "2026-09-14T09:39:59.000Z"
+  },
+  {
+    "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
+    "url": "https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/",
+    "source": "The Decoder",
+    "published_at": "2026-09-13T13:40:36.000Z"
+  },
+  {
+    "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
+    "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/",
+    "source": "The Decoder",
+    "published_at": "2026-09-13T12:58:18.000Z"
+  },
+  {
     "title": "GPT-6 Astra pilots a surveillance drone and runs a business on its own",
     "url": "https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/",
     "source": "The Decoder",
@@ -18,33 +36,15 @@
     "published_at": "2026-09-13T08:53:00.000Z"
   },
   {
+    "title": "Why are AI agents lying, cheating and coordinating?",
+    "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+    "source": "Hacker News",
+    "published_at": "2026-09-13T01:22:31Z"
+  },
+  {
     "title": "Anthropic CEO Amodei wants AI speed limits before self-improvement outpaces human control",
     "url": "https://the-decoder.com/anthropic-ceo-amodei-wants-ai-speed-limits-before-self-improvement-outpaces-human-control/",
     "source": "The Decoder",
     "published_at": "2026-09-12T15:03:21.000Z"
-  },
-  {
-    "title": "GPT-6 Astra appears to show a &quot;step change&quot; in spatial reasoning based on early benchmarks",
-    "url": "https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/",
-    "source": "The Decoder",
-    "published_at": "2026-09-12T14:26:09.000Z"
-  },
-  {
-    "title": "Nvidia wants to pour up to $10 billion into Anthropic&#039;s record-breaking IPO",
-    "url": "https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo/",
-    "source": "The Decoder",
-    "published_at": "2026-09-12T14:05:18.000Z"
-  },
-  {
-    "title": "AI models&#039; written reasoning steps correspond to distinct internal patterns, a new study finds",
-    "url": "https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/",
-    "source": "The Decoder",
-    "published_at": "2026-09-12T13:39:43.000Z"
-  },
-  {
-    "title": "GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends",
-    "url": "https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends/",
-    "source": "The Decoder",
-    "published_at": "2026-09-12T13:10:11.000Z"
   }
 ]
