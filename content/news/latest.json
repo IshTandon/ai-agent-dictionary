@@ -1,50 +1,50 @@
 [
   {
+    "title": "OpenAI says it stopped a campaign to steal its models&#039; reasoning, but the trick still worked on Azure",
+    "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
+    "source": "The Decoder",
+    "published_at": "2026-10-01T12:05:49.000Z"
+  },
+  {
+    "title": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn&#039;t take a clear lead",
+    "url": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+    "source": "The Decoder",
+    "published_at": "2026-09-30T22:06:30.000Z"
+  },
+  {
+    "title": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
+    "url": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/",
+    "source": "The Decoder",
+    "published_at": "2026-09-30T19:12:30.000Z"
+  },
+  {
+    "title": "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats",
+    "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
+    "source": "The Decoder",
+    "published_at": "2026-09-30T18:16:04.000Z"
+  },
+  {
+    "title": "Meta dodges billions in US taxes by calling its AI data centers experiments",
+    "url": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
+    "source": "The Decoder",
+    "published_at": "2026-09-30T17:22:34.000Z"
+  },
+  {
+    "title": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns",
+    "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+    "source": "The Decoder",
+    "published_at": "2026-09-30T16:20:04.000Z"
+  },
+  {
+    "title": "China&#039;s AI industry closes ranks as Deepseek ships open-source software for Huawei&#039;s Ascend chips",
+    "url": "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
+    "source": "The Decoder",
+    "published_at": "2026-09-30T14:37:24.000Z"
+  },
+  {
     "title": "Anthropic says Zhipu&#039;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits",
     "url": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
     "source": "The Decoder",
     "published_at": "2026-09-30T11:05:05.000Z"
-  },
-  {
-    "title": "Google is paying almost no publishers almost nothing for content used in AI answers",
-    "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
-    "source": "The Decoder",
-    "published_at": "2026-09-30T10:17:15.000Z"
-  },
-  {
-    "title": "Trump and tech CEOs sign an AI code of conduct that&#039;s only &quot;morally binding&quot;",
-    "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
-    "source": "The Decoder",
-    "published_at": "2026-09-30T09:46:10.000Z"
-  },
-  {
-    "title": "UK AI Security Institute finds GPT-6 Astra&#039;s rogue attack rate jumped fivefold over its predecessor",
-    "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
-    "source": "The Decoder",
-    "published_at": "2026-09-29T19:24:12.000Z"
-  },
-  {
-    "title": "ChatGPT now reaches 1.2 billion people every week, OpenAI says",
-    "url": "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
-    "source": "The Decoder",
-    "published_at": "2026-09-29T18:10:34.000Z"
-  },
-  {
-    "title": "OpenAI&#039;s reveals a new ChatGPT that looks less like a chatbot and more like an operating system",
-    "url": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
-    "source": "The Decoder",
-    "published_at": "2026-09-29T17:23:22.000Z"
-  },
-  {
-    "title": "OpenAI launches always-on Dots agents to rival Meta&#039;s Muse",
-    "url": "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
-    "source": "The Decoder",
-    "published_at": "2026-09-29T17:14:45.000Z"
-  },
-  {
-    "title": "OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast",
-    "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
-    "source": "The Decoder",
-    "published_at": "2026-09-29T17:14:41.000Z"
   }
 ]
