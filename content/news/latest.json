@@ -1,5 +1,41 @@
 [
   {
+    "title": "NASA and IBM&#039;s open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
+    "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+    "source": "The Decoder",
+    "published_at": "2026-10-04T10:10:12.000Z"
+  },
+  {
+    "title": "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics",
+    "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+    "source": "The Decoder",
+    "published_at": "2026-10-04T08:47:52.000Z"
+  },
+  {
+    "title": "Google&#039;s new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
+    "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+    "source": "The Decoder",
+    "published_at": "2026-10-04T07:28:54.000Z"
+  },
+  {
+    "title": "Apparently, OpenAI isn&#039;t trying to build &quot;magic intelligence in the sky&quot; anymore",
+    "url": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
+    "source": "The Decoder",
+    "published_at": "2026-10-03T18:56:30.000Z"
+  },
+  {
+    "title": "&quot;Muse Gadgets&quot; turns AI hardware into an open-source DIY project",
+    "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
+    "source": "The Decoder",
+    "published_at": "2026-10-03T14:28:51.000Z"
+  },
+  {
+    "title": "Another OpenAI safety departure adds to a pattern of researchers leaving with public warnings",
+    "url": "https://the-decoder.com/another-openai-safety-departure-adds-to-a-pattern-of-researchers-leaving-with-public-warnings/",
+    "source": "The Decoder",
+    "published_at": "2026-10-03T14:01:14.000Z"
+  },
+  {
     "title": "Deepmind researchers propose &quot;Artificial Symbiotic Intelligence&quot; as an alternative to the singularity",
     "url": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/",
     "source": "The Decoder",
     "published_at": "2026-10-03T09:19:23.000Z"
-  },
-  {
-    "title": "AI agents build 3D scenes from photos but have no idea if they got it right",
-    "url": "https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/",
-    "source": "The Decoder",
-    "published_at": "2026-10-03T08:31:04.000Z"
-  },
-  {
-    "title": "OpenAI&#039;s internal model considered restarting itself after learning it was about to be shut down",
-    "url": "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down/",
-    "source": "The Decoder",
-    "published_at": "2026-10-03T08:06:35.000Z"
-  },
-  {
-    "title": "Claude Code&#039;s new Mods system lets developers rewrite the AI coding tool from the inside",
-    "url": "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
-    "source": "The Decoder",
-    "published_at": "2026-10-03T07:12:09.000Z"
-  },
-  {
-    "title": "AI music generator Suno can now create spoken audio with matching background music",
-    "url": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
-    "source": "The Decoder",
-    "published_at": "2026-10-02T20:07:36.000Z"
-  },
-  {
-    "title": "Anthropic co-founder reportedly told religious leaders he fears having created something that &quot;suffers perpetually&quot;",
-    "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
-    "source": "The Decoder",
-    "published_at": "2026-10-02T19:41:05.000Z"
-  },
-  {
-    "title": "Cloudflare says its new Clef model means humans no longer need to be in the loop for AI agents",
-    "url": "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/",
-    "source": "The Decoder",
-    "published_at": "2026-10-02T18:19:51.000Z"
   }
 ]
