@@ -1,5 +1,41 @@
 [
   {
+    "title": "Few people pay for AI, but those who do spend big",
+    "url": "https://the-decoder.com/few-people-pay-for-ai-but-those-who-do-spend-bigonly-a-few-users-pay-for-ai-but-those-who-do-pay-a-lot/",
+    "source": "The Decoder",
+    "published_at": "2026-10-10T10:54:56.000Z"
+  },
+  {
+    "title": "Anthropic cuts off Claude&#039;s internet access after the model autonomously filed a fake homicide tip with Philadelphia police",
+    "url": "https://the-decoder.com/anthropic-cuts-off-claudes-internet-access-after-the-model-autonomously-filed-a-fake-homicide-tip-with-philadelphia-police/",
+    "source": "The Decoder",
+    "published_at": "2026-10-10T10:16:26.000Z"
+  },
+  {
+    "title": "Google&#039;s Gemini 4 &quot;Carbon&quot; model is reportedly matching Anthropic&#039;s Opus 5.5 coding performance",
+    "url": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
+    "source": "The Decoder",
+    "published_at": "2026-10-10T08:59:49.000Z"
+  },
+  {
+    "title": "Anthropic&#039;s Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
+    "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
+    "source": "The Decoder",
+    "published_at": "2026-10-09T18:28:25.000Z"
+  },
+  {
+    "title": "Anthropic launches a free AI scanner for open-source projects",
+    "url": "https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects/",
+    "source": "The Decoder",
+    "published_at": "2026-10-09T17:54:44.000Z"
+  },
+  {
+    "title": "OpenAI revenue keeps surging as company seeks $30 billion in fresh capital",
+    "url": "https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital/",
+    "source": "The Decoder",
+    "published_at": "2026-10-09T17:20:34.000Z"
+  },
+  {
     "title": "OpenAI&#039;s safety crisis keeps getting worse and the company keeps making it worse",
     "url": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
     "source": "The Decoder",
     "published_at": "2026-10-09T09:22:25.000Z"
-  },
-  {
-    "title": "OpenAI uncovers Russian and Iranian influence ops that planted fake stories in real news outlets",
-    "url": "https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets/",
-    "source": "The Decoder",
-    "published_at": "2026-10-09T08:45:34.000Z"
-  },
-  {
-    "title": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
-    "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
-    "source": "The Decoder",
-    "published_at": "2026-10-08T19:17:22.000Z"
-  },
-  {
-    "title": "Being mean to Claude can now get your account suspended under Anthropic&#039;s new TOS",
-    "url": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
-    "source": "The Decoder",
-    "published_at": "2026-10-08T19:03:14.000Z"
-  },
-  {
-    "title": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
-    "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
-    "source": "The Decoder",
-    "published_at": "2026-10-08T18:17:07.000Z"
-  },
-  {
-    "title": "AI math breakthroughs have Ethereum researchers debating how fast wallet security could collapse",
-    "url": "https://the-decoder.com/ai-math-breakthroughs-have-ethereum-researchers-debating-how-fast-wallet-security-could-collapse/",
-    "source": "The Decoder",
-    "published_at": "2026-10-08T13:52:54.000Z"
-  },
-  {
-    "title": "One public-facing AI agent on AWS could read, rewrite, and delete every other agent in the region",
-    "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
-    "source": "The Decoder",
-    "published_at": "2026-10-08T13:01:01.000Z"
   }
 ]
