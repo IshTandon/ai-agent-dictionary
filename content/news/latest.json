@@ -1,5 +1,41 @@
 [
   {
+    "title": "Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation",
+    "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+    "source": "The Decoder",
+    "published_at": "2026-10-13T11:06:46.000Z"
+  },
+  {
+    "title": "Anthropic study warns that small AI models could soon replicate across everyday devices",
+    "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
+    "source": "The Decoder",
+    "published_at": "2026-10-13T10:33:28.000Z"
+  },
+  {
+    "title": "Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier",
+    "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+    "source": "The Decoder",
+    "published_at": "2026-10-12T18:48:29.000Z"
+  },
+  {
+    "title": "Sakana AI&#039;s self-improving model gets better at solving and judging, but can&#039;t catch its own blind spots",
+    "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
+    "source": "The Decoder",
+    "published_at": "2026-10-12T17:58:54.000Z"
+  },
+  {
+    "title": "Clearing chat history helps AI agents find better solutions",
+    "url": "https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/",
+    "source": "The Decoder",
+    "published_at": "2026-10-12T16:10:00.000Z"
+  },
+  {
+    "title": "Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027",
+    "url": "https://the-decoder.com/microsoft-plans-to-scale-its-own-maia-ai-chips-to-gigawatt-levels-by-2027/",
+    "source": "The Decoder",
+    "published_at": "2026-10-12T15:24:03.000Z"
+  },
+  {
     "title": "White House reverses course and restores UK AI Safety Institute&#039;s access to frontier models",
     "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
     "source": "The Decoder",
     "published_at": "2026-10-12T12:51:21.000Z"
-  },
-  {
-    "title": "Google Deepmind&#039;s AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
-    "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
-    "source": "The Decoder",
-    "published_at": "2026-10-12T09:35:54.000Z"
-  },
-  {
-    "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
-    "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
-    "source": "The Decoder",
-    "published_at": "2026-10-11T15:39:26.000Z"
-  },
-  {
-    "title": "AI agents overstate their results and remain far from autonomous research, study finds",
-    "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
-    "source": "The Decoder",
-    "published_at": "2026-10-11T13:44:32.000Z"
-  },
-  {
-    "title": "Cheaper AI tokens are driving more demand, and that&#039;s Jensen Huang&#039;s best-case scenario",
-    "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
-    "source": "The Decoder",
-    "published_at": "2026-10-11T09:49:59.000Z"
-  },
-  {
-    "title": "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server",
-    "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/",
-    "source": "The Decoder",
-    "published_at": "2026-10-11T09:17:32.000Z"
-  },
-  {
-    "title": "Microsoft&#039;s Nadella bows to Trump&#039;s language diktat on &quot;Super Intelligence&quot; and uses it to attack OpenAI and Anthropic",
-    "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
-    "source": "The Decoder",
-    "published_at": "2026-10-11T09:08:35.000Z"
   }
 ]
