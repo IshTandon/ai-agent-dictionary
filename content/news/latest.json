@@ -1,5 +1,41 @@
 [
   {
+    "title": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
+    "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+    "source": "The Decoder",
+    "published_at": "2026-10-18T09:11:29.000Z"
+  },
+  {
+    "title": "AI agents have bad taste in long-term decisions and a new benchmark proves it",
+    "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+    "source": "The Decoder",
+    "published_at": "2026-10-18T08:49:41.000Z"
+  },
+  {
+    "title": "AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP&#039;s office",
+    "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
+    "source": "The Decoder",
+    "published_at": "2026-10-18T08:15:04.000Z"
+  },
+  {
+    "title": "An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet",
+    "url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/",
+    "source": "The Decoder",
+    "published_at": "2026-10-17T15:36:11.000Z"
+  },
+  {
+    "title": "Anthropics&#039; Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
+    "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+    "source": "The Decoder",
+    "published_at": "2026-10-17T14:42:56.000Z"
+  },
+  {
+    "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
+    "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+    "source": "The Decoder",
+    "published_at": "2026-10-17T10:33:28.000Z"
+  },
+  {
     "title": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
     "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
     "source": "The Decoder",
     "published_at": "2026-10-17T09:00:26.000Z"
-  },
-  {
-    "title": "ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs",
-    "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
-    "source": "The Decoder",
-    "published_at": "2026-10-16T18:10:27.000Z"
-  },
-  {
-    "title": "China plans to tighten export controls on open-weight models and 23 key AI technologies",
-    "url": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
-    "source": "The Decoder",
-    "published_at": "2026-10-16T17:42:47.000Z"
-  },
-  {
-    "title": "Google&#039;s Gemini 4 Argon is closer to the AI frontier than any Google model in months",
-    "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
-    "source": "The Decoder",
-    "published_at": "2026-10-16T15:03:46.000Z"
-  },
-  {
-    "title": "Is AI interpretability close to a breakthrough? A new essay has researchers divided",
-    "url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/",
-    "source": "The Decoder",
-    "published_at": "2026-10-16T13:48:08.000Z"
-  },
-  {
-    "title": "OpenAI&#039;s new Rosalind Academic Plan gives research labs up to 30 free seats for a year",
-    "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/",
-    "source": "The Decoder",
-    "published_at": "2026-10-16T13:15:09.000Z"
-  },
-  {
-    "title": "Anthropic gives METR inside access to audit its AI models and safety practices",
-    "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/",
-    "source": "The Decoder",
-    "published_at": "2026-10-16T13:11:55.000Z"
   }
 ]
