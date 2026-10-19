@@ -1,5 +1,35 @@
 [
   {
+    "title": "The neocloud shakeout is coming, and Nvidia has the most to lose",
+    "url": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/",
+    "source": "The Decoder",
+    "published_at": "2026-10-19T11:33:36.000Z"
+  },
+  {
+    "title": "Anthropic plans fund for workers threatened by AI, Musk counters with SpaceX shares for children",
+    "url": "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/",
+    "source": "The Decoder",
+    "published_at": "2026-10-19T11:19:12.000Z"
+  },
+  {
+    "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+    "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+    "source": "The Decoder",
+    "published_at": "2026-10-18T13:22:26.000Z"
+  },
+  {
+    "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
+    "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+    "source": "The Decoder",
+    "published_at": "2026-10-18T12:39:51.000Z"
+  },
+  {
+    "title": "Two German courts now hold Google liable for what its AI overviews say",
+    "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+    "source": "The Decoder",
+    "published_at": "2026-10-18T10:52:39.000Z"
+  },
+  {
     "title": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
     "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
     "source": "The Decoder",
@@ -16,35 +46,5 @@
     "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
     "source": "The Decoder",
     "published_at": "2026-10-18T08:15:04.000Z"
-  },
-  {
-    "title": "An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet",
-    "url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/",
-    "source": "The Decoder",
-    "published_at": "2026-10-17T15:36:11.000Z"
-  },
-  {
-    "title": "Anthropics&#039; Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
-    "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
-    "source": "The Decoder",
-    "published_at": "2026-10-17T14:42:56.000Z"
-  },
-  {
-    "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
-    "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
-    "source": "The Decoder",
-    "published_at": "2026-10-17T10:33:28.000Z"
-  },
-  {
-    "title": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
-    "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
-    "source": "The Decoder",
-    "published_at": "2026-10-17T09:54:36.000Z"
-  },
-  {
-    "title": "Mathematicians say OpenAI doesn&#039;t understand its own Navier-Stokes proof",
-    "url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
-    "source": "The Decoder",
-    "published_at": "2026-10-17T09:00:26.000Z"
   }
 ]
