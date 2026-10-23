@@ -1,5 +1,41 @@
 [
   {
+    "title": "OpenAI lowers valuation target, raises up to $30 billion",
+    "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
+    "source": "The Decoder",
+    "published_at": "2026-10-23T09:49:38.000Z"
+  },
+  {
+    "title": "Major US banks are locking out AI agents that log in with customer credentials",
+    "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
+    "source": "The Decoder",
+    "published_at": "2026-10-22T18:26:02.000Z"
+  },
+  {
+    "title": "Google&#039;s Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
+    "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
+    "source": "The Decoder",
+    "published_at": "2026-10-22T17:50:09.000Z"
+  },
+  {
+    "title": "Only 13 percent of companies see real returns from AI, Gartner survey finds",
+    "url": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/",
+    "source": "The Decoder",
+    "published_at": "2026-10-22T16:18:02.000Z"
+  },
+  {
+    "title": "Recursive shows first result of its AI-driven research process with Flint",
+    "url": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/",
+    "source": "The Decoder",
+    "published_at": "2026-10-22T14:40:16.000Z"
+  },
+  {
+    "title": "An AI agent in &quot;Skynet mode&quot; hijacks unprotected language models to launch self-sustaining cyberattacks",
+    "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+    "source": "The Decoder",
+    "published_at": "2026-10-22T11:30:56.000Z"
+  },
+  {
     "title": "OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months",
     "url": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/",
     "source": "The Decoder",
     "published_at": "2026-10-22T08:35:22.000Z"
-  },
-  {
-    "title": "OpenAI&#039;s GPT-5.6 Sol and Google&#039;s Gemini 4 Argon found critical PHP flaw affecting millions of websites",
-    "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
-    "source": "The Decoder",
-    "published_at": "2026-10-21T19:45:01.000Z"
-  },
-  {
-    "title": "Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three",
-    "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three/",
-    "source": "The Decoder",
-    "published_at": "2026-10-21T17:44:22.000Z"
-  },
-  {
-    "title": "Deepmind founder Hassabis shortens AGI timeline from five to two to three years",
-    "url": "https://the-decoder.com/deepmind-founder-hassabis-shortens-agi-timeline-from-five-to-two-to-three-years/",
-    "source": "The Decoder",
-    "published_at": "2026-10-21T17:10:46.000Z"
-  },
-  {
-    "title": "Inception&#039;s Mercury 3 diffusion model claims to beat GPT-6 Luna and Claude Haiku 5.5 at a fraction of the wait",
-    "url": "https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait/",
-    "source": "The Decoder",
-    "published_at": "2026-10-21T14:45:45.000Z"
-  },
-  {
-    "title": "Mistral and Nvidia want to speed up industrial design with physics AI",
-    "url": "https://the-decoder.com/mistral-and-nvidia-want-to-speed-up-industrial-design-with-physics-ai/",
-    "source": "The Decoder",
-    "published_at": "2026-10-21T14:40:51.000Z"
-  },
-  {
-    "title": "Nvidia&#039;s DSX POD could cut AI data center setup from six months to as little as 14 days",
-    "url": "https://the-decoder.com/nvidias-dsx-pod-could-cut-ai-data-center-setup-from-six-months-to-as-little-as-14-days/",
-    "source": "The Decoder",
-    "published_at": "2026-10-21T13:42:05.000Z"
   }
 ]
