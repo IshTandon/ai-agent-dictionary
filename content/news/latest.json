@@ -1,5 +1,29 @@
 [
   {
+    "title": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
+    "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
+    "source": "The Decoder",
+    "published_at": "2026-11-09T12:59:02.000Z"
+  },
+  {
+    "title": "Nvidia espionage scandal weakens Huang&#039;s lobby against tighter AI chip export controls",
+    "url": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/",
+    "source": "The Decoder",
+    "published_at": "2026-11-09T11:38:43.000Z"
+  },
+  {
+    "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+    "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+    "source": "The Decoder",
+    "published_at": "2026-11-08T14:23:00.000Z"
+  },
+  {
+    "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
+    "url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+    "source": "The Decoder",
+    "published_at": "2026-11-08T13:49:21.000Z"
+  },
+  {
     "title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
     "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
     "source": "The Decoder",
@@ -22,29 +46,5 @@
     "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
     "source": "The Decoder",
     "published_at": "2026-11-07T16:56:38.000Z"
-  },
-  {
-    "title": "Thinking Machines&#039; Inkling 2 Small drops 316 F-bombs across benchmark runs",
-    "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
-    "source": "The Decoder",
-    "published_at": "2026-11-07T16:31:00.000Z"
-  },
-  {
-    "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
-    "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
-    "source": "The Decoder",
-    "published_at": "2026-11-07T15:35:50.000Z"
-  },
-  {
-    "title": "State propaganda in some Chinese AI models is only &quot;a thin layer&quot; that fine-tuning can strip away",
-    "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
-    "source": "The Decoder",
-    "published_at": "2026-11-07T12:32:45.000Z"
-  },
-  {
-    "title": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts&#039; bar",
-    "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
-    "source": "The Decoder",
-    "published_at": "2026-11-07T11:13:42.000Z"
   }
 ]
