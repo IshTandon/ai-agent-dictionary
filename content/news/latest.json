@@ -1,9 +1,15 @@
 [
   {
+    "title": "Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
+    "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+    "source": "The Decoder",
+    "published_at": "2026-11-15T15:42:03.000Z"
+  },
+  {
     "title": "Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
     "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
     "source": "The Decoder",
-    "published_at": "2026-11-15T11:35:12.000Z"
+    "published_at": "2026-11-15T14:45:12.000Z"
   },
   {
     "title": "Australia&#039;s central bank finds AI hitting young workers first, especially in software and customer service",
@@ -40,11 +46,5 @@
     "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
     "source": "The Decoder",
     "published_at": "2026-11-14T11:40:51.000Z"
-  },
-  {
-    "title": "Anthropic can already retrain Mythos with &quot;a fraction of the compute originally needed,&quot; says former researcher Coxon",
-    "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
-    "source": "The Decoder",
-    "published_at": "2026-11-14T11:21:41.000Z"
   }
 ]
