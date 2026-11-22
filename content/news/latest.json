@@ -1,5 +1,41 @@
 [
   {
+    "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+    "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+    "source": "The Decoder",
+    "published_at": "2026-11-22T13:00:43.000Z"
+  },
+  {
+    "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+    "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+    "source": "The Decoder",
+    "published_at": "2026-11-22T12:07:56.000Z"
+  },
+  {
+    "title": "Lean and Mathlib community officially confirms Levent Alpöge&#039;s proof of the Riemann hypothesis is correct",
+    "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+    "source": "The Decoder",
+    "published_at": "2026-11-22T11:08:31.000Z"
+  },
+  {
+    "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+    "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+    "source": "The Decoder",
+    "published_at": "2026-11-22T09:41:37.000Z"
+  },
+  {
+    "title": "Nvidia researchers argue huge AI context windows are a dead end",
+    "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+    "source": "The Decoder",
+    "published_at": "2026-11-21T16:23:45.000Z"
+  },
+  {
+    "title": "Silicon Valley&#039;s growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+    "url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+    "source": "The Decoder",
+    "published_at": "2026-11-21T16:04:29.000Z"
+  },
+  {
     "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
     "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
     "source": "The Decoder",
@@ -10,41 +46,5 @@
     "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
     "source": "The Decoder",
     "published_at": "2026-11-21T11:19:49.000Z"
-  },
-  {
-    "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
-    "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
-    "source": "The Decoder",
-    "published_at": "2026-11-21T10:33:02.000Z"
-  },
-  {
-    "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
-    "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
-    "source": "The Decoder",
-    "published_at": "2026-11-21T10:27:44.000Z"
-  },
-  {
-    "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
-    "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
-    "source": "The Decoder",
-    "published_at": "2026-11-21T09:17:24.000Z"
-  },
-  {
-    "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
-    "url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
-    "source": "The Decoder",
-    "published_at": "2026-11-20T20:31:50.000Z"
-  },
-  {
-    "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
-    "url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
-    "source": "The Decoder",
-    "published_at": "2026-11-20T19:50:27.000Z"
-  },
-  {
-    "title": "Google&#039;s Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
-    "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
-    "source": "The Decoder",
-    "published_at": "2026-11-20T18:50:31.000Z"
   }
 ]
